@@ -2,96 +2,133 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Anirudh Iyengar Kaniyar Narayana Iyengar
     - name: Date of Birth
-      value: 14th March 1879
+      value: 19th August 1998
     - name: Languages
-      value: English, German
+      value: English, Kannada, Tamil, Telugu, Hindi.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ms
+      institution: Arizona State University, Tempe, AZ
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Robotics and Autonomous Systems in AI.
+        - Grades 
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: B. TECH
+      institution: Dayananda Sagar University, Bengaluru, India
+      year: 2020
+      description:
+        - Computer Science and Engineering.
+        - 7.89 GPA out of 10 GPA.
+
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Research & Development Associate
+      institution: Dayananda Sagar University, Bengaluru, India
+      year: June 2020 <br> <br> Dec 2020
+      description:
+        - Preprocessed and inspected large datasets of driving stereo images to ensure quality and accuracy.
+        - Developed and applied cost functions to various artificial neural network algorithms, resulting in a 10% improvement in accuracy.
+        - title: Collaborated with Dr. Rajesh T M to successfully complete the project, resulting in positive feedback.
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Analyzed and assessed project results to identify areas for improvement, resulting in a 3% increase in overall efficiencies.
+    
+    - title: Student Trainee	
+      institution: Centre For Artificial Intelligence and Robotics, Bengaluru, India
+      year: Jan 2020 <br> <br> May 2020
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
+        - Processed a total of 389 image pairs, including 194 training image pairs and 195 test image pairs of stereo image datasets for KITTI 2012, and KITTI 2015.
+        - Appraised GWC-Net using deep learning techniques and achieved 5% higher accuracy in disparity estimation.
+        - Evaluated performance of GWC-Net model on multiple datasets.
+        - Demonstrated the effectiveness of GWC-Net by improving the accuracy of disparity estimation on multiple datasets.
+        
+- title: Other Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Proprietor	
+      institution: Hassan Iyengar's Bakery, Bengaluru, India.
+      year: Jan 2021 <br> <br> Aug 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Increased Hassan Iyengar's Bakery's sales and revenue by 20% from 2021 to 2022 through effective marketing, sales, and operations strategies.
+        - Managed a team of 15 employees, introducing new products and maintaining strong relationships with suppliers, vendors, and local authorities, resulting in improved productivity, customer service, and hygiene standards.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Academic Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/alshedivat/al-folio">Function Integration on ASU Mayo Colonoscopy Dataset</a>
+      year: Spring 2023
+      description: 
+        - Collaborated in a team of three to design a UNet model with ResNet backbone for integration of functions like classification, segmentation, and localization.
+        - Successfully implemented the model resulting in a 5% increase compared to individual implementations of the functions.
+    
+    - title: <a href="https://github.com/alshedivat/al-folio">Image Segmentation on three different modalities</a>
+      year: Spring 2023
+      description: 
+        - Collaborated with a team of three to design a UNet model for medical image segmentation.
+        - Implemented the model on three different modalities, including colonoscopy images, CAD PE images, and JSRT CT images.
+        - Achieved high segmentation accuracy with Dice Coefficient scores of 0.89 on colonoscopy images, 0.75 on CAD PE images, and 0.95 on JSRT CT images.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: <a href="https://github.com/alshedivat/al-folio">Group-Wise Correlation Stereo Network</a>
+      year: Spring 2020
+      description: 
+        - Implemented a Group-Wise Correlation Stereo Network for disparity estimation in stereo images using CNN and PyTorch and applied the technique to driving scene datasets from the KITTI Vision Benchmark Suite.
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Image Processing.
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Medical Image.
+        - Natural Image.
+    - title: Computer Vision.
       items:
-        - Description 1.
-        - Description 2.
+        - Autonomous Driving, Stereo Images, Monacular Images.
+        - Perception.
 
-- title: Other Interests
-  type: list
+- title: Activities 
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Student Cultural Coordinator
+      institution: Dayananda Sagar University
+      year:  Aug 2017 <br> <br> May 2020
+      description: 
+        - As a student cultural coordinator, I successfully conducted three cultural fests in college. 
+        - Managing these events taught me how to effectively deal with individuals with unique perspectives and to effectively lead a team towards maximum efficiency. 
+        - My experiences as a cultural leader during my undergraduate studies have been instrumental in shaping me holistically, both academically and non-academically. 
+        - It is a experience that I regard as one of the most valuable in my personal and professional development
+    
+    - title: Member of Engineers Without Borders India
+      institution: Dayananda Sagar University
+      year:  Aug 2017 <br> <br> May 2020
+    
+    - title: Actor 
+      institution: Ranga Shodha (ರಂಗ ಶೋಧ)
+      year:  Jan 2017 <br> <br> Dec 2017
+      description: 
+        - As a dedicated member of the drama club "Ranga Shodha," I had the opportunity to showcase my acting skills and passion for the performing arts. I portrayed the role of "Kali Deva" (Kalki) in three plays during my tenure with the club. One of the notable productions was "Shmashana Kuruskeshtra," which was performed at Ravindra Kalakeshtra theater in Bangalore and Adima Theater in Kolar.
+
+        - My role as "Kali Deva" required me to embody the character of Kalki, the divine figure from Hindu mythology associated with the Kali Yuga (the age of vice and ignorance). I was responsible for bringing the character to life on stage, portraying its nuances, emotions, and complexities with depth and authenticity.
+
+        - Through my involvement with "Ranga Shodha," I honed my acting skills, learned to collaborate with fellow actors and crew members, and gained a deep appreciation for the art of theater. It was a fulfilling experience that allowed me to connect with audiences and contribute to the vibrant theater scene in Bangalore and Kolar.
+
+        - I am proud to have been part of "Ranga Shodha" and grateful for the invaluable experiences and memories that have enriched my journey as an actor.

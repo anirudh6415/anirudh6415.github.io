@@ -4,7 +4,9 @@
 
 // Typography
 
-p,
+p{
+  text-align: justify;
+}
 h1,
 h2,
 h3,
@@ -17,6 +19,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  
 }
 
 hr {
@@ -24,14 +27,18 @@ hr {
 }
 
 table {
-  td,
+  td{
+    color: var(--global-text-color);
+  }
   th {
     font-size: 1rem;
   }
 
   th {
     font-weight: bold;
+    color: var(--global-text-color);
   }
+  
 }
 
 a,
@@ -153,7 +160,7 @@ blockquote {
     color: inherit;
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(global-hover-color);
       text-decoration: none;
     }
   }
@@ -298,10 +305,10 @@ blockquote {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left ;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     a {
       i::before {
@@ -325,6 +332,7 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
+  text-align: center;
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
 
@@ -349,6 +357,7 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+  text-align: center
 }
 
 // CV
