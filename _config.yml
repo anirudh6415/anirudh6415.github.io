@@ -121,7 +121,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Beyond the Surface # blog_name will be displayed in your blog page
-blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
 blog_description: Welcome to Beyond the Surface, a blog where I share my personal experiences and insights on various topics, including my academic projects. In this blog, I aim to go beyond the surface level of my experiences and delve deeper into the lessons I've learned along the way. From navigating the challenges of college life to exploring new cultures during my travels, I'll be sharing stories that are both relatable and thought-provoking. I'll also be discussing my academic projects and the process of bringing my ideas to life. Through my blog, I hope to inspire and encourage others to embrace their unique journeys and discover the valuable lessons that lie beneath the surface. Thank you for joining me on this adventure of self-discovery and growth. I look forward to sharing my experiences with you!
 permalink: /blog/:year/:title/
 
@@ -260,7 +260,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['computer vision', 'image processing', 'AI', 'ML', 'Medical images','life'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
