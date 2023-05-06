@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - anirudh6415
+  # - alshedivat
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - anirudh6415/Resnet-for-MNSIT
+  - anirudh6415/Pytorch_for_deepLearning
+

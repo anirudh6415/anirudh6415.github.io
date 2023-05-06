@@ -5,13 +5,6 @@ layout: default
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
-
-        <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
@@ -28,18 +21,44 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
-            {%- if page.profile.address %}
+          </div>
+          {%- endif %}
+          <h1 class="post-title">
+           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+          </h1>
+          <p class="desc"><b>{{ page.subtitle }}</b></p>
+          {%- if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
             </div>
+          {%- endif %}
+          {%- if page.social %}
+          <div class="social">
+            <div class="contact-icons">
+              {% include social.html %} 
+              <!-- <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+             -->
+            </div>
+          
+            <div class="contact-note">
+              <p>Best way to reach me is via email...........!</p>
+            </div>
             {%- endif %}
           </div>
-          {%- endif %}
+        </header>
+
+        <article>
 
           <div class="clearfix">
-            {{ content }}
+            <p> <br> </p>
+            <h2>About me<br> </h2>
+            <!-- <p>{{ page.profile.about_me }}</p> -->
+            <p>{{ content }}</p>
           </div>
-
+          
+      
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
@@ -59,18 +78,8 @@ layout: default
           {%- endif %}
 
           <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
+          
         </article>
+        
 
 </div>
