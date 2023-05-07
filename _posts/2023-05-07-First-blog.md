@@ -7,8 +7,9 @@ tags: life
 # categories: sample-posts
 thumbnail: assets/img/9.jpg
 ---
-This is an example post with image galleries.
-
+ನಮಸ್ಕರ ಎಲ್ಲರಿಗು,
+ನಾನು ನಮ್ಮ ಊರು ಬಿಟ್ಟು ಬಂದು ಐದು ತಿನ್ಗಲುಗಲು ಕಳಿತು. ಮನೆಯಿಂದ ಬಂದು 25 ಸಾವಿರ ಮೈಲಿ ದೂರ ಬಂದರು ಎಷ್ತೋ ಜನರ ನಡುವೆ ಇದ್ದರು ಎನು ಪ್ರಯೋಜನ. 
+ಮನೆಯ ಒಂದು ನೆನಪು ಮನೆಯವರ ನೆನಪು ನಮ್ಮನ್ನು ಕಾಡುತ್ತದೆ.   
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
