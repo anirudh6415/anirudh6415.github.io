@@ -62,35 +62,35 @@ Moreover, the input images and corresponding segmentation masks will be processe
 To facilitate seamless integration with deep learning frameworks, such as PyTorch, the slices will be transformed into tensors.
 
 The snippet code provided below showcases a high-level implementation for building the segmentation_dataset:
-    <d-code block language="python">
-        class segmentation_dataset(Dataset):
-        def __init__(self,image_filenames,mask_filenames,transforms=None):
-            self.image_dir = "/data/jliang12/nuislam/CAD_PE_Challenge_Data/np_images/"
-            self.mask_dir = "/data/jliang12/nuislam/CAD_PE_Challenge_Data/np_masks/"
-            self.transform = transforms
-            # self.mask_transform = transform.Compose([ transform.ToPILImage(),
-            #     transform.Resize((128,128), InterpolationMode.BICUBIC),
-            #     transform.Grayscale(num_output_channels = 1),
-            #     transform.ToTensor()])
+{% highlight python %}
+    class segmentation_dataset(Dataset):
+    def __init__(self,image_filenames,mask_filenames,transforms=None):
+        self.image_dir = "/data/jliang12/nuislam/CAD_PE_Challenge_Data/np_images/"
+        self.mask_dir = "/data/jliang12/nuislam/CAD_PE_Challenge_Data/np_masks/"
+        self.transform = transforms
+        # self.mask_transform = transform.Compose([ transform.ToPILImage(),
+        #     transform.Resize((128,128), InterpolationMode.BICUBIC),
+        #     transform.Grayscale(num_output_channels = 1),
+        #     transform.ToTensor()])
+    
+        self.image_filenames = image_filenames
+        self.mask_filenames = mask_filenames
         
-            self.image_filenames = image_filenames
-            self.mask_filenames = mask_filenames
+    def __len__(self):
+        return len(self.image_filenames)
+    
+    
+    def __getitem__(self, idx):
+        img = np.load(os.path.join(self.image_dir, self.image_filenames[idx]))
+        label = np.load(os.path.join(self.mask_dir, self.mask_filenames[idx]))
+        
+        img = nor_image(img)
+        label = binary(label)
+        if self.transform is not None:
+            img, label = self.transform(img), self.transform(label)
             
-        def __len__(self):
-            return len(self.image_filenames)
-        
-        
-        def __getitem__(self, idx):
-            img = np.load(os.path.join(self.image_dir, self.image_filenames[idx]))
-            label = np.load(os.path.join(self.mask_dir, self.mask_filenames[idx]))
-            
-            img = nor_image(img)
-            label = binary(label)
-            if self.transform is not None:
-                img, label = self.transform(img), self.transform(label)
-                
-            return img, label
-    </d-code>
+        return img, label
+{% endhighlight %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
