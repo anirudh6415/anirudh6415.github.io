@@ -3,7 +3,7 @@ layout: post
 title:  Segmentation on CAD-PE Dataset. 
 date: 2023-05-07 14:00:00
 description: the Story of lessons
-tags: Medical images
+tags: 'Medical images'
 # categories: sample-posts
 thumbnail: assets/img/blog1/cadpe.gif
 ---
