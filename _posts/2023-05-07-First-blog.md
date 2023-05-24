@@ -7,6 +7,19 @@ tags: computer_vision image_processing AI ML Medical_images
 # categories: sample-posts
 thumbnail: assets/img/blog1/cadpe.gif
 
+toc:
+  - name: CAD-PE Segmentation
+    # if a section has subsections, you can add them as follows:
+    # subsections:
+    #   - name: Example Child Subsection 1
+    #   - name: Example Child Subsection 2
+  - name: Dataset
+  - name: Building the Segmentation Dataset
+  - name: Code Blocks
+  - name: Interactive Plots
+  - name: Layouts
+  - name: Other Typography?
+
 _styles: >
   .fake-img {
     background: #bbb;
@@ -45,10 +58,14 @@ Join me as we unravel the complexities of segmentation on CAD-PE dataset, empowe
     Figure 1: Unveiling the Hidden Layers: A GIF showcasing the CAD image and its corresponding ground truth mask.
 </div>
 
+***
+
 ### CAD-PE Dataset
 The first step involved is exploring the dataset. The dataset involves __91 patients CT scans__. Each CT scan consists of some around 400 to 500 slices on average. Dividing the CT scans of the 91 patients into individual slices. This process allowed us to extract __41,256 slices__ in total, which will serve as the foundation for our segmentation endeavors.
 
 Each slice within the CAD-PE dataset represents a two-dimensional image capturing a specific cross-section of the patients' anatomy. These slices provide crucial insights into the internal structures and organs, enabling medical professionals and researchers to diagnose and study various conditions and diseases.
+
+***
 
 ### Building the Segmentation Dataset: Slice-Level Segmentation
 In order to perform slice-level segmentation on the CAD-PE dataset, we will create a custom dataset named "segmentation_dataset". This dataset will serve as the foundation for training and evaluating our segmentation algorithms.
@@ -88,6 +105,8 @@ The snippet code provided below showcases a high-level implementation for buildi
             return img, label
         
     {% endhighlight %}
+
+***
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
