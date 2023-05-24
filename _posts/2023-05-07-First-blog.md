@@ -17,7 +17,7 @@ Throught this blog, we will discuss various aspects of segementation,including d
 Join me as we unravel the complexities of segmentation on CAD-PE dataset, empowering you to leverage this knowledge in your research, industry projects, or even personal endeavours.<br>
 
 So, fasten your seatbelts and get ready to explore the world of segmentation like never before!!.
-Let's unlock the hidden potential within Deep learning models and unleash their power. 
+Let's unlock the hidden potential within Deep learning models and unleash their power.<br>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
