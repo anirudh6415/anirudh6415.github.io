@@ -6,6 +6,23 @@ description: The segmentation is performed on CAD-PE dataset
 tags: computer_vision image_processing AI ML Medical_images
 # categories: sample-posts
 thumbnail: assets/img/blog1/cadpe.gif
+
+_styles: >
+  .fake-img {
+    background: #bbb;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .fake-img p {
+    font-family: monospace;
+    color: white;
+    text-align: left;
+    margin: 12px 0;
+    text-align: center;
+    font-size: 16px;
+  }
+
 ---
 ### CAD-PE Segmentation: Unveiling Insights
 
@@ -29,34 +46,51 @@ Join me as we unravel the complexities of segmentation on CAD-PE dataset, empowe
 </div>
 
 ### CAD-PE Dataset
-    The first step involved is exploring the dataset. The dataset involves __91 patients CT scans__. Each CT scan consists of some around 400 to 500 slices on average. Dividing the CT scans of the 91 patients into individual slices. This process allowed us to extract __41,256 slices__ in total, which will serve as the foundation for our segmentation endeavors.
+The first step involved is exploring the dataset. The dataset involves __91 patients CT scans__. Each CT scan consists of some around 400 to 500 slices on average. Dividing the CT scans of the 91 patients into individual slices. This process allowed us to extract __41,256 slices__ in total, which will serve as the foundation for our segmentation endeavors.
 
-    Each slice within the CAD-PE dataset represents a two-dimensional image capturing a specific cross-section of the patients' anatomy. These slices provide crucial insights into the internal structures and organs, enabling medical professionals and researchers to diagnose and study various conditions and diseases.
+Each slice within the CAD-PE dataset represents a two-dimensional image capturing a specific cross-section of the patients' anatomy. These slices provide crucial insights into the internal structures and organs, enabling medical professionals and researchers to diagnose and study various conditions and diseases.
 
 ### Building the Segmentation Dataset: Slice-Level Segmentation
-    In order to perform slice-level segmentation on the CAD-PE dataset, we will create a custom dataset named "segmentation_dataset". This dataset will serve as the foundation for training and evaluating our segmentation algorithms.
+In order to perform slice-level segmentation on the CAD-PE dataset, we will create a custom dataset named "segmentation_dataset". This dataset will serve as the foundation for training and evaluating our segmentation algorithms.
 
-    To begin, we will divide the available data randomly into three sets: training, validation, and testing. The training set will contain 80% of the data, while the validation and testing sets will each consist of 10% of the data. This division ensures a balanced distribution of slices across the different sets, enabling us to train and assess the performance of our models effectively.
+To begin, we will divide the available data randomly into three sets: training, validation, and testing. The training set will contain 80% of the data, while the validation and testing sets will each consist of 10% of the data. This division ensures a balanced distribution of slices across the different sets, enabling us to train and assess the performance of our models effectively.
 
-    To handle the dataset efficiently, we will utilize filepaths to access the slices. Each slice within the CAD-PE dataset will be normalized to have pixel values ranging between 0 and 1. This normalization step ensures consistency and facilitates optimal model performance during training.
+To handle the dataset efficiently, we will utilize filepaths to access the slices. Each slice within the CAD-PE dataset will be normalized to have pixel values ranging between 0 and 1. This normalization step ensures consistency and facilitates optimal model performance during training.
 
-    Moreover, the input images and corresponding segmentation masks will be processed to adhere to the requirements of slice-level segmentation. The input images will be converted into single-channel representations, while the segmentation masks will be transformed into binary masks, consisting of only 0s and 1s. These binary masks serve as ground truth annotations for the presence or absence of the target structures within the slices.
+Moreover, the input images and corresponding segmentation masks will be processed to adhere to the requirements of slice-level segmentation. The input images will be converted into single-channel representations, while the segmentation masks will be transformed into binary masks, consisting of only 0s and 1s. These binary masks serve as ground truth annotations for the presence or absence of the target structures within the slices.
 
-    To facilitate seamless integration with deep learning frameworks, such as PyTorch, the slices will be transformed into tensors.
+To facilitate seamless integration with deep learning frameworks, such as PyTorch, the slices will be transformed into tensors.
 
-    The snippet code provided below showcases a high-level implementation for building the segmentation_dataset:
-
-    ```html
-    <div class="row justify-content-sm-center">
-        <div class="col-sm-8 mt-3 mt-md-0">
-            {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        </div>
-        <div class="col-sm-4 mt-3 mt-md-0">
-            {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        </div>
-    </div>
-    ```
-
+The snippet code provided below showcases a high-level implementation for building the segmentation_dataset:
+    <d-code block language="python">
+        class segmentation_dataset(Dataset):
+        def __init__(self,image_filenames,mask_filenames,transforms=None):
+            self.image_dir = "/data/jliang12/nuislam/CAD_PE_Challenge_Data/np_images/"
+            self.mask_dir = "/data/jliang12/nuislam/CAD_PE_Challenge_Data/np_masks/"
+            self.transform = transforms
+            # self.mask_transform = transform.Compose([ transform.ToPILImage(),
+            #     transform.Resize((128,128), InterpolationMode.BICUBIC),
+            #     transform.Grayscale(num_output_channels = 1),
+            #     transform.ToTensor()])
+        
+            self.image_filenames = image_filenames
+            self.mask_filenames = mask_filenames
+            
+        def __len__(self):
+            return len(self.image_filenames)
+        
+        
+        def __getitem__(self, idx):
+            img = np.load(os.path.join(self.image_dir, self.image_filenames[idx]))
+            label = np.load(os.path.join(self.mask_dir, self.mask_filenames[idx]))
+            
+            img = nor_image(img)
+            label = binary(label)
+            if self.transform is not None:
+                img, label = self.transform(img), self.transform(label)
+                
+            return img, label
+    </d-code>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
