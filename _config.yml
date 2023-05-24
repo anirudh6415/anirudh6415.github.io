@@ -260,7 +260,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['computer vision', 'image processing', 'AI', 'ML', 'Medical images','life'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['computer_vision', 'image_processing', 'AI', 'ML', 'Medical_images','life'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
