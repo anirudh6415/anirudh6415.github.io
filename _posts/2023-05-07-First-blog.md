@@ -2,8 +2,8 @@
 layout: post
 title:  Segmentation on CAD-PE Dataset. 
 date: 2023-05-07 14:00:00
-description: the Story of lessons
-tags: computer vision image processing AI ML Medical images
+description: The segmentation is performed on CAD-PE dataset
+tags: computer_vision image_processing AI ML Medical_images
 # categories: sample-posts
 thumbnail: assets/img/blog1/cadpe.gif
 ---
