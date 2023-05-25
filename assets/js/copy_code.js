@@ -37,10 +37,18 @@ codeBlocks.forEach(function (codeBlock) {
     var wrapper = document.createElement('div');
     wrapper.className = 'code-display-wrapper';
 
+    var wrapper2 = document.createElement('div');
+    wrapper2.className = 'highlight';
+
     // add copy button and code block to wrapper div
     const parent = codeBlock.parentElement;
     parent.insertBefore(wrapper, codeBlock);
     wrapper.append(codeBlock);
     wrapper.append(copyButton);
+
+    const parent1 = codeBlock.parentElement;
+    parent.insertBefore(wrapper2, codeBlock);
+    wrapper2.append(codeBlock);
+    wrapper2.append(copyButton);
   }
 });
