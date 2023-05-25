@@ -10,26 +10,16 @@ thumbnail: assets/img/kavithe/pen_thumbnail.jpg
 ---
 ### ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ
 
-ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ ನಾ ಹುಟ್ಟುತ್ತಿರುವೆ 
-ನಿನ್ನ ನೋಡಿದ ಕ್ಷಣದಿಂದ 
-
-ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ ನಾ ಸಾಯುತ್ತಿರುವೆ 
-ನೀ  ಹೊರಟ ಕ್ಷಣದಿಂದ 
-
-ಇದೆಂಥ ವಿಪರ್ಯಾಸವೋ..!
+ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ ನಾ ಹುಟ್ಟುತ್ತಿರುವೆ <br>
+ನಿನ್ನ ನೋಡಿದ ಕ್ಷಣದಿಂದ <br>
+<br>
+ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ ನಾ ಸಾಯುತ್ತಿರುವೆ <br>
+ನೀ  ಹೊರಟ ಕ್ಷಣದಿಂದ <br>
+<br>
+ಇದೆಂಥ ವಿಪರ್ಯಾಸವೋ..!<br>
 ಇದೆಂಥ ಖುಷಿಯ ಶಾಪವೋ...!
 
-<!-- <div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog1/cadpe.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/blog1/cadpemask.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Figure 1: Unveiling the Hidden Layers: A GIF showcasing the CAD image and its corresponding ground truth mask.
-</div>
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -39,9 +29,7 @@ thumbnail: assets/img/kavithe/pen_thumbnail.jpg
         {% include figure.html path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-
-The rest of the images in this post are all zoomable, arranged into different mini-galleries. -->
-
+<br>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/11.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
