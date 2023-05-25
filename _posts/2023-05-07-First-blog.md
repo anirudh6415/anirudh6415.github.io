@@ -1,52 +1,25 @@
 ---
 layout: post
-title:  Segmentation on CAD-PE Dataset. 
+title: ನನ್ನ ಕವಿತೆಗಳು-ಭಾವನೆಗಳ ಕನಸುಗಳು 
 date: 2023-05-07 14:00:00
-description: The segmentation is performed on CAD-PE dataset
-tags: computer_vision image_processing AI ML Medical_images
+description: ಈ ಬ್ಲಾಗ್ ಪೋಸ್ಟ್‌ನಲ್ಲಿ ನೀವು ಕನಸುಗಳ ಸ್ವರೂಪದ ಕವಿತೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯುವ ಅನುಭವಕ್ಕೆ ಕರೆದೊಯ್ಯುತ್ತೇವೆ
+tags: life
 # categories: sample-posts
-thumbnail: assets/img/blog1/cadpe.gif
-
-toc:
-  - name: CAD-PE Segmentation
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
-  - name: Dataset
-  - name: Building the Segmentation Dataset
-  - name: Code Blocks
-  - name: Interactive Plots
-  - name: Layouts
-  - name: Other Typography?
-
-_styles: >
-  .fake-img {
-    background: #bbb;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 12px;
-  }
-  .fake-img p {
-    font-family: monospace;
-    color: white;
-    text-align: left;
-    margin: 12px 0;
-    text-align: center;
-    font-size: 16px;
-  }
+thumbnail: assets/img/kavithe/pen_thumbnail.jpg
 
 ---
-### CAD-PE Segmentation: Unveiling Insights
+### ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ
 
-Welcome to our blog, where we delve into the fascinating world of segmentation. The segmentation is performed on __CAD-PE dataset__.
-In the realm of `"computer-aided design(CAD)"`, the precision and efficent segementation plays a pivotal role.<br>
+ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ ನಾ ಹುಟ್ಟುತ್ತಿರುವೆ 
+ನಿನ್ನ ನೋಡಿದ ಕ್ಷಣದಿಂದ 
 
-In this blog series, we will embark on an exciting journey to understand the challenges and intricacies of segmenting CAD-PE data. Whether you are a beginner or an experienced practitioner, we aim to provide valuable insights and practical guidance to enhance your understanding and proficiency in CAD-PE segmentation. Throught this blog, we will discuss various aspects of segementation,including data preprocessing, feature extraction, and model architectures. Moreover, we will dive into the evaluation metrics commonly used in assessing the performance of segmentation algorithms.
+ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ ನಾ ಸಾಯುತ್ತಿರುವೆ 
+ನೀ  ಹೊರಟ ಕ್ಷಣದಿಂದ 
 
-Join me as we unravel the complexities of segmentation on CAD-PE dataset, empowering you to leverage this knowledge in your research, industry projects, or even personal endeavours. So, fasten your seatbelts and get ready to explore the world of segmentation like never before!!.Let's unlock the hidden potential within Deep learning models and unleash their power.<br>
+ಇದೆಂಥ ವಿಪರ್ಯಾಸವೋ..!
+ಇದೆಂಥ ಖುಷಿಯ ಶಾಪವೋ...!
 
-<div class="row mt-3">
+<!-- <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/blog1/cadpe.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
@@ -58,56 +31,6 @@ Join me as we unravel the complexities of segmentation on CAD-PE dataset, empowe
     Figure 1: Unveiling the Hidden Layers: A GIF showcasing the CAD image and its corresponding ground truth mask.
 </div>
 
-***
-
-### CAD-PE Dataset
-The first step involved is exploring the dataset. The dataset involves __91 patients CT scans__. Each CT scan consists of some around 400 to 500 slices on average. Dividing the CT scans of the 91 patients into individual slices. This process allowed us to extract __41,256 slices__ in total, which will serve as the foundation for our segmentation endeavors.
-
-Each slice within the CAD-PE dataset represents a two-dimensional image capturing a specific cross-section of the patients' anatomy. These slices provide crucial insights into the internal structures and organs, enabling medical professionals and researchers to diagnose and study various conditions and diseases.
-
-***
-
-### Building the Segmentation Dataset: Slice-Level Segmentation
-In order to perform slice-level segmentation on the CAD-PE dataset, we will create a custom dataset named "segmentation_dataset". This dataset will serve as the foundation for training and evaluating our segmentation algorithms.
-
-To begin, we will divide the available data randomly into three sets: training, validation, and testing. The training set will contain 80% of the data, while the validation and testing sets will each consist of 10% of the data. This division ensures a balanced distribution of slices across the different sets, enabling us to train and assess the performance of our models effectively.
-
-To handle the dataset efficiently, we will utilize filepaths to access the slices. Each slice within the CAD-PE dataset will be normalized to have pixel values ranging between 0 and 1. This normalization step ensures consistency and facilitates optimal model performance during training.
-
-Moreover, the input images and corresponding segmentation masks will be processed to adhere to the requirements of slice-level segmentation. The input images will be converted into single-channel representations, while the segmentation masks will be transformed into binary masks, consisting of only 0s and 1s. These binary masks serve as ground truth annotations for the presence or absence of the target structures within the slices.
-
-To facilitate seamless integration with deep learning frameworks, such as PyTorch, the slices will be transformed into tensors.
-
-The snippet code provided below showcases a high-level implementation for building the segmentation_dataset:
-    {% highlight python %}
-
-        class segmentation_dataset(Dataset):
-        def __init__(self,image_filenames,mask_filenames,transforms=None):
-            self.image_dir = "/CAD_PE_Challenge_Data/images/"
-            self.mask_dir = "/CAD_PE_Challenge_Data/masks/"
-            self.transform = transforms
-            self.image_filenames = image_filenames
-            self.mask_filenames = mask_filenames
-            
-        def __len__(self):
-            return len(self.image_filenames)
-        
-        
-        def __getitem__(self, idx):
-            img = np.load(os.path.join(self.image_dir, self.image_filenames[idx]))
-            label = np.load(os.path.join(self.mask_dir, self.mask_filenames[idx]))
-            
-            img = nor_image(img)
-            label = binary(label)
-            if self.transform is not None:
-                img, label = self.transform(img), self.transform(label)
-                
-            return img, label
-        
-    {% endhighlight %}
-
-***
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -117,7 +40,7 @@ The snippet code provided below showcases a high-level implementation for buildi
     </div>
 </div>
 
-The rest of the images in this post are all zoomable, arranged into different mini-galleries.
+The rest of the images in this post are all zoomable, arranged into different mini-galleries. -->
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
