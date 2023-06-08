@@ -177,7 +177,7 @@ To visualize the YOLOv8 architecture and its anchor-free detection, we can refer
     Figure 2: YOLOv8 Architecture.
 </div>
 
-**visualisation made by GitHub user** <a href = https://github.com/RangeKing><b>RangeKing</b></a>
+**visualisation made by GitHub user** <a href = "https://github.com/RangeKing" ><b>RangeKing</b></a>
 
 By adopting anchor-free detection, YOLOv8 enhances object detection performance. 
 
@@ -232,7 +232,7 @@ In this example, we specify the `data` parameter as `'Argoverse.yaml'` to use th
 
 5. **Monitor Training Progress**: During training, the YOLO model will provide updates on the training loss, bounding box loss, mean Average Precision (mAP), etc.
 
-For more detailed information and additional training options, refer to the <a herf=https://docs.ultralytics.com/modes/train/ ><b>YOLOv5 Train Mode Documentation</b></a> provided by Ultralytics.
+For more detailed information and additional training options, refer to the <a herf= "https://docs.ultralytics.com/modes/train/"><b>YOLOv5 Train Mode Documentation</b></a> provided by Ultralytics.
 
 ### Testing the Trained YOLOv8 Model
 After training the YOLOv8 model on the Argoverse dataset, it's time to evaluate its performance on the test data. In this section, we will test the best trained YOLOv8s and YOLOv8m models on the test dataset.
