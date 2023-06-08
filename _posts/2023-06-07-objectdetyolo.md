@@ -241,7 +241,7 @@ Below are the videos showcasing original and the testing results of the YOLOv8s 
 **Test Video**
 
 <div class="row mt-3">
-        {% include figure.html path="assets/img/blog2/test-video-1.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <iframe width="1002" height="626" src="https://www.youtube.com/embed/SeRUThVhlc4" title="Test Video for testing YoloV8 model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <div class="caption">
     Figure 3: Original Test video.
@@ -250,7 +250,7 @@ Below are the videos showcasing original and the testing results of the YOLOv8s 
 **YOLOv8s Predicted Video**
 
 <div class="row mt-3">
-        {% include figure.html path="assets/img/blog2/test-video-2.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <iframe width="1002" height="626" src="https://www.youtube.com/embed/NMq17lLEHEw" title="Prediction of YoloV8s model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <div class="caption">
     Figure 4: YOLOV8s Prediction.
@@ -259,7 +259,7 @@ Below are the videos showcasing original and the testing results of the YOLOv8s 
 **YOLOv8m Predicted Video:**
 
 <div class="row mt-3">
-        {% include figure.html path="assets/img/blog2/test-video-medium.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <iframe width="1002" height="626" src="https://www.youtube.com/embed/2_2clDwQSb0" title="Prediction of YOLOv8m model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 <div class="caption">
     Figure 4: YOLOV8m Prediction.
