@@ -162,7 +162,7 @@ One significant update in YOLOv8 is its transition to anchor-free detection. Tra
         {% include figure.html path="assets/img/blog2/Anchor-free.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 1: Difference between Anchor-free and Anchor based.
+    Figure 1: Difference between Anchor-free and Anchor based. <a herf= " https://www.nature.com/articles/s41598-021-02095-4"> <em> Image Source</em> </a>
 </div>
 
 This anchor-free approach brings several advantages. Firstly, it simplifies the model architecture by removing the need for anchor boxes and associated calculations. This leads to a more streamlined and efficient network. Additionally, anchor-free detection allows for better localization accuracy, as the model directly predicts the object center with high precision.
@@ -184,7 +184,9 @@ By adopting anchor-free detection, YOLOv8 enhances object detection performance.
 ### Training YOLOv8 on Agroverse Dataset
 To train YOLOv8 on the Argoverse dataset, we need to create a `data.yaml` file and install the necessary dependencies. Here's a step-by-step guide to training YOLOv8 on the Argoverse dataset:
 
-1. **Create the `data.yaml` File**: Before training, we need to create a `data.yaml` file to specify the dataset's configuration. The structure of the `data.yaml` file is as follows:
+##### **Create the `data.yaml` File**: 
+
+Before training, we need to create a `data.yaml` file to specify the dataset's configuration. The structure of the `data.yaml` file is as follows:
 
 ```yml
 path: /your/root/path
@@ -196,13 +198,13 @@ names: [class1, class2, ..., classN]
 
 Ensure that you replace `/your/root/path` with the actual root path of your dataset, `root/train/images/` with the path to the training images folder, `root/val/images/` with the path to the validation images folder, `number_of_classes` with the total number of classes in your dataset, and `[class1, class2, ..., classN]` with a list of the class names in string format.
 
-2. **Install Dependencies**: Install the required dependencies by running the following command:
+##### **Install Dependencies**: Install the required dependencies by running the following command:
 
 ```python
 !pip install ultralytics
 ```
 
-3. **Import YOLO and Load the Model**: Import the `YOLO` class from the `ultralytics` package and load the YOLOv8 model using the desired `.pt` file:
+##### **Import YOLO and Load the Model**: Import the `YOLO` class from the `ultralytics` package and load the YOLOv8 model using the desired `.pt` file:
 
 ```python
 from ultralytics import YOLO
@@ -212,7 +214,7 @@ model = YOLO('yolov8s.pt')
 
 The `YOLO` class from `ultralytics` automatically downloads the required YOLOv8 models, such as `yolov8s` or `yolov8m`, based on the specified `.pt` file.
 
-4. **Start Training**: Begin the training process by calling the `train` method on the `model` object with appropriate arguments. Here's an example configuration:
+##### **Start Training**: Begin the training process by calling the `train` method on the `model` object with appropriate arguments. Here's an example configuration:
 
 ```python
 output = model.train(
@@ -230,7 +232,8 @@ output = model.train(
 
 In this example, we specify the `data` parameter as `'Argoverse.yaml'` to use the created `data.yaml` file. Adjust the other parameters such as `imgsz` (image size), `epochs` (number of training epochs), `batch` (batch size), `save` (whether to save checkpoints), `name` (name for the trained model), `val` (whether to evaluate on the validation set), `project` (project name for logging), and `save_period` (number of epochs between saving checkpoints) according to your requirements.
 
-5. **Monitor Training Progress**: During training, the YOLO model will provide updates on the training loss, bounding box loss, mean Average Precision (mAP), etc.
+##### **Monitor Training Progress**: 
+During training, the YOLO model will provide updates on the training loss, bounding box loss, mean Average Precision (mAP), etc.
 
 For more detailed information and additional training options, refer to the <a herf= "https://docs.ultralytics.com/modes/train/"><b>YOLOv5 Train Mode Documentation</b></a> provided by Ultralytics.
 
