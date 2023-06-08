@@ -278,11 +278,28 @@ After testing the YOLOv8 models on the Argoversehd dataset and evaluating the re
 1. Visual Inspection:
 Upon visually inspecting the test results, it becomes evident that the YOLOv8 models show promising performance in detecting and localizing objects. However, there are areas where the models exhibit limitations. For example, the models incorrectly identify certain objects as trucks and miss some instances of stop signs. These observations suggest that further improvements can be made by refining the training process and incorporating additional data.
 
+<div class="row mt-3">
+        {% include figure.html path="assets/img/blog2/results.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+
 2. Quantitative Metrics:
 The mean Average Precision (mAP) is a widely used metric for evaluating object detection models. The mAP measures the accuracy of object localization and classification. In the case of the YOLOv8 models trained on the Argoversehd dataset, the highest achieved mAP is 0.40, indicating good performance for certain instances. However, the average mAP typically falls within the range of 0.24 to 0.35. This implies that there is room for improvement in terms of the models' overall accuracy and precision.
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/blog2/F1_curve.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/blog2/PR_curve.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 3. Confusion Matrix:
 A confusion matrix provides a detailed breakdown of the model's performance across different object classes. By analyzing the confusion matrix, we can identify specific areas where the YOLOv8 models excel and areas where they struggle. In the case of the Argoversehd dataset, the YOLO models face challenges in accurately detecting small objects and occasionally misclassifying certain objects. To address these limitations, it is advisable to consider strategies such as increasing the amount of training data and conducting further model optimization.
+
+<div class="row mt-3">
+        {% include figure.html path="assets/img/blog2/confusion_matrix.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
 
 4. Improving Model Performance:
 Based on the analysis of the test results, it is clear that there is room for improvement in the YOLOv8 models' performance on the Argoversehd dataset. By implementing different strategies and iteratively training and evaluating the YOLOv8 models, it is possible to improve their object detection accuracy and address the specific challenges observed during testing on the Argoversehd dataset.
