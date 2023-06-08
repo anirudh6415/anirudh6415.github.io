@@ -34,7 +34,7 @@ Object detection, a subfield of computer vision, plays a crucial role in various
 
 In the subsequent sections of this blog, we will dive deeper into the experimental setup, highlighting the key steps involved in training and evaluating the YOLOv8s and YOLOv8m models on the Argoversehd dataset. We will discuss the training process, including data preparation, model configuration, and hyperparameter tuning. Additionally, we will present the evaluation results and analyze how YOLOv8 performs compared to the original dataset. This comparative analysis will shed light on the strengths and limitations of YOLOv8 in the context of object detection on the Argoversehd dataset.
 
-Stay tuned as we embark on this exciting journey into the realm of object detection using YOLOv8 models. Through this experiment, we hope to gain insights that can contribute to the advancement of object detection techniques in the autonomus driving domain, fostering innovations that can benefit researchers alike.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>
+Stay tuned as we embark on this exciting journey into the realm of object detection using YOLOv8 models. Through this experiment, we hope to gain insights that can contribute to the advancement of object detection techniques in the autonomus driving domain, fostering innovations that can benefit researchers alike.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup> [^1]
 
 ### Argoverse Dataset
 #### Preparation for YOLOv8 Object Detection
@@ -308,7 +308,8 @@ A confusion matrix provides a detailed breakdown of the model's performance acro
 #### Improving Model Performance:
 Based on the analysis of the test results, it is clear that there is room for improvement in the YOLOv8 models' performance on the Argoversehd dataset. By implementing different strategies and iteratively training and evaluating the YOLOv8 models, it is possible to improve their object detection accuracy and address the specific challenges observed during testing on the Argoversehd dataset.
 
-
+### *Footnote*:
+[^1]: this is foot note.
 <div id="footnotes">
   <ol>
     <li id="fn:1">
