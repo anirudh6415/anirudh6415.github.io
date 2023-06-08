@@ -6,6 +6,7 @@ description: Object detection is performed on ArgoverseHD-Dataset
 tags: computer_vision image_processing AI ML 
 categories: sample-posts toc sidebar
 giscus_comments: true
+thumbnail: assets/img/blog2/Thumbnail.gif
 related_posts: false
 
 authors:
