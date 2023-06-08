@@ -29,8 +29,8 @@ toc:
   sidebar: left
 ---
 ## Object detection using YoloV8 model
-<d-footnote>Beginner's Work and Request for Understanding<br>
-Please note that this blog and the work presented herein are the efforts of a beginner in the field of image processing. While every attempt has been made to ensure accuracy and provide valuable insights, there may be certain limitations or areas for improvement. If any inconveniences or shortcomings are encountered, I kindly request your understanding and forgiveness. This blog serves as a starting point for exploring the fascinating world of Image processing and computer vision, and I am eager to learn and grow from this experience. Your feedback and suggestions are greatly appreciated as they will contribute to my growth as a learner and researcher. Thank you for your support and understanding.</d-footnote>
+<!-- <d-footnote> Beginner's Work and Request for Understanding<br>
+Please note that this blog and the work presented herein are the efforts of a beginner in the field of image processing. While every attempt has been made to ensure accuracy and provide valuable insights, there may be certain limitations or areas for improvement. If any inconveniences or shortcomings are encountered, I kindly request your understanding and forgiveness. This blog serves as a starting point for exploring the fascinating world of Image processing and computer vision, and I am eager to learn and grow from this experience. Your feedback and suggestions are greatly appreciated as they will contribute to my growth as a learner and researcher. Thank you for your support and understanding. </d-footnote> -->
 ### Introduction
 Object detection, a subfield of computer vision, plays a crucial role in various domains, including driving. It enables the automated identification and localization of objects within images or videos, providing valuable insights and aiding in decision-making processes. While there are numerous models available for object detection, this blog focuses on YOLOv8, a state-of-the-art approach renowned for its accuracy and efficiency. In this experiment, we delve into the application of YOLOv8 models on the Argoversehd dataset, comparing the results obtained and exploring how YOLOv8 performs in this context.
 
@@ -174,8 +174,10 @@ To visualize the YOLOv8 architecture and its anchor-free detection, we can refer
         {% include figure.html path="assets/img/blog2/yolov8.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
 <div class="caption">
-    Figure 2: YOLOv8 Architecture, visualisation made by GitHub user <a href = https://github.com/RangeKing><b>RangeKing</b></a>
+    Figure 2: YOLOv8 Architecture.
 </div>
+
+**visualisation made by GitHub user** <a href = https://github.com/RangeKing><b>RangeKing</b></a>
 
 By adopting anchor-free detection, YOLOv8 enhances object detection performance. 
 
@@ -230,7 +232,7 @@ In this example, we specify the `data` parameter as `'Argoverse.yaml'` to use th
 
 5. **Monitor Training Progress**: During training, the YOLO model will provide updates on the training loss, bounding box loss, mean Average Precision (mAP), etc.
 
-For more detailed information and additional training options, refer to the <a herf=https://docs.ultralytics.com/modes/train/ >`[YOLOv5 Train Mode Documentation]`</a> provided by Ultralytics.
+For more detailed information and additional training options, refer to the <a herf=https://docs.ultralytics.com/modes/train/ ><b>YOLOv5 Train Mode Documentation</b></a> provided by Ultralytics.
 
 ### Testing the Trained YOLOv8 Model
 After training the YOLOv8 model on the Argoverse dataset, it's time to evaluate its performance on the test data. In this section, we will test the best trained YOLOv8s and YOLOv8m models on the test dataset.
