@@ -240,13 +240,30 @@ Firstly, the test data for Argoverse consists of individual images. To provide a
 Below are the videos showcasing original and the testing results of the YOLOv8s and YOLOv8m models on the test data:
 **Test Video**
 
-**YOLOv8s Predicted Video:**
+<div class="row mt-3">
+        {% include figure.html path="assets/img/blog2/test-video-1.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Figure 3: Original Test video.
+</div>
 
-[Embed or provide a link to the YOLOv8s test video]
+**YOLOv8s Predicted Video**
+
+<div class="row mt-3">
+        {% include figure.html path="assets/img/blog2/test-video-2.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Figure 4: YOLOV8s Prediction.
+</div>
 
 **YOLOv8m Predicted Video:**
 
-[Embed or provide a link to the YOLOv8m test video]
+<div class="row mt-3">
+        {% include figure.html path="assets/img/blog2/test-video-medium.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+    Figure 4: YOLOV8m Prediction.
+</div>
 
 By visually examining the test videos, we can observe how the YOLOv8 models detect and classify objects in the Argoverse test dataset. The models' performance will be evident in their ability to accurately identify and localize objects of interest, such as people, bicycles, cars, motorcycles, buses, trucks, traffic lights, and stop signs.
 
