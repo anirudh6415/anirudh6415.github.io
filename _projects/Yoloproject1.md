@@ -5,7 +5,7 @@ description: Object detection is performed on ArgoverseHD-Dataset
 img: assets/img/blog2/Thumbnail.gif
 redirect: https://github.com/anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection-/tree/main
 importance: 1
-category: Persnoal Project
+category: Personal
 ---
 
 <!-- Every project has a beautiful feature showcase page.
