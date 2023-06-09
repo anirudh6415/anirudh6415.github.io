@@ -2,7 +2,7 @@
 layout: about
 title: About Me
 permalink: /
-subtitle: Image Processing Researcher · Computer Science Engineer · ex-Entrepreneur #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Computer vision Researcher · Computer Science Engineer · Entrepreneur #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: anirudh2.0.jpg
