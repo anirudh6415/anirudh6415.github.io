@@ -1,14 +1,14 @@
-<!-- ---
+---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Object Detection on Argoversehd Dataset - Exploring YOLOv8 Models
+description: Object detection is performed on ArgoverseHD-Dataset
+img: assets/img/blog2/Thumbnail.gif
+redirect: https://github.com/anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection-/tree/main
+importance: 1
+category: Persnoal Project
 ---
 
-Every project has a beautiful feature showcase page.
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
