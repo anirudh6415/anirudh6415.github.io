@@ -14,15 +14,15 @@
     - title: Robotics and Autonomous Systems in AI (M.S)
       institution: Arizona State University, Tempe, AZ
       year: 2024
-      Grades : 4.0/4.0
       description:
-        - courses :
-          - CSE 591 Image Analytics & Informatics					
-          - CSE 598 Perception in Robotics 
-          - EGR 598 Applied Linear Algebra for Engineers
-          - BME 507 Intro Digital Image Processing					
-          - CSE 571 Artificial Intelligence					
-          - EGR 545 Robotic Systems I
+        - Grades : 4.0/4.0
+        # - courses :
+        #   - CSE 591 Image Analytics & Informatics					
+        #   - CSE 598 Perception in Robotics 
+        #   - EGR 598 Applied Linear Algebra for Engineers
+        #   - BME 507 Intro Digital Image Processing					
+        #   - CSE 571 Artificial Intelligence					
+        #   - EGR 545 Robotic Systems I
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
