@@ -11,22 +11,27 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ms
+    - title: Robotics and Autonomous Systems in AI (M.S)
       institution: Arizona State University, Tempe, AZ
       year: 2024
+      Grades : 4.0/4.0
       description:
-        - Robotics and Autonomous Systems in AI.
-        - Grades 
+        - courses :
+              - CSE 591 Image Analytics & Informatics					
+              - CSE 598 Perception in Robotics 
+              - EGR 598 Applied Linear Algebra for Engineers
+              - BME 507 Intro Digital Image Processing					
+              - CSE 571 Artificial Intelligence					
+              - EGR 545 Robotic Systems I
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
         #     - Sub-description 2.
-    - title: B. TECH
+    - title: Computer Science and Engineering (B TECH)
       institution: Dayananda Sagar University, Bengaluru, India
       year: 2020
-      description:
-        - Computer Science and Engineering.
-        - 7.89 GPA out of 10 GPA.
+      # description:
+      #     - courses : 
 
 - title: Professional Experience
   type: time_table
@@ -35,11 +40,9 @@
       institution: Dayananda Sagar University, Bengaluru, India
       year: June 2020 <br> <br> Dec 2020
       description:
-        - Preprocessed and inspected large datasets of driving stereo images to ensure quality and accuracy.
-        - Developed and applied cost functions to various artificial neural network algorithms, resulting in a 10% improvement in accuracy.
-        - title: Collaborated with Dr. Rajesh T M to successfully complete the project, resulting in positive feedback.
-          contents:
-            - Analyzed and assessed project results to identify areas for improvement, resulting in a 3% increase in overall efficiencies.
+        - Performed preprocessing, analysis, and annotation of large datasets of driving images.
+        - Utilized the CVAT open data annotation tool for precise data annotation and conducted analysis on data using DL algorithms.
+        - Demonstrated analysis and annotation of data, resulting in the submission of a comprehensive report outlining findings.
     
     - title: Student Trainee	
       institution: Centre For Artificial Intelligence and Robotics, Bengaluru, India
@@ -105,6 +108,8 @@
       items:
         - Autonomous Driving, Stereo Images, Monacular Images.
         - Perception.
+    - title: Statistical Machine Learning
+    - title: Data science
 
 - title: Activities 
   type: time_table
