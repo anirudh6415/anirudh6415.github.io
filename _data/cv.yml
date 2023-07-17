@@ -17,12 +17,12 @@
       Grades : 4.0/4.0
       description:
         - courses :
-              - CSE 591 Image Analytics & Informatics					
-              - CSE 598 Perception in Robotics 
-              - EGR 598 Applied Linear Algebra for Engineers
-              - BME 507 Intro Digital Image Processing					
-              - CSE 571 Artificial Intelligence					
-              - EGR 545 Robotic Systems I
+          - CSE 591 Image Analytics & Informatics					
+          - CSE 598 Perception in Robotics 
+          - EGR 598 Applied Linear Algebra for Engineers
+          - BME 507 Intro Digital Image Processing					
+          - CSE 571 Artificial Intelligence					
+          - EGR 545 Robotic Systems I
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
