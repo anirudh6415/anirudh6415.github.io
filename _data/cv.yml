@@ -81,7 +81,7 @@
         - Implemented the model on three different modalities, including colonoscopy images, CAD PE images, and JSRT CT images.
         - Achieved high segmentation accuracy with Dice Coefficient scores of 0.89 on colonoscopy images, 0.75 on CAD PE images, and 0.95 on JSRT CT images.
 
-    - title: <a href="https://github.com/alshedivat/al-folio">Group-Wise Correlation Stereo Network</a>
+    - title: <a href="https://github.com/anirudh6415/GwcNet">Group-Wise Correlation Stereo Network</a>
       year: Spring 2020
       description: 
         - Implemented a Group-Wise Correlation Stereo Network for disparity estimation in stereo images using CNN and PyTorch and applied the technique to driving scene datasets from the KITTI Vision Benchmark Suite.
