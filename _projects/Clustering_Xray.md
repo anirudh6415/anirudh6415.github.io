@@ -1,7 +1,7 @@
 ---
 layout: page
 title: X-Ray Image Clustering using K-Means Algorithm 
-description: This project contains code for clustering X-ray images using the K-Means algorithm. 
+description: This project contains code for clustering X-ray images using the K-Means algorithm. The dataset used for this project consists of flipped X-ray images, and the clustering is performed to group similar images together.
 img: assets/img/projects/test_kmeans_resultswithtrain.png
 redirect: https://github.com/anirudh6415/Clustering_Xray-s
 importance: 1

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Colonoscopy Image Analysis with UNet
-description: This project presents a comprehensive analysis of colonoscopy images using the UNet.
+description: This project presents a comprehensive analysis of colonoscopy images using the UNet architecture for both classification and segmentation tasks.
 img: assets/img/projects/gradcamShortVD_wp_61_frame_9.png
 redirect: https://github.com/anirudh6415/Colon_seg_class
 importance: 1
