@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Object Detection on Argoversehd Dataset - Exploring YOLOv8 Models
-description: Object detection is performed on ArgoverseHD-Dataset
+title: Segmentation on JSRT 
+description:  instance segmentation model using the UNET architecture to precisely identify and segment lungs and heart structures
 img: assets/img/blog2/Thumbnail.gif
-redirect: https://github.com/anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection-/tree/main
+redirect: https://github.com/anirudh6415/JSRT_Unet
 importance: 1
 category: Personal
 ---

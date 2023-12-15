@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Object Detection on Argoversehd Dataset - Exploring YOLOv8 Models
-description: Object detection is performed on ArgoverseHD-Dataset
+title: X-Ray Image Clustering
+description:  clustering X-ray images using the K-Means algorithm
 img: assets/img/blog2/Thumbnail.gif
-redirect: https://github.com/anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection-/tree/main
+redirect: https://github.com/anirudh6415/Clustering_Xray-s
 importance: 1
 category: Personal
 ---
