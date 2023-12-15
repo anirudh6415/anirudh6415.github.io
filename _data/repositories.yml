@@ -4,7 +4,6 @@ github_users:
 
 github_repos:
   - anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection
-  - anirudh6415/Resnet-for-MNSIT
-  - anirudh6415/Pytorch_for_deepLearning
-  - anirudh6415/GwcNet
-
+  - anirudh6415/JSRT_Unet
+  - anirudh6415/Colon_seg_class
+  - anirudh6415/Clustering_Xray-s
