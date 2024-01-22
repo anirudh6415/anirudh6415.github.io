@@ -1,32 +1,38 @@
 ---
 layout: post
-title: A long announcement with details
+title: CHS Student Research Symposium
 date: 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+# CHS Student Research Symposium
 
-***
+I am excited to share my experience at the CHS Student Research Symposium. It was a great opportunity to showcase our research projects and engage with the academic community.
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+## Event Details
 
-#### Hipster list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+- Date: April 28, 2023
+- Time: 3 p.m. – 4:30 p.m. (MST)
+- Location: CHS, ASU
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+## Highlights
 
-***
+### Presentation
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+I had the privilege of presenting my research on "Function Integration: An approach for multi-task learning
+Implementation on Colonoscopy Dataset." The audience was engaged, and I received valuable feedback.
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
+### Photos
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+![Symposium Photo 1](/assets/img/news/IMG_7010.jpg)
+*Group Picture of all my Lab Members*
+
+![Symposium Photo 2](/assets/img/news/WhatsApp%20Image%202023-04-26%20at%201.43.00%20PM.jpeg)
+*Poster Presented in Research Symposium*
+
+## Thank You
+
+I want to express my gratitude to everyone who attended the symposium and contributed to its success.
+
+Stay tuned for more updates on my research journey!
