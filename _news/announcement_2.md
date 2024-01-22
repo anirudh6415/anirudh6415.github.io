@@ -25,8 +25,6 @@ Implementation on Colonoscopy Dataset." The audience was engaged, and I received
 
 #### Photos
 
-#### Photos
-
 <div style="display: flex; justify-content: space-between;">
 
   <div style="width: 48%;">
