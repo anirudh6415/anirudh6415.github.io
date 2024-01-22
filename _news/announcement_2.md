@@ -30,13 +30,13 @@ Implementation on Colonoscopy Dataset." The audience was engaged, and I received
 <div style="display: flex; justify-content: space-between;">
 
   <div style="width: 48%;">
-    ![Symposium Photo 1](/assets/img/news/IMG_7010.jpg)
-    *Group Picture of all my Lab Members*
+    <img src="/assets/img/news/IMG_7010.jpg" alt="Symposium Photo 1" style="width: 100%;">
+    <p>Group Picture of all my Lab Members</p>
   </div>
 
   <div style="width: 48%;">
-    ![Symposium Photo 2](/assets/img/news/WhatsApp%20Image%202023-04-26%20at%201.43.00%20PM.jpeg)
-    *Poster Presented in Research Symposium*
+    <img src="/assets/img/news/WhatsApp%20Image%202023-04-26%20at%201.43.00%20PM.jpeg" alt="Symposium Photo 2" style="width: 100%;">
+    <p>Poster Presented in Research Symposium</p>
   </div>
 
 </div>
