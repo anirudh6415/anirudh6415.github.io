@@ -33,9 +33,17 @@
       # description:
       #     - courses : 
 
-- title: Professional Experience
+- title: Experience
   type: time_table
   contents:
+    - title: Research & Development Associate
+      institution: JLiang Lab,Arizona State University,
+      year: July 2023 <br> <br> Dec 2024
+      description:
+        - Collaborating with **Valley Wise Health** on deep learning models for lung disease classification, localization, and segmentation.
+        - Applying advanced techniques and computed, analyzed image data to optimize models based on lab research in **POPAR, Adam, Ark, and PEAC**.
+        - Facilitating the integration of developed models like **Dino**, **Intern image**, **UPerNet**, and **Mask Dino** with the **mmdetection**, **Detectron2** frameworks to advance lung disease diagnostics and through the utilization of transfer learning techniques.
+
     - title: Research & Development Associate
       institution: Dayananda Sagar University, Bengaluru, India
       year: June 2020 <br> <br> Dec 2020
@@ -45,7 +53,7 @@
         - Demonstrated analysis and annotation of data, resulting in the submission of a comprehensive report outlining findings.
     
     - title: Student Trainee	
-      institution: Centre For Artificial Intelligence and Robotics, Bengaluru, India
+      institution: Centre For Artificial Intelligence and Robotics,DRDO Govt of India, Bengaluru, India
       year: Jan 2020 <br> <br> May 2020
       description:
         - Processed a total of 389 image pairs, including 194 training image pairs and 195 test image pairs of stereo image datasets for KITTI 2012, and KITTI 2015.
@@ -61,20 +69,32 @@
       year: Jan 2021 <br> <br> Aug 2022
       description:
         - Conducted analysis of pre-COVID, during COVID sales data to identify trends and gain insights. Utilized data to identify the most popular product sold per day and optimized packaging systems for efficient customer experience.
-        - Implemented the slogan "Made Fresh - Sold Fresh" to highlight products sold within 24-hours, resulting in 25% increase in revenue.  Successfully managed a team of 15 employees, introducing new products, ensuring hygiene standards, and fostering strong relationships with suppliers, vendors, local authorities, and customers.
+        - Implemented the slogan **"Made Fresh - Sold Fresh"** to highlight products sold within **24-hours**, resulting in **25%** increase in revenue.  Successfully managed a team of 15 employees, introducing new products, ensuring hygiene standards, and fostering strong relationships with suppliers, vendors, local authorities, and customers.
 
 
 
 - title: Academic Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">Function Integration on ASU Mayo Colonoscopy Dataset</a>
+    - title: <a href="https://github.com/anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection">Detection For Autonomous Driving using Argoversehd</a>
+      year: Spring 2020
+      description: 
+        - Optimized object detection for autonomous driving scenarios leveraging the Argoversehd traffic dataset.
+        - Fine-tuned **YOLOv8** model for vehicles, persons, traffic signals, and road signs. Achieved a **1.5%** higher mean Average Precision (mAP) than the original Argoversehd implementation and visualized using **ClearML** tool.
+    - title: <a href="https://github.com/anirudh6415/">Anytime Stereo Image Depth Estimation using KITTI2012</a>
       year: Spring 2023
       description: 
-        - Collaborated in a team of three to design a UNet model with ResNet backbone for integration of functions like classification, segmentation, and localization.
-        - Successfully implemented the model resulting in a 5% increase compared to individual implementations of the functions.
+        - Identified the need to enhance depth perception for stereo driving images and tasked with finding depth after calibrating disparity in the images.
+        - Developed an innovative approach using a Unet model that incorporated a disparity network and residual map for each layer of the decoder, Improved the performance by **aggregating 2 decoders** in the model one after the other.
+        - Successfully predicted disparity images in real-time for each layer of the decoder, resulting in 5% performance better than the original implementation.
+
+    - title: <a href="https://github.com/anirudh6415/">Function Integration on Colonoscopy Polyp Dataset</a>
+      year: Spring 2023
+      description: 
+        - Collaborated in a team of three to design a **Swin Transformer-based UNET** architecture as a base model and added branches to perform classification and object localization along with a segmentation branch for Colon polyp images.
+        - An all-in-one model that performs three tasks at once instead of needing three models and outperforms the separate models by at least **15%**. Combined effort with teammates under the guidance of Prof. Dr. Jianming Liang.
     
-    - title: <a href="https://github.com/alshedivat/al-folio">Image Segmentation on three different modalities</a>
+    - title: <a href="https://github.com/anirudh6415/JSRT_Unet">Image Segmentation on three different modalities</a>
       year: Spring 2023
       description: 
         - Collaborated with a team of three to design a UNet model for medical image segmentation.
@@ -110,6 +130,8 @@
         - Perception.
     - title: Statistical Machine Learning
     - title: Data science
+    - title: Sentimental analysis
+    - title: Time series data 
 
 - title: Activities 
   type: time_table

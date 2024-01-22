@@ -4,5 +4,5 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 4
-cv_pdf: Anirudh Iyengar Resume.pdf
+cv_pdf: Anirudh_Resume.pdf
 ---
