@@ -25,12 +25,21 @@ Implementation on Colonoscopy Dataset." The audience was engaged, and I received
 
 #### Photos
 
-![Symposium Photo 1](/assets/img/news/IMG_7010.jpg)
-*Group Picture of all my Lab Members*
+#### Photos
 
-![Symposium Photo 2](/assets/img/news/WhatsApp%20Image%202023-04-26%20at%201.43.00%20PM.jpeg)
-*Poster Presented in Research Symposium*
+<div style="display: flex; justify-content: space-between;">
 
+  <div style="width: 48%;">
+    ![Symposium Photo 1](/assets/img/news/IMG_7010.jpg)
+    *Group Picture of all my Lab Members*
+  </div>
+
+  <div style="width: 48%;">
+    ![Symposium Photo 2](/assets/img/news/WhatsApp%20Image%202023-04-26%20at%201.43.00%20PM.jpeg)
+    *Poster Presented in Research Symposium*
+  </div>
+
+</div>
 
 ***
 ## Thank You
