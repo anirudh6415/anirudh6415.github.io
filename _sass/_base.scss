@@ -32,11 +32,13 @@ table {
   }
   th {
     font-size: 1rem;
+    width: auto;
   }
 
   th {
     font-weight: bold;
     color: var(--global-text-color);
+    width: auto;
   }
   
 }
