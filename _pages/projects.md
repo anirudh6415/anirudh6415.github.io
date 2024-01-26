@@ -6,7 +6,7 @@ description: A growing collection of My cool projects.
 nav: true
 nav_order: 2
 display_categories: [Academic,Personal]
-horizontal: True
+horizontal: False
 ---
 
 <!-- pages/projects.md -->
@@ -20,7 +20,7 @@ horizontal: True
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-1">
+    <div class="row row-cols-3">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
@@ -41,7 +41,7 @@ horizontal: True
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-1">
+    <div class="row row-cols-3">
     {%- for project in sorted_projects -%}
       {% include projects_horizontal.html %}
     {%- endfor %}
