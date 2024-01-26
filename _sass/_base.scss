@@ -95,8 +95,13 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
-    font-size: 2rem;
+    font-size: 1.3rem;
   }
+  
+  .card-body {
+    height: 100px; /* Set a fixed height for the card body */
+  }
+
 
   .card-item {
     width: auto;
