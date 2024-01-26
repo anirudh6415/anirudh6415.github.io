@@ -5,7 +5,7 @@ permalink: /
 subtitle:  Computer Vision Researcher | Machine Learning, NLP, and Data Enthusiast.  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
-  image: anirudh2.0.jpg
+  image: anirudh3.0.jpg
   image_circular: True # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
