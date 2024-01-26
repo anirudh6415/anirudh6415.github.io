@@ -6,7 +6,7 @@
     {%- else -%}
     <a href="{{ project.url | relative_url }}">
       {%- endif %}
-      <div class="card hoverable" style="height:auto;width: auto;">
+      <div class="card hoverable" style="height: auto; width: auto;">
         {%- if project.img %}
         {%- include figure.html
           path=project.img
@@ -15,7 +15,7 @@
           width="250px"
           -%}
         {%- endif %}
-        <div class="card-body"style="height:auto;width: auto;">
+        <div class="card-body" style="height: auto; width: auto;">
           <h2 class="card-title ">{{ project.title }}</h2> <!--  text-lowercase -->
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0">
