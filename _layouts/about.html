@@ -22,7 +22,7 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
               <p class="image-caption">
-              {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms" style="align-items: center;"></i><span class="resume-text">Resume/CV</span><br></a>{% endif %}</p>
+              {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms" style="align-items: center;"></i><span class="resume-text" style="align-items: center;">Resume/CV</span><br></a>{% endif %}</p>
             {% endif -%}
           </div>
           {%- endif %}
