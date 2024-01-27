@@ -21,7 +21,7 @@ layout: default
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image -%}
-              {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms"></i><span class="resume-text">Resume/CV</span></a>{% endif %}
+              {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms"></i><span class="resume-text">Resume/CV</span><br></a>{% endif %}
             {% endif -%}
           </div>
           {%- endif %}
@@ -45,14 +45,13 @@ layout: default
             </div>
           
             <div class="contact-note">
-              <p>Best way to reach me is via email...........!</p>
+              <p>Best way to reach me is via email...........!</p><br><br><br>
             </div>
             {%- endif %}
           </div>
         </header>
 
         <article>
-
           <div class="clearfix">
             <p> <br> </p>
             <p> <br> </p>
@@ -60,8 +59,7 @@ layout: default
             <!-- <p>{{ page.profile.about_me }}</p> -->
             <p>{{ content }}</p>
           </div>
-          
-      
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
