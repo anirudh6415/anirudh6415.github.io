@@ -172,12 +172,12 @@ blockquote {
 }
 
 .resume-text {
-  margin-left: 5px; /* Add some space between the icon and text */
+  // margin-left: 5px; /* Add some space between the icon and text */
   font-size: 16px; /* Adjust the font size as needed */
   font-weight: bold; /* Make the text bold */
   // display: inline-block;
-  // margin-left: 0; /* Remove margin for the resume text */
-  display: inline-block; /* Change display to block for better centering */
+  margin-left: 0; /* Remove margin for the resume text */
+  display: block; /* Change display to block for better centering */
 }
 // Navbar customization
 
