@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Quest
 description: A peek into my life experiences
 importance: 1
@@ -13,14 +13,25 @@ The challenges posed by the COVID pandemic became an opportunity for me to tap i
     Memories in Pixels Captured by Moments 
 </div>
 
+<div class="row justify-content-sm-center mt-3">
+    {% for i in range(7, 34) %}
+        <div class="col-sm-4 mt-3 mt-md-0">
+            {% capture img_path %}assets/img/others/IMG-20240127-WA00{{ "%02d" | format(i) }}.jpg{% endcapture %}
+            {% include figure.html path=img_path title="Example Image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        </div>
+    {% endfor %}
+</div>
+
+
+<!-- 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/others/IMG-20240127-WA0001.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0001.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/others/IMG-20240127-WA0002.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0002.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/others/IMG-20240127-WA0003.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0003.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
+</div> -->
