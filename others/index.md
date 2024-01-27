@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Quest
 description: A peek into my life experiences
 importance: 1
