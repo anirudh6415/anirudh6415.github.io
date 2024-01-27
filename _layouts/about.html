@@ -21,7 +21,7 @@ layout: default
               path=profile_image_path
               class=profile_image_class
               alt=page.profile.image -%}
-              {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fab fa-wpforms">Resume/CV</i></a>{% endif %}
+              {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms"></i><span class="resume-text">Resume/CV</span></a>{% endif %}
             {% endif -%}
           </div>
           {%- endif %}
@@ -54,6 +54,7 @@ layout: default
         <article>
 
           <div class="clearfix">
+            <p> <br> </p>
             <p> <br> </p>
             <h2>About me<br> </h2>
             <!-- <p>{{ page.profile.about_me }}</p> -->
