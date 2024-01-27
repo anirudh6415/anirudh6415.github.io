@@ -9,6 +9,10 @@ My journey through this life has been unique due to my diverse interests and pas
 
 The challenges posed by the COVID pandemic became an opportunity for me to tap into my entrepreneurial spirit. Stepping into the shoes of my family's business, which has thrived for five decades, was no small feat, especially as I navigated the expectations of my father's loyal customers. I realized that success seldom comes easily. But it is possible to not only get beyond the obstacles but also learn from them if one has the right attitude. Leveraging the power of data analysis, I examined sales data from the past two years and identified the most popular products. With a focus on freshness and quality, I developed a slogan, "Make Fresh Sell Fresh," and implemented new packaging techniques. This organized approach not only helped me gain better feedback from the customer but also my team.
 
+<div class="caption">
+    Memories in Pixels Captured by Moments 
+</div>
+
 <div class="row justify-content-sm-center">
         {% for i in range(1, 28) %}
             <div class="col-sm-4 mt-3 mt-md-0">
@@ -16,7 +20,4 @@ The challenges posed by the COVID pandemic became an opportunity for me to tap i
                 {% include figure.html path=img_path title="Example Image" class="img-fluid rounded z-depth-1" zoomable=True %}
             </div>
         {% endfor %}
-</div>
-<div class="caption">
-    Memories in Pixels Captured by Moments 
 </div>
