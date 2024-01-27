@@ -24,3 +24,5 @@ My plans to pursue this passion were temporarily disrupted by the COVID-19 pande
 Despite my success as a baker, my love for image processing and computer vision remained strong. With this in mind, I decided to pursue graduate studies in Robotics and Autonomous Systems in Artificial Intelligence at Arizona State University to further my knowledge in machine learning.
 
 These diverse experiences have taught me an invaluable lesson - that when you love what you do, you can achieve great things. I am excited to continue exploring the intersection of engineering and AI and am eager to see where this path takes me.
+
+[Check out my other things](../others/)
