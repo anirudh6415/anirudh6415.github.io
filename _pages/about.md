@@ -1,12 +1,12 @@
 ---
 layout: about
-title: About Me
+title: About
 permalink: /
 subtitle:  Computer Vision Researcher | Machine Learning, NLP, and Data Enthusiast.  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: anirudh3.0.jpg
-  image_circular: True # crops the image to make it circular
+  image_circular: False # crops the image to make it circular
   # address: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
