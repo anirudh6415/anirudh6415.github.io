@@ -16,6 +16,7 @@ news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+cv_pdf: Anirudh_Resume.pdf
 ---
 As a `Baker-turned-Engineer` and current graduate student specializing in `Robotics and Autonomous Systems in Artificial Intelligence` at `Arizona State University`, my journey has been full of unique experiences. While my formal education began with a Undergraduate degree in `Computer Science and Engineering from Dayananda Sagar University (DSU) in Bengaluru`, I initially pursued an internship in the `Centre for Artificial Intelligence & Robotics Lab (DRDO)` in the same city. However, after a brief stint there, I found my true calling in handling data, which I explored further in collaboration with my professor, Dr. Rajesh T.M at DSU.
 
