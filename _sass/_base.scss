@@ -179,6 +179,25 @@ blockquote {
   // margin-left: 15px; /* Remove margin for the resume text */
   display: inline-block; /* Change display to block for better centering */
 }
+
+// Skills and Profenecy bar
+.skills-section {
+  text-align: center;
+}
+
+.skill-box {
+  display: inline-block;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.skill-logo {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+}
+
+
 // Navbar customization
 
 .navbar {
@@ -555,23 +574,6 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
-}
-// Skills and Profenecy bar
-.skills-section {
-  text-align: center;
-}
-
-.skill-box {
-  display: inline-block;
-  margin: 10px;
-  padding: 10px;
-  // border: 0px solid #ccc;
-  border-radius: 8px;
-}
-
-.skill-logo {
-  width: 40px; /* Adjust the size as needed */
-  height: 40px;
 }
 
 // .proficiency-bar {
