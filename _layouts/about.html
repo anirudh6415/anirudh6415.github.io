@@ -59,6 +59,33 @@ layout: default
             <!-- <p>{{ page.profile.about_me }}</p> -->
             <p>{{ content }}</p>
           </div>
+          
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-QHn/7Ohno/OBd9Wn7snt9kO0q9AgtN5rVY75XjDZp++GIOkOn+3OlLXA6q3Nq/8p2Z5FZqxa+qViMkuS3Y/6P1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+          <div class="skills-section">
+            <h2>Skills</h2>
+            
+            <!-- Skill box for Python -->
+            <div class="skill-box">
+              <i class="fab fa-python fa-3x"></i>
+              <h3>Python</h3>
+              <div class="proficiency-bar" data-percent="80">
+                <div class="proficiency-fill"></div>
+              </div>
+            </div>
+          
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              <i class="fab fa-pytorch fa-3x"></i>
+              <h3>PyTorch</h3>
+              <div class="proficiency-bar" data-percent="75">
+                <div class="proficiency-fill"></div>
+              </div>
+            </div>
+          
+            <!-- Add more skill boxes for other skills -->
+          
+          </div>
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
