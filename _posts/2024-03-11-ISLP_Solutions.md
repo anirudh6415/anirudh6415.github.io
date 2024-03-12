@@ -12,7 +12,7 @@ related_posts: true
 toc:
   sidebar: left
 ---
-[![ISLP book cover](../assets/img/project/ISLP_cover.png)](https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html)
+[![ISLP book cover](https://images.squarespace-cdn.com/content/v1/5ff2adbe3fe4fe33db902812/8b373fbe-d1b4-4351-b803-0d3cd5bba1b0/ISLP_cover.png?format=200w)](https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html)
 ## An Introduction to Statistical Learning with Applications in Python (ISLP) Solutions
 The ISLP (Introduction to Statistical Learning), written by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, and Jonathan Taylor, is considered a gold standard, to use, for students pursuing prerequisites in machine learning. This book which is commonly found to be great in quality gets huge popularity as an introductory guide in the field of Machine Learning and Data Science. <a href="https://www.statlearning.com/"><b>Click here to get PDF</b></a>
 
