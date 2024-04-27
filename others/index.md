@@ -15,32 +15,20 @@ The challenges posed by the COVID pandemic became an opportunity for me to tap i
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0001.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0002.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0003.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-
-<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0004.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0005.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0006.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
 </div>
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0007.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0006.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0008.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -52,10 +40,58 @@ The challenges posed by the COVID pandemic became an opportunity for me to tap i
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0007.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0010.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0011.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0017.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0018.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0019.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0020.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0021.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0023.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0025.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0026.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0003.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0001.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/others/IMG-20240127-WA0007.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0012.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -79,43 +115,7 @@ The challenges posed by the COVID pandemic became an opportunity for me to tap i
         {% include figure.html path="assets/img/others/IMG-20240127-WA0016.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0020.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0018.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0019.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0017.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0021.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0022.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0023.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0024.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0025.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/others/IMG-20240127-WA0026.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/others/IMG-20240127-WA0028.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
