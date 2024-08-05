@@ -22,7 +22,7 @@ layout: default
             class=profile_image_class
             alt=page.profile.image 
             zoomable=true -%}
-            {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | }}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms fa-1x"></i><span class="resume-text" style="margin-right: 100px; margin-left: 10px;"><u>Resume/CV</u></span><br></a>{% endif %}
+            {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms fa-1x"></i><span class="resume-text" style="margin-right: 100px; margin-left: 10px;"><u>Resume/CV</u></span><br></a>{% endif %}
           {% endif -%}
         </div>
         {%- endif %}
@@ -55,7 +55,6 @@ layout: default
 
         <article>
           <div class="clearfix justify-text">
-            <p> <br> </p>
             <p> <br> </p>
             <h2>About<br> </h2>
             <!-- <p>{{ page.profile.about_me }}</p> -->
@@ -197,8 +196,41 @@ layout: default
               </a>
             </div>
 
-            
 
+            <div class="skill-box">
+              <a href="https://anaconda.org/">
+                <img src="assets/img/skills/anaconda.png" alt="conda Logo" class="skill-logo">
+                <h6>OpenMM</h6>
+              </a>
+            </div>
+
+            <div class="skill-box">
+              <a href="https://aws.amazon.com/quicksight/">
+                <img src="assets/img/skills/aws_quick_sight.png" alt="quick sight Logo" class="skill-logo">
+                <h6>OpenMM</h6>
+              </a>
+            </div>
+            
+            <div class="skill-box">
+              <a href="https://aws.amazon.com/">
+                <img src="assets/img/skills/aws.jpeg" alt="aws Logo" class="skill-logo">
+                <h6>OpenMM</h6>
+              </a>
+            </div>
+
+            <div class="skill-box">
+              <a href="https://colab.research.google.com/">
+                <img src="assets/img/skills/colab.png" alt="colab Logo" class="skill-logo">
+                <h6>OpenMM</h6>
+              </a>
+            </div>
+
+            <div class="skill-box">
+              <a href="https://kubernetes.io/">
+                <img src="assets/img/skills/Kubernetes.png" alt="Kubernetes Logo" class="skill-logo">
+                <h6>OpenMM</h6>
+              </a>
+            </div>
 
             <!-- Skill box for Python -->
             <!-- <div class="skill-box">
