@@ -371,10 +371,10 @@ ul.task-list input[type="checkbox"] {
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2.5rem;
 
     a {
       i::before {
@@ -1294,4 +1294,33 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+
+// Skills and Profenecy bar
+.skills-section {
+  text-align: center;
+}
+
+.skill-box {
+  display: inline-block;
+  margin: 3px;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.skill-logo {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+}
+
+// My personal photography images
+.photography-custom-size {
+  width: 300px;
+  height: 300px; /* or any desired height */
+  object-fit: cover; /* this ensures that the image covers the container without distortion */
+}
+
+.justify-text {
+  text-align: justify;
 }

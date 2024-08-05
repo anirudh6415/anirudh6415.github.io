@@ -2,96 +2,161 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Anirudh Iyengar Kaniyar Narayana Iyengar
     - name: Date of Birth
-      value: 14th March 1879
+      value: 19th August 1998
     - name: Languages
-      value: English, German
+      value: English, Kannada, Tamil, Telugu, Hindi.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Robotics and Autonomous Systems in AI (M.S)
+      institution: Arizona State University, Tempe, AZ
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      Grades : 4.0/4.0
+        # - courses :
+        #   - CSE 591 Image Analytics & Informatics					
+        #   - CSE 598 Perception in Robotics 
+        #   - EGR 598 Applied Linear Algebra for Engineers
+        #   - BME 507 Intro Digital Image Processing					
+        #   - CSE 571 Artificial Intelligence					
+        #   - EGR 545 Robotic Systems I
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Computer Science and Engineering (B TECH)
+      institution: Dayananda Sagar University, Bengaluru, India
+      year: 2020
+      # description:
+      #     - courses : 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research & Development Associate
+      institution: JLiang Lab,Arizona State University,
+      year: July 2023 <br> <br> Dec 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Collaborating with Valley Wise Health on deep learning models for lung disease classification, localization, and segmentation.
+        - Applying advanced techniques and computed, analyzed image data to optimize models based on lab research in POPAR, Adam, Ark, and PEAC.
+        - Facilitating the integration of developed models like Dino, Intern image, UPerNet, and Mask Dino with the mmdetection, Detectron2 frameworks to advance lung disease diagnostics and through the utilization of transfer learning techniques.
+
+    - title: Research & Development Associate
+      institution: Dayananda Sagar University, Bengaluru, India
+      year: June 2020 <br> <br> Dec 2020
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Performed preprocessing, analysis, and annotation of large datasets of driving images.
+        - Utilized the CVAT open data annotation tool for precise data annotation and conducted analysis on data using DL algorithms.
+        - Demonstrated analysis and annotation of data, resulting in the submission of a comprehensive report outlining findings.
+    
+    - title: Student Trainee	
+      institution: Centre For Artificial Intelligence and Robotics,DRDO Govt of India, Bengaluru, India
+      year: Jan 2020 <br> <br> May 2020
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - Processed a total of 389 image pairs, including 194 training image pairs and 195 test image pairs of stereo image datasets for KITTI 2012, and KITTI 2015.
+        - Appraised GWC-Net using deep learning techniques and achieved 5% higher accuracy in disparity estimation.
+        - Evaluated performance of GWC-Net model on multiple datasets.
+        - Demonstrated the effectiveness of GWC-Net by improving the accuracy of disparity estimation on multiple datasets.
+        
+- title: Other Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Proprietor	
+      institution: Hassan Iyengar's Bakery, Bengaluru, India.
+      year: Jan 2021 <br> <br> Aug 2022
+      description:
+        - Conducted analysis of pre-COVID, during COVID sales data to identify trends and gain insights. Utilized data to identify the most popular product sold per day and optimized packaging systems for efficient customer experience.
+        - Implemented the slogan "Made Fresh - Sold Fresh" to highlight products sold within 24-hours, resulting in 25% increase in revenue.  Successfully managed a team of 15 employees, introducing new products, ensuring hygiene standards, and fostering strong relationships with suppliers, vendors, local authorities, and customers.
 
-- title: Honors and Awards
+
+
+- title: Academic Projects
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: <a href="https://github.com/anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection">Detection For Autonomous Driving using Argoversehd</a>
+      year: Spring 2020
+      description: 
+        - Optimized object detection for autonomous driving scenarios leveraging the Argoversehd traffic dataset.
+        - Fine-tuned YOLOv8 model for vehicles, persons, traffic signals, and road signs. Achieved a 1.5% higher mean Average Precision (mAP) than the original Argoversehd implementation and visualized using ClearML tool.
+    - title: <a href="https://github.com/anirudh6415/">Anytime Stereo Image Depth Estimation using KITTI2012</a>
+      year: Spring 2023
+      description: 
+        - Identified the need to enhance depth perception for stereo driving images and tasked with finding depth after calibrating disparity in the images.
+        - Developed an innovative approach using a Unet model that incorporated a disparity network and residual map for each layer of the decoder, Improved the performance by aggregating 2 decoders in the model one after the other.
+        - Successfully predicted disparity images in real-time for each layer of the decoder, resulting in 5% performance better than the original implementation.
+
+    - title: <a href="https://github.com/anirudh6415/">Function Integration on Colonoscopy Polyp Dataset</a>
+      year: Spring 2023
+      description: 
+        - Collaborated in a team of three to design a Swin Transformer-based UNET architecture as a base model and added branches to perform classification and object localization along with a segmentation branch for Colon polyp images.
+        - An all-in-one model that performs three tasks at once instead of needing three models and outperforms the separate models by at least 15%. Combined effort with teammates under the guidance of Prof. Dr. Jianming Liang.
+    
+    - title: <a href="https://github.com/anirudh6415/JSRT_Unet">Image Segmentation on three different modalities</a>
+      year: Spring 2023
+      description: 
+        - Collaborated with a team of three to design a UNet model for medical image segmentation.
+        - Implemented the model on three different modalities, including colonoscopy images, CAD PE images, and JSRT CT images.
+        - Achieved high segmentation accuracy with Dice Coefficient scores of 0.89 on colonoscopy images, 0.75 on CAD PE images, and 0.95 on JSRT CT images.
+
+    - title: <a href="https://github.com/anirudh6415/GwcNet">Group-Wise Correlation Stereo Network</a>
+      year: Spring 2020
+      description: 
+        - Implemented a Group-Wise Correlation Stereo Network for disparity estimation in stereo images using CNN and PyTorch and applied the technique to driving scene datasets from the KITTI Vision Benchmark Suite.
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Image Processing.
+      items: 
+        - Medical Image.
+        - Natural Image.
+    - title: Computer Vision.
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Autonomous Driving, Stereo Images, Monacular Images.
+        - Perception.
+    - title: Statistical Machine Learning
+    - title: Data science
+    - title: Sentimental analysis
+    - title: Time series data 
 
-- title: Other Interests
-  type: list
+- title: Activities 
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Student Cultural Coordinator
+      institution: Dayananda Sagar University
+      year:  Aug 2017 <br> <br> May 2020
+      description: 
+        - As a student cultural coordinator, I successfully conducted three cultural fests in college. 
+        - Managing these events taught me how to effectively deal with individuals with unique perspectives and to effectively lead a team towards maximum efficiency. 
+        - My experiences as a cultural leader during my undergraduate studies have been instrumental in shaping me holistically, both academically and non-academically. 
+        - It is a experience that I regard as one of the most valuable in my personal and professional development
+    
+    - title: Member of Engineers Without Borders India
+      institution: Dayananda Sagar University
+      year:  Aug 2017 <br> <br> May 2020
+    
+    - title: Actor 
+      institution: Ranga Shodha (ರಂಗ ಶೋಧ)
+      year:  Jan 2017 <br> <br> Dec 2017
+      description: 
+        - As a dedicated member of the drama club "Ranga Shodha," I had the opportunity to showcase my acting skills and passion for the performing arts. I portrayed the role of "Kali Deva" (Kalki) in three plays during my tenure with the club. One of the notable productions was "Shmashana Kuruskeshtra," which was performed at Ravindra Kalakeshtra theater in Bangalore and Adima Theater in Kolar.
+
+        - My role as "Kali Deva" required me to embody the character of Kalki, the divine figure from Hindu mythology associated with the Kali Yuga (the age of vice and ignorance). I was responsible for bringing the character to life on stage, portraying its nuances, emotions, and complexities with depth and authenticity.
+
+        - Through my involvement with "Ranga Shodha," I honed my acting skills, learned to collaborate with fellow actors and crew members, and gained a deep appreciation for the art of theater. It was a fulfilling experience that allowed me to connect with audiences and contribute to the vibrant theater scene in Bangalore and Kolar.
+
+        - I am proud to have been part of "Ranga Shodha" and grateful for the invaluable experiences and memories that have enriched my journey as an actor.

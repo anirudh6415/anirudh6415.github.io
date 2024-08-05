@@ -1,14 +1,16 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - anirudh6415
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection
+  - anirudh6415/JSRT_Unet
+  - anirudh6415/Colon_seg_class
+  - anirudh6415/Clustering_Xray-s
+  - anirudh6415/ISLP_learning
+  - anirudh6415/AnyNet
+  - anirudh6415/Function-Integration-On-Colonoscopy-Dataset
+  - anirudh6415/CAD-PE-SegLoc
+  - anirudh6415/PE-CT-Classification-SwinTransformer
+  - anirudh6415/NIH-CXR-Swin

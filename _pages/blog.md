@@ -25,7 +25,9 @@ pagination:
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <div class ="blog_description justify-text">
+      <p>{{ site.blog_description }}</p>
+    </div>
   </div>
   {% endif %}
 
@@ -194,3 +196,16 @@ pagination:
 {% endif %}
 
 </div>
+
+<script 
+  data-name="BMC-Widget"
+  data-cfasync="false"
+  src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+  data-id="akaniyarp"
+  data-description="Support me on Buy me a coffee!"
+  data-message="If you appreciate my work, please consider supporting me with a coffee. Your generosity fuels my passion to create, contribute, and innovate."
+  data-color="#5F7FFF"
+  data-position="Right"
+  data-x_margin="14"
+  data-y_margin="14">
+</script>

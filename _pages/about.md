@@ -1,25 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle:  Computer Vision Researcher | Machine Learning, NLP, and Data Enthusiast.  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: anirudh3.0.jpg
+  image_circular: False # crops the image to make it circular
+  # address: >
+  #   <p>555 your office number</p>
+  #   <p>123 your address street</p>
+  #   <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+latest_posts: true 
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+cv_pdf: Anirudh_Computer_Vision_Resume.pdf
 ---
+With a curious mind and a stubborn heart, I aspire to be a computer vision engineer and currently pursuing a `Master's` in `Robotics and Autonomous Systems in Artificial Intelligence` at `Arizona State University`. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My passion for computer science stems from a creative child who always loved tasks involving innovations and challenges. Driven by the same passion, I dedicated myself to the pursuit of excellence, earning an undergraduate degree in `Computer Science and Engineering`. I further pursued an internship at the `Centre for Artificial Intelligence & Robotics Lab (DRDO)` in Bangalore. 
+As I delved deeper into AI and Robotics, I realized that my true calling lay not just in engineering the future but in sculpting it through the art of handling data. The revelation unfolded during a transformative collaboration with my mentor, Jimmy. My current area of interest and projects are `A multitasking model capable of performing both detection and segmentation on medical images.`, as well as incorporating `Capabilities for processing and understanding text and reports`.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I envision myself to be a computer vision engineer, always eager to learn and create to positively impact the intersection of technology and life. My vision is to contribute to advancements that enhance our world and make it a better place. [**A peek into my life experiences..**](../others/)<i class="fa fa-camera-retro fa-1x" aria-hidden="true"></i>
