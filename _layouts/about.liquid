@@ -3,196 +3,242 @@ layout: default
 ---
 
 <!-- about.liquid -->
-<div class="post">
-  <header class="post-header">
-    {% if page.profile -%}
-    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %}
-        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+  <div class="post">
+    <header class="post-header">
+      {% if page.profile -%}
+        <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          {%- if page.profile.image %}
+            {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
-        {% if page.profile.image_circular %}
-          {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-        {% else %}
-          {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
-          <!-- {%- assign profile_image_class = "img-fluid z-depth-1 rounded-square" -%} -->
-        {% endif %}
+            {% if page.profile.image_circular %}
+              {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+            {% else %}
+              {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+              <!-- {%- assign profile_image_class = "img-fluid z-depth-1 rounded-square" -%} -->
+            {% endif %}
 
-        {% include figure.liquid
-        path=profile_image_path
-        class=profile_image_class
-        alt=page.profile.image 
-        zoomable=true -%}
-        {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms fa-1x"></i><span class="resume-text" style="margin-right: 100px; margin-left: 10px;"><u>Resume/CV</u></span><br></a>{% endif %}
-      {% endif -%}
-    </div>
-    {%- endif %}
-    <h1 class="post-title">
-     {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-    </h1>
-    <p class="desc"><b>{{ page.subtitle }}</b></p>
-    {%- if page.profile.address %}
-      <div class="address">
-        {{ page.profile.address }}
-      </div>
-    {%- endif %}
-    {%- if page.social %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.liquid %} 
-        <!-- <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
-       -->
-      </div>
-      
-      <div class="contact-note">
-        <p>Best way to reach me is via email...........!</p><br><br><br>
-      </div>
-      {%- endif %}
-    </div>
-  </header>
+            {% include figure.liquid
+            path=profile_image_path
+            class=profile_image_class
+            alt=page.profile.image 
+            zoomable=true -%}
+            {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms fa-1x"></i><span class="resume-text" style="margin-right: 100px; margin-left: 10px;"><u>Resume/CV</u></span><br></a>{% endif %}
+          {% endif -%}
+        </div>
+        {%- endif %}
+        <h1 class="post-title">
+          {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+        </h1>
+        <p class="desc"><b>{{ page.subtitle }}</b></p>
+        {%- if page.profile.address %}
+          <div class="address">
+            {{ page.profile.address }}
+          </div>
+        {%- endif %}
+        {%- if page.social %}
+        <div class="social">
+          <div class="contact-icons">
+            {% include social.liquid %} 
+            <!-- <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+            -->
+          </div>
+            
+          <div class="contact-note">
+            <p>Best way to reach me is via email...........!</p><br><br><br>
+          </div>
+        </div>
+        {%- endif %}
+        
+    </header>
 
-  <article>
-    <div class="clearfix justify-text">
-      <p> <br> </p>
-      <p> <br> </p>
-      <h2>About<br> </h2>
-      <!-- <p>{{ page.profile.about_me }}</p> -->
-      <p>{{ content }}</p>
-    </div>
-    
-    <div class="skills-section">
-      <h2>Skills</h2>
-      <div class="skill-box">
-        <a href="https://www.python.org/">
-          <img src="assets/img/skills/python.svg" alt="Python Logo" class="skill-logo">
-          <h6>Python</h6>
-        </a>
-      </div>
-    
-      <!-- Skill box for PyTorch -->
-      <div class="skill-box">
-        <a href="https://pytorch.org/">
-          <img src="assets/img/skills/pytorch.svg" alt="PyTorch Logo" class="skill-logo">
-          <h6>PyTorch</h6>
-        </a>
-      </div>
+        <article>
+          <div class="clearfix justify-text">
+            <p> <br> </p>
+            <p> <br> </p>
+            <h2>About<br> </h2>
+            <!-- <p>{{ page.profile.about_me }}</p> -->
+            <p>{{ content }}</p>
+          </div>
+          
+          <div class="skills-section">
+            <h2>Skills</h2>
+            <div class="skill-box">
+              <a href="https://www.python.org/">
+                <img src="assets/img/skills/python.svg" alt="Python Logo" class="skill-logo">
+                <h6>Python</h6>
+              </a>
+            </div>
+          
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              <a href="https://pytorch.org/">
+                <img src="assets/img/skills/pytorch.svg" alt="PyTorch Logo" class="skill-logo">
+                <h6>PyTorch</h6>
+              </a>
+            </div>
 
-      <div class="skill-box">
-        <img src="assets/img/skills/c-plus-plus-svgrepo-com.svg" alt="C++ Logo" class="skill-logo">
-        <h6>C++</h6>
-      </div>
-  
-      <!-- Skill box for SQL -->
-      <div class="skill-box">
-        <img src="assets/img/skills/sql-svgrepo-com.svg" alt="SQL Logo" class="skill-logo">
-        <h6>SQL</h6>
-      </div>
+            <div class="skill-box">
+              
+              <img src="assets/img/skills/c-plus-plus-svgrepo-com.svg" alt="C++ Logo" class="skill-logo">
+              <h6>C++</h6>
+            </div>
+        
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              
+                <img src="assets/img/skills/sql-svgrepo-com.svg" alt="SQL Logo" class="skill-logo">
+                <h6>SQL</h6>
+              
+            </div>
 
-      <div class="skill-box">
-        <a href="https://www.mathworks.com/products/matlab.html">
-        <img src="assets/img/skills/matlab-svgrepo-com.svg" alt="Matlab Logo" class="skill-logo">
-        <h6>MatLab</h6>
-      </a>
-      </div>
-  
-      <!-- Skill box for R -->
-      <div class="skill-box">
-        <a href="https://www.r-project.org/about.html">
-          <img src="assets/img/skills/Rlogo.svg" alt="R Logo" class="skill-logo">
-          <h6>R</h6>
-        </a>
-      </div>
-      
-      <div class="skill-box">
-        <a href="https://www.tableau.com/">
-        <img src="assets/img/skills/tableau-icon-svgrepo-com.svg" alt="Tableau Logo" class="skill-logo">
-        <h6>Tableau</h6>
-      </a>
-      </div>
+            <div class="skill-box">
+              <a href="https://www.mathworks.com/products/matlab.html">
+              <img src="assets/img/skills/matlab-svgrepo-com.svg" alt="Matlab Logo" class="skill-logo">
+              <h6>MatLab</h6>
+            </a>
+            </div>
+        
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              <a href="https://www.r-project.org/about.html">
+                <img src="assets/img/skills/Rlogo.svg" alt="R Logo" class="skill-logo">
+                <h6>R</h6>
+              </a>
+            </div>
+            
+            <div class="skill-box">
+              <a href="https://www.tableau.com/">
+              <img src="assets/img/skills/tableau-icon-svgrepo-com.svg" alt="Tableau Logo" class="skill-logo">
+              <h6>Tableau</h6>
+            </a>
+            </div>
 
-      <div class="skill-box">
-        <a href="https://pandas.pydata.org/">
-        <img src="assets/img/skills/Pandas_mark.svg" alt="Pandas Logo" class="skill-logo">
-        <h6>Pandas</h6>
-      </a>
-      </div>
-  
-      <!-- Skill box for Numpy -->
-      <div class="skill-box">
-        <a href="https://numpy.org/">
-          <img src="assets/img/skills/numpy-svgrepo-com.svg" alt="Numpy Logo" class="skill-logo">
-          <h6>Numpy</h6>
-        </a>
-      </div>
+            <div class="skill-box">
+              <a href="https://pandas.pydata.org/">
+              <img src="assets/img/skills/Pandas_mark.svg" alt="Pandas Logo" class="skill-logo">
+              <h6>Pandas</h6>
+            </a>
+            </div>
+        
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              <a href="https://numpy.org/">
+                <img src="assets/img/skills/numpy-svgrepo-com.svg" alt="Numpy Logo" class="skill-logo">
+                <h6>Numpy</h6>
+              </a>
+            </div>
 
-      <div class="skill-box">
-        <a href="https://www.docker.com/">
-        <img src="assets/img/skills/docker-svgrepo-com.svg" alt="Docker Logo" class="skill-logo">
-        <h6>Docker</h6>
-      </a>
-      </div>
+            <div class="skill-box">
+              <a href="https://www.docker.com/">
+              <img src="assets/img/skills/docker-svgrepo-com.svg" alt="Docker Logo" class="skill-logo">
+              <h6>Docker</h6>
+            </a>
+            </div>
 
-      <div class="skill-box">
-        <a href="https://git-scm.com/">
-        <img src="assets/img/skills/git-svgrepo-com.svg" alt="Git Logo" class="skill-logo">
-        <h6>Git</h6>
-      </a>
-      </div>
-  
-      <!-- Skill box for OpenCV -->
-      <div class="skill-box">
-        <a href="https://opencv.org/">
-          <img src="assets/img/skills/opencv-svgrepo-com.svg" alt="OpenCv Logo" class="skill-logo">
-          <h6>OpenCV</h6>
-        </a>
-      </div>
+            <div class="skill-box">
+              <a href="https://git-scm.com/">
+              <img src="assets/img/skills/git-svgrepo-com.svg" alt="Git Logo" class="skill-logo">
+              <h6>Git</h6>
+            </a>
+            </div>
+        
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              <a href="https://opencv.org/">
+                <img src="assets/img/skills/opencv-svgrepo-com.svg" alt="OpenCv Logo" class="skill-logo">
+                <h6>OpenCV</h6>
+              </a>
+            </div>
 
-      <div class="skill-box">
-        <a href="https://huggingface.co/">
-        <img src="assets/img/skills/hf-logo.svg" alt="hf Logo" class="skill-logo">
-        <h6>HuggingFaces</h6>
-      </a>
-      </div>
-  
-      <!-- Skill box for OpenAI -->
-      <div class="skill-box">
-        <a href="https://openai.com/blog/openai-api">
-          <img src="assets/img/skills/openai-svgrepo-com.svg" alt="OpenAI Logo" class="skill-logo">
-          <h6>Open AI</h6>
-        </a>
-      </div>
+            <div class="skill-box">
+              <a href="https://huggingface.co/">
+              <img src="assets/img/skills/hf-logo.svg" alt="hf Logo" class="skill-logo">
+              <h6>HuggingFaces</h6>
+            </a>
+            </div>
+        
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              <a href="https://openai.com/blog/openai-api">
+                <img src="assets/img/skills/openai-svgrepo-com.svg" alt="OpenAI Logo" class="skill-logo">
+                <h6>Open AI</h6>
+              </a>
+            </div>
 
-      <div class="skill-box">
-        <a href="https://huggingface.co/">
-        <img src="assets/img/skills/Jupyter_notebook_logo.svg" alt="Jupyter Notebook Logo" class="skill-logo">
-        <h6>Jupyter Notebook</h6>
-      </a>
-      </div>
-  
-      <!-- Skill box for VS Code -->
-      <div class="skill-box">
-        <a href="https://code.visualstudio.com/">
-          <img src="assets/img/skills/vscode-svgrepo-com.svg" alt="Vs code Logo" class="skill-logo">
-          <h6>VS code</h6>
-        </a>
-      </div>
+            <div class="skill-box">
+              <a href="https://huggingface.co/">
+              <img src="assets/img/skills/Jupyter_notebook_logo.svg" alt="Jupyter Notebook Logo" class="skill-logo">
+              <h6>Jupyter Notebook</h6>
+            </a>
+            </div>
+        
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              <a href="https://code.visualstudio.com/">
+                <img src="assets/img/skills/vscode-svgrepo-com.svg" alt="Vs code Logo" class="skill-logo">
+                <h6>VS code</h6>
+              </a>
+            </div>
 
-      <div class="skill-box">
-        <a href="https://scikit-learn.org/stable/">
-        <img src="assets/img/skills/Scikit_learn_logo_small.svg" alt="Scikit_learn Logo" class="skill-logo">
-        <h6>Scikit learn</h6>
-      </a>
-      </div>
-  
-      <!-- Skill box for OpenMM -->
-      <div class="skill-box">
-        <a href="https://github.com/open-mmlab">
-          <img src="assets/img/skills/mmdet-logo.png" alt="OpenMM Logo" class="skill-logo">
-          <h6>MM Detection</h6>
-        </a>
-      </div>
-      
-    </div>
-  </article>
-</div>
+            <div class="skill-box">
+              <a href="https://scikit-learn.org/stable/">
+              <img src="assets/img/skills/Scikit_learn_logo_small.svg" alt="Scikit_learn Logo" class="skill-logo">
+              <h6>Scikit learn</h6>
+            </a>
+            </div>
+        
+            <!-- Skill box for PyTorch -->
+            <div class="skill-box">
+              <a href="https://github.com/open-mmlab">
+                <img src="assets/img/skills/mmdet-logo.png" alt="mmdet Logo" class="skill-logo">
+                <h6>OpenMM</h6>
+              </a>
+            </div>
+
+            
+
+
+            <!-- Skill box for Python -->
+            <!-- <div class="skill-box">
+              <i class="fab fa-python fa-3x"></i>
+              <h3>Python</h3>
+            </div>-->
+          
+            <!-- Skill box for PyTorch -->
+            <!-- <div class="skill-box">
+              <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="skill-icon">
+                <title>PyTorch</title>
+                <path d="M12.005 0L4.952 7.053a9.865 9.865 0 000 14.022 9.866 9.866 0 0014.022 0c3.984-3.9 3.986-10.205.085-14.023l-1.744 1.743c2.904 2.905 2.904 7.634 0 10.538s-7.634 2.904-10.538 0-2.904-7.634 0-10.538l4.647-4.646.582-.665zm3.568 3.899a1.327 1.327 0 00-1.327 1.327 1.327 1.327 0 001.327 1.328A1.327 1.327 0 0016.9 5.226 1.327 1.327 0 0015.573 3.9z"/>
+              </svg>
+              <h3>PyTorch</h3>
+            </div> -->
+          
+            <!-- Add more skill boxes for other skills -->
+          
+          </div>
+
+          <!-- News -->
+          {% if page.news and site.announcements.enabled -%}
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+            {%- include news.liquid limit=true %}
+          {%- endif %}
+
+          <!-- Latest posts -->
+          {% if page.latest_posts -%}
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest posts</a></h2>
+            {%- include latest_posts.liquid %}
+          {%- endif %}
+
+          <!-- Selected papers -->
+          {% if page.selected_papers -%}
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected publications</a></h2>
+            {%- include selected_papers.liquid %}
+          {%- endif %}
+
+          <!-- Social -->
+          
+        </article>
+        
+  </div>
