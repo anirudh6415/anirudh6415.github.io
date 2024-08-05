@@ -1,777 +1,316 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://anirudh6415.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://anirudh6415.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-08-05T04:10:27+00:00</updated><id>https://anirudh6415.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://anirudh6415.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://anirudh6415.github.io/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://anirudh6415.github.io/blog/2024/tabs</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://anirudh6415.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://anirudh6415.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-08-05T09:47:17+00:00</updated><id>https://anirudh6415.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">ILSP Solutions</title><link href="https://anirudh6415.github.io/blog/2024/ISLP_Solutions/" rel="alternate" type="text/html" title="ILSP Solutions"/><published>2024-03-11T14:14:00+00:00</published><updated>2024-03-11T14:14:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/ISLP_Solutions</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/ISLP_Solutions/"><![CDATA[<p align="center"> <a href="https://hastie.su.domains/ISLP/ISLP_website.pdf.download.html"> <img src="https://images.squarespace-cdn.com/content/v1/5ff2adbe3fe4fe33db902812/8b373fbe-d1b4-4351-b803-0d3cd5bba1b0/ISLP_cover.png?format=100w" alt="ISLP book cover"/> </a> </p> <h2 id="an-introduction-to-statistical-learning-with-applications-in-python-islp-solutions">An Introduction to Statistical Learning with Applications in Python (ISLP) Solutions</h2> <p>The ISLP (Introduction to Statistical Learning), written by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani, and Jonathan Taylor, is considered a gold standard, to use, for students pursuing prerequisites in machine learning. This book which is commonly found to be great in quality gets huge popularity as an introductory guide in the field of Machine Learning and Data Science. <a href="https://www.statlearning.com/"><b>Click here to get PDF</b></a></p> <p>The text covers mathematical and statistical theory of machine learning as well as applied labs in the programming language Python.</p> <p>Below, you’ll find exercise solutions written in JupyterLab using Python and Markdown, hosted on GitHub, serving as a demonstration of learning and reinforcement of concepts.</p> <h3 id="chapter-2-statistical-learning">Chapter 2: Statistical Learning</h3> <ul> <li><strong>Topics:</strong> What is statistical learning?, Basics of statistics</li> <li><strong>Lab:</strong> <a href="https://github.com/anirudh6415/ISLP_learning/blob/main/Exercises/02_Statistical_Learning/Ch02-statlearn-lab.ipynb"><b>Ch02-statlearn-lab</b></a></li> <li><strong>Exercise:</strong> <a href="https://github.com/anirudh6415/ISLP_learning/blob/main/Exercises/02_Statistical_Learning/Ch02-2.4-Exercise.ipynb"><b>Ch02-2.4-Exercise</b></a></li> </ul> <h3 id="chapter-3-linear-regression">Chapter 3: Linear Regression</h3> <ul> <li><strong>Topics:</strong> Linear regression, Multi Regression</li> <li><strong>Lab:</strong> <a href="https://github.com/anirudh6415/ISLP_learning/blob/main/Exercises/03_Linear_Regression/Ch03-linreg-lab.ipynb"><b>Ch03-linreg-lab</b></a></li> <li><strong>Exercise:</strong> <a href="https://github.com/anirudh6415/ISLP_learning/blob/main/Exercises/03_Linear_Regression/Ch03-3.7-Exercise.ipynb"><b>Ch03-3.7-Exercise</b></a></li> </ul> <h3 id="chapter-4-classification">Chapter 4: Classification</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-5-resampling-methods">Chapter 5: Resampling Methods</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-6-linear-model-selection-and-regularization">Chapter 6: Linear Model Selection and Regularization</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-7-moving-beyond-linearity">Chapter 7: Moving Beyond Linearity</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-8-tree-based-methods">Chapter 8: Tree-Based Methods</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-9-support-vector-machines">Chapter 9: Support Vector Machines</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-10-deep-learning">Chapter 10: Deep Learning</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-11-survival-analysis">Chapter 11: Survival Analysis</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-12-unsupervised-learning">Chapter 12: Unsupervised Learning</h3> <p><em>(Solutions not yet updated)</em></p> <h3 id="chapter-13-multiple-testing">Chapter 13: Multiple Testing</h3> <p><em>(Solutions not yet updated)</em></p>]]></content><author><name></name></author><category term="Statstical_Machine_Learning"/><category term="Python"/><category term="ML"/><category term="Statics"/><category term="Data_science"/><category term="ML"/><summary type="html"><![CDATA[An Introduction to Statistical Learning with Applications in Python (ISLP) Solutions]]></summary></entry><entry><title type="html">OpenmmLab Tutorials</title><link href="https://anirudh6415.github.io/blog/2023/openmmlab_tutorials/" rel="alternate" type="text/html" title="OpenmmLab Tutorials"/><published>2023-06-10T14:14:00+00:00</published><updated>2023-06-10T14:14:00+00:00</updated><id>https://anirudh6415.github.io/blog/2023/openmmlab_tutorials</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2023/openmmlab_tutorials/"><![CDATA[<h2 id="openmmlab-a-comprehensive-tutorial">OpenMMLab: A Comprehensive Tutorial</h2> <h3 id="introduction-to-openmmlab-a-comprehensive-tutorial">Introduction to OpenMMLab: A Comprehensive Tutorial</h3> <p>Welcome to our comprehensive tutorial on OpenMMLab!<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> In this blog post, we will delve into the world of OpenMMLab and explore its various repositories, such as mmdet, mmsegmentation, mmclassification and so on. Each of these repositories is tailored to specific computer vision tasks, providing ready-to-use implementations and tools to help you get started quickly.</p> <p>OpenMMLab is an open-source toolbox designed to facilitate research and development in the field of computer vision. It provides a wide range of modules and functionalities that cover all aspects of the computer vision pipeline, including data preparation, model training, evaluation, and more. By leveraging the power of OpenMMLab, researchers and developers can accelerate their computer vision projects and unlock new possibilities in the realm of visual perception.</p> <p>The OpenMMLab project overview can be broadly categorized into several basic sections which we will cover in the tutorial.</p> <ol> <li>Configs</li> <li>Data: Dataset Meta Information,Dataset Pipeline <ul> <li>Augmentation</li> <li>Transformation</li> <li>Encoding</li> <li>Packing</li> </ul> </li> <li>Model: <ul> <li>Data Preprocessor</li> <li>Backbone</li> <li>Neck</li> <li>Head</li> </ul> </li> <li>Training and Validation</li> <li>Inference of model</li> <li>Visualization</li> </ol> <p>Throughout this tutorial, we will explore each of these modules in detail, providing practical examples and step-by-step guidance on how to effectively use OpenMMLab for your computer vision projects. By the end of this tutorial, you will have a solid understanding of OpenMMLab’s capabilities and be ready to apply it to your own research or development endeavors.</p> <p>So, let’s dive into the world of OpenMMLab and unlock the full potential of computer vision!</p> <blockquote> <p><strong>Note:</strong> Before proceeding, make sure you have OpenMMLab installed in your computing environment. You can find the installation instructions and further documentation in the official OpenMMLab repository <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.<em>Please refer the offical documentation for further details.</em> </p> </blockquote> <h3 id="config-files">Config Files</h3> <p>The Config Files overview can be broadly categorized into several sections:</p> <ul> <li>General: This includes essential functionalities like environment management, hooks for customizing workflows, checkpoint saving and loading, logging, and visualization tools.</li> <li>Data: OpenMMLab offers powerful tools for handling datasets, including dataset classes, dataloaders for efficient data loading, and data augmentation techniques to enhance training diversity.</li> <li>Training: The training module covers various aspects such as optimizers for gradient descent, learning rate schedulers to control the learning process, and other related functionalities.</li> <li>Model: OpenMMLab provides a modular approach for building computer vision models. It includes components like backbones (feature extraction networks), necks (intermediate feature fusion modules), heads (prediction modules), and loss functions for training.</li> <li>Evaluation: The evaluation module encompasses metrics to measure model performance and evaluators that facilitate the evaluation process.</li> </ul> <h4 id="structure-of-config-files">Structure of Config files</h4> <p>The <a href="https://mtli.github.io/streaming/"><b>Argoverse dataset</b></a>, which forms the basis of our object detection experiment using YOLOv8 models, consists of a total of 66,954 images. The dataset is divided into three subsets: training, validation, and testing, with 39,384, 12,507, and 15,063 images, respectively. The training and validation subsets contain annotations in the COCO format, while the testing subset lacks ground truth annotations. In the absence of annotations, we will utilize the trained YOLOv8 models to predict and detect objects within the test images.</p> <p>The Argoverse dataset encompasses eight classes of objects, namely: “person,” “bicycle,” “car,” “motorcycle,” “bus,” “truck,” “traffic_light,” and “stop_sign.” These classes represent common objects typically found in vechile driving contexts.</p> <p>To prepare the dataset for YOLOv8, a specific directory structure is required.</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">root_data</span>
+<span class="s">├── train</span>
+<span class="s">│   ├── images</span>
+<span class="s">│   │   ├── image1.jpg</span>
+<span class="s">│   │   ├── image2.jpg</span>
+<span class="s">│   │   └── ...</span>
+<span class="s">│   └── labels</span>
+<span class="s">│       ├── image1.txt</span>
+<span class="s">│       ├── image2.txt</span>
+<span class="s">│       └── ...</span>
+<span class="s">├── val</span>
+<span class="s">│   ├── images</span>
+<span class="s">│   │   ├── image1.jpg</span>
+<span class="s">│   │   ├── image2.jpg</span>
+<span class="s">│   │   └── ...</span>
+<span class="s">│   └── labels</span>
+<span class="s">│       ├── image1.txt</span>
+<span class="s">│       ├── image2.txt</span>
+<span class="s">│       └── ...</span>
+<span class="s">└── test</span>
+    <span class="s">└── images</span>
+        <span class="s">├── image1.jpg</span>
+        <span class="s">├── image2.jpg</span>
+        <span class="s">└── ...</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
+</code></pre></div></div> <p>To meet the YOLO format requirements, the annotations need to be converted from the COCO format to the YOLO format. Each linein the labels text file represents a single object annotation with its corresponding class ID, normalized coordinates, and dimensions.</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">Image Label Text file</span><span class="pi">:</span>
+<span class="s">class_id x_center y_center width height</span>
+<span class="s">class_id x_center y_center width height</span>
+<span class="s">class_id x_center y_center width height</span>
+<span class="nn">...</span>
 
-Content 1
+</code></pre></div></div> <p>Here is a sneak peek of the code used to convert the annotations to the YOLO format:</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="s">def convert_annotations_to_yolo_format(data, file_names, output_path)</span><span class="err">:</span>
+    <span class="na">def get_img(filename)</span><span class="pi">:</span>
+        <span class="s">for img in data['images']</span><span class="err">:</span>
+            <span class="s">if img['file_name'] == filename</span><span class="err">:</span>
+                <span class="s">return img</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="na">def get_img_ann(image_id)</span><span class="pi">:</span>
+        <span class="s">img_ann = []</span>
+        <span class="s">isFound = False</span>
+        <span class="s">for ann in data['annotations']</span><span class="err">:</span>
+            <span class="s">if ann['image_id'] == image_id</span><span class="err">:</span>
+                <span class="s">img_ann.append(ann)</span>
+                <span class="s">isFound = True</span>
+        <span class="s">if isFound</span><span class="err">:</span>
+            <span class="s">return img_ann</span>
+        <span class="s">else</span><span class="err">:</span>
+            <span class="s">return None</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="s">count = </span><span class="m">0</span>
 
-Content 2
+    <span class="na">for filename in file_names</span><span class="pi">:</span>
+        <span class="c1"># Extracting image</span>
+        <span class="s">img = get_img(filename)</span>
+        <span class="s">img_id = img['id']</span>
+        <span class="s">img_w = img['width']</span>
+        <span class="s">img_h = img['height']</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+        <span class="s"># Get Annotations for this image</span>
+        <span class="s">img_ann = get_img_ann(img_id)</span>
+        <span class="s">fname = filename.split(".")[0]</span>
+        <span class="s">if img_ann</span><span class="err">:</span>
+            <span class="c1"># Opening file for the current image</span>
+            <span class="s">file_object = open(f"{output_path}/{fname}.txt", "a")</span>
+        <span class="s">if img_ann is not None</span><span class="err">:</span>
+            <span class="na">for ann in img_ann</span><span class="pi">:</span>
+                <span class="s">current_category = ann['category_id']</span>  <span class="c1"># As YOLO format labels start from 0</span>
+                <span class="s">current_bbox = ann['bbox']</span>
+                <span class="s">x = current_bbox[0]</span>
+                <span class="s">y = current_bbox[1]</span>
+                <span class="s">w = current_bbox[2]</span>
+                <span class="s">h = current_bbox[3]</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="a18e524e-386f-4e28-bc1e-98f4621b3a8f" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="a18e524e-386f-4e28-bc1e-98f4621b3a8f" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="ad053c4c-4adc-4362-be85-010c0ecbe568" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="ad053c4c-4adc-4362-be85-010c0ecbe568" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="6300664d-5c5a-4c58-9f44-e5f216af038d" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="6300664d-5c5a-4c58-9f44-e5f216af038d" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://anirudh6415.github.io/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://anirudh6415.github.io/blog/2024/typograms</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://anirudh6415.github.io/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/post-citation</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://anirudh6415.github.io/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/pseudocode</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://anirudh6415.github.io/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/code-diff</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
+                <span class="s"># Finding midpoints</span>
+                <span class="s">x_centre = (x + (x+w))/2</span>
+                <span class="s">y_centre = (y + (y+h))/2</span>
 
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
+                <span class="s"># Normalization</span>
+                <span class="s">x_centre = x_centre / img_w</span>
+                <span class="s">y_centre = y_centre / img_h</span>
+                <span class="s">w = w / img_w</span>
+                <span class="s">h = h / img_h</span>
 
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
+                <span class="s"># Limiting up to a fixed number of decimal places</span>
+                <span class="s">x_centre = format(x_centre, '.6f')</span>
+                <span class="s">y_centre = format(y_centre, '.6f')</span>
+                <span class="s">w = format(w, '.6f')</span>
+                <span class="s">h = format(h, '.6f')</span>
 
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
+                <span class="s"># Writing the current object</span>
+                <span class="s">file_object.write(f"{current_category} {x_centre} {y_centre} {w} {h}\n")</span>
 
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
+        <span class="s">file_object.close()</span>
+        <span class="s">count += </span><span class="m">1</span>
+</code></pre></div></div> <p>After the conversion, the labels are saved as individual text files in the “labels” folder, corresponding to each image.</p> <p>With the dataset now prepared in the YOLOv8 format, we can proceed to train and evaluate the YOLOv8s and YOLOv8m models on the Agroverse dataset.</p> <h3 id="yolov8-architecture">YOLOv8 Architecture</h3> <p>YOLOv8 is an evolution of the YOLO (You Only Look Once) family of models, designed for efficient and accurate object detection.</p> <p>One significant update in YOLOv8 is its transition to anchor-free detection. Traditional object detection models often rely on predefined anchor boxes of different scales and aspect ratios to detect objects at various sizes. However, YOLOv8 takes a different approach by predicting the center of an object directly, rather than the offset from predefined anchor boxes.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/Anchor-free-480.webp 480w,/assets/img/blog2/Anchor-free-800.webp 800w,/assets/img/blog2/Anchor-free-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/Anchor-free.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="caption"> Figure 1: Difference between Anchor-free and Anchor based. <a herf=" https://www.nature.com/articles/s41598-021-02095-4"> <em> Image Source</em> </a> </div> <p>This anchor-free approach brings several advantages. Firstly, it simplifies the model architecture by removing the need for anchor boxes and associated calculations. This leads to a more streamlined and efficient network. Additionally, anchor-free detection allows for better localization accuracy, as the model directly predicts the object center with high precision.</p> <p>To visualize the YOLOv8 architecture and its anchor-free detection, we can refer to a detailed diagram created by GitHub user RangeKing (shown below). The diagram provides a comprehensive overview of the network’s structure and the flow of information through different layers.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/yolov8-480.webp 480w,/assets/img/blog2/yolov8-800.webp 800w,/assets/img/blog2/yolov8-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/yolov8.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="caption"> Figure 2: YOLOv8 Architecture. </div> <p><strong>visualisation made by GitHub user</strong> <a href="https://github.com/RangeKing"><b>RangeKing</b></a></p> <p>By adopting anchor-free detection, YOLOv8 enhances object detection performance.</p> <h3 id="training-yolov8-on-agroverse-dataset">Training YOLOv8 on Agroverse Dataset</h3> <p>To train YOLOv8 on the Argoverse dataset, we need to create a <code class="language-plaintext highlighter-rouge">data.yaml</code> file and install the necessary dependencies. Here’s a step-by-step guide to training YOLOv8 on the Argoverse dataset:</p> <h5 id="create-the-datayaml-file"><strong>Create the <code class="language-plaintext highlighter-rouge">data.yaml</code> File</strong>:</h5> <p>Before training, we need to create a <code class="language-plaintext highlighter-rouge">data.yaml</code> file to specify the dataset’s configuration. The structure of the <code class="language-plaintext highlighter-rouge">data.yaml</code> file is as follows:</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">path</span><span class="pi">:</span> <span class="s">/your/root/path</span>
+<span class="na">train</span><span class="pi">:</span> <span class="s">root/train/images/</span>
+<span class="na">val</span><span class="pi">:</span> <span class="s">root/val/images/</span>
+<span class="na">nc</span><span class="pi">:</span> <span class="s">number_of_classes</span>
+<span class="na">names</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">class1</span><span class="pi">,</span> <span class="nv">class2</span><span class="pi">,</span> <span class="nv">...</span><span class="pi">,</span> <span class="nv">classN</span><span class="pi">]</span>
+</code></pre></div></div> <p>Ensure that you replace <code class="language-plaintext highlighter-rouge">/your/root/path</code> with the actual root path of your dataset, <code class="language-plaintext highlighter-rouge">root/train/images/</code> with the path to the training images folder, <code class="language-plaintext highlighter-rouge">root/val/images/</code> with the path to the validation images folder, <code class="language-plaintext highlighter-rouge">number_of_classes</code> with the total number of classes in your dataset, and <code class="language-plaintext highlighter-rouge">[class1, class2, ..., classN]</code> with a list of the class names in string format.</p> <h5 id="install-dependencies-install-the-required-dependencies-by-running-the-following-command"><strong>Install Dependencies</strong>: Install the required dependencies by running the following command:</h5> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">ultralytics</span>
+</code></pre></div></div> <h5 id="import-yolo-and-load-the-model-import-the-yolo-class-from-the-ultralytics-package-and-load-the-yolov8-model-using-the-desired-pt-file"><strong>Import YOLO and Load the Model</strong>: Import the <code class="language-plaintext highlighter-rouge">YOLO</code> class from the <code class="language-plaintext highlighter-rouge">ultralytics</code> package and load the YOLOv8 model using the desired <code class="language-plaintext highlighter-rouge">.pt</code> file:</h5> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">ultralytics</span> <span class="kn">import</span> <span class="n">YOLO</span>
 
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
+<span class="n">model</span> <span class="o">=</span> <span class="nc">YOLO</span><span class="p">(</span><span class="sh">'</span><span class="s">yolov8s.pt</span><span class="sh">'</span><span class="p">)</span>
+</code></pre></div></div> <p>The <code class="language-plaintext highlighter-rouge">YOLO</code> class from <code class="language-plaintext highlighter-rouge">ultralytics</code> automatically downloads the required YOLOv8 models, such as <code class="language-plaintext highlighter-rouge">yolov8s</code> or <code class="language-plaintext highlighter-rouge">yolov8m</code>, based on the specified <code class="language-plaintext highlighter-rouge">.pt</code> file.</p> <h5 id="start-training-begin-the-training-process-by-calling-the-train-method-on-the-model-object-with-appropriate-arguments-heres-an-example-configuration"><strong>Start Training</strong>: Begin the training process by calling the <code class="language-plaintext highlighter-rouge">train</code> method on the <code class="language-plaintext highlighter-rouge">model</code> object with appropriate arguments. Here’s an example configuration:</h5> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">output</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">train</span><span class="p">(</span>
+   <span class="n">data</span><span class="o">=</span><span class="sh">'</span><span class="s">Argoverse.yaml</span><span class="sh">'</span><span class="p">,</span>
+   <span class="n">imgsz</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span>
+   <span class="n">epochs</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+   <span class="n">batch</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
+   <span class="n">save</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+   <span class="n">name</span><span class="o">=</span><span class="sh">'</span><span class="s">yolov8m_custom</span><span class="sh">'</span><span class="p">,</span>
+   <span class="n">val</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+   <span class="n">project</span><span class="o">=</span><span class="sh">'</span><span class="s">yolov8m_custom_Argoverse</span><span class="sh">'</span><span class="p">,</span>
+   <span class="n">save_period</span><span class="o">=</span><span class="mi">2</span>
+<span class="p">)</span>
+</code></pre></div></div> <p>In this example, we specify the <code class="language-plaintext highlighter-rouge">data</code> parameter as <code class="language-plaintext highlighter-rouge">'Argoverse.yaml'</code> to use the created <code class="language-plaintext highlighter-rouge">data.yaml</code> file. Adjust the other parameters such as <code class="language-plaintext highlighter-rouge">imgsz</code> (image size), <code class="language-plaintext highlighter-rouge">epochs</code> (number of training epochs), <code class="language-plaintext highlighter-rouge">batch</code> (batch size), <code class="language-plaintext highlighter-rouge">save</code> (whether to save checkpoints), <code class="language-plaintext highlighter-rouge">name</code> (name for the trained model), <code class="language-plaintext highlighter-rouge">val</code> (whether to evaluate on the validation set), <code class="language-plaintext highlighter-rouge">project</code> (project name for logging), and <code class="language-plaintext highlighter-rouge">save_period</code> (number of epochs between saving checkpoints) according to your requirements.</p> <h5 id="monitor-training-progress"><strong>Monitor Training Progress</strong>:</h5> <p>During training, the YOLO model will provide updates on the training loss, bounding box loss, mean Average Precision (mAP), etc.</p> <p>For more detailed information and additional training options, refer to the <a herf="https://docs.ultralytics.com/modes/train/"><b>YOLOv5 Train Mode Documentation</b></a> provided by Ultralytics.</p> <h3 id="testing-the-trained-yolov8-model">Testing the Trained YOLOv8 Model</h3> <p>After training the YOLOv8 model on the Argoverse dataset, it’s time to evaluate its performance on the test data. In this section, we will test the best trained YOLOv8s and YOLOv8m models on the test dataset.</p> <p>Firstly, the test data for Argoverse consists of individual images. To provide a more comprehensive evaluation, I converted 2000 frames of the test data into a video at 24 frames per second (fps). This video allows for a sequential analysis of the model’s object detection capabilities. Also predicted on whole test data.</p> <p>Here’s an example configaration :</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">model</span><span class="p">.</span><span class="nf">predict</span><span class="p">(</span><span class="sh">'</span><span class="s">Yolov8/test_video.mp4</span><span class="sh">'</span><span class="p">,</span> <span class="n">save</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">conf</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span> <span class="c1"># You Can also add path to your images
+</span></code></pre></div></div> <p>Below are the videos showcasing original and the testing results of the YOLOv8s and YOLOv8m models on the test data: <strong>Test Video</strong></p> <div class="row mt-3"> <iframe width="1002" height="626" src="https://www.youtube.com/embed/SeRUThVhlc4" title="Test Video for testing YoloV8 model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> <div class="caption"> <b> Original Test video.</b> </div> <p><strong>YOLOv8s Predicted Video</strong></p> <div class="row mt-3"> <iframe width="1002" height="626" src="https://www.youtube.com/embed/NMq17lLEHEw" title="Prediction of YoloV8s model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> <div class="caption"> <b> YOLOV8s Prediction.</b> </div> <p><strong>YOLOv8m Predicted Video:</strong></p> <div class="row mt-3"> <iframe width="1002" height="626" src="https://www.youtube.com/embed/2_2clDwQSb0" title="Prediction of YOLOv8m model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> <div class="caption"> <b> YOLOV8m Prediction.</b> </div> <p>By visually examining the test videos, we can observe how the YOLOv8 models detect and classify objects in the Argoverse test dataset. The models’ performance will be evident in their ability to accurately identify and localize objects of interest, such as people, bicycles, cars, motorcycles, buses, trucks, traffic lights, and stop signs.</p> <p>The models will output bounding boxes around the detected objects, along with their corresponding class labels and confidence scores.</p> <h3 id="analyzing-the-test-results">Analyzing the Test Results</h3> <p>After testing the YOLOv8 models on the Argoversehd dataset and evaluating the results, it is important to conduct a thorough analysis to gain insights into the performance of the models. This analysis involves both visual inspection and the use of quantitative metrics to assess the models’ effectiveness in object detection tasks.</p> <h4 id="visual-inspection">Visual Inspection:</h4> <p>Upon visually inspecting the test results, it becomes evident that the YOLOv8 models show promising performance in detecting and localizing objects. However, there are areas where the models exhibit limitations. For example, the models incorrectly identify certain objects as trucks and miss some instances of stop signs. These observations suggest that further improvements can be made by refining the training process and incorporating additional data.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/results-480.webp 480w,/assets/img/blog2/results-800.webp 800w,/assets/img/blog2/results-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/results.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <h4 id="quantitative-metrics">Quantitative Metrics:</h4> <p>The mean Average Precision (mAP) is a widely used metric for evaluating object detection models. The mAP measures the accuracy of object localization and classification. In the case of the YOLOv8 models trained on the Argoversehd dataset, the highest achieved mAP is 0.40, indicating good performance for certain instances. However, the average mAP typically falls within the range of 0.24 to 0.35. This implies that there is room for improvement in terms of the models’ overall accuracy and precision.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/F1_curve-480.webp 480w,/assets/img/blog2/F1_curve-800.webp 800w,/assets/img/blog2/F1_curve-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/F1_curve.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/PR_curve-480.webp 480w,/assets/img/blog2/PR_curve-800.webp 800w,/assets/img/blog2/PR_curve-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/PR_curve.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <h4 id="confusion-matrix">Confusion Matrix:</h4> <p>A confusion matrix provides a detailed breakdown of the model’s performance across different object classes. By analyzing the confusion matrix, we can identify specific areas where the YOLOv8 models excel and areas where they struggle. In the case of the Argoversehd dataset, the YOLO models face challenges in accurately detecting small objects and occasionally misclassifying certain objects. To address these limitations, it is advisable to consider strategies such as increasing the amount of training data and conducting further model optimization.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/confusion_matrix-480.webp 480w,/assets/img/blog2/confusion_matrix-800.webp 800w,/assets/img/blog2/confusion_matrix-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/confusion_matrix.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <h4 id="improving-model-performance">Improving Model Performance:</h4> <p>Based on the analysis of the test results, it is clear that there is room for improvement in the YOLOv8 models’ performance on the Argoversehd dataset. By implementing different strategies and iteratively training and evaluating the YOLOv8 models, it is possible to improve their object detection accuracy and address the specific challenges observed during testing on the Argoversehd dataset.</p> <p><strong><em>Footnote</em></strong>:</p> <div class="footnotes" role="doc-endnotes"> <ol> <li id="fn:1" role="doc-endnote"> <p><strong><em>Beginner’s Work and Request for Understanding</em></strong> - <em>Please note that this blog and the work presented herein are the efforts of a beginner in the field of image processing. While every attempt has been made to ensure accuracy and provide valuable insights, there may be certain limitations or areas for improvement. If any inconveniences or shortcomings are encountered, I kindly request your understanding and forgiveness. This blog serves as a starting point for exploring the fascinating world of Image processing and computer vision, and I am eager to learn and grow from this experience. Your feedback and suggestions are greatly appreciated as they will contribute to my growth as a learner and researcher. Thank you for your support and understanding.</em> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p> </li> <li id="fn:2" role="doc-endnote"> <p><strong><em>Offical OpenMM-Lab Github and Documentation</em></strong> - <em><a href="https://github.com/open-mmlab">Github</a> <a href="https://mmdetection.readthedocs.io/en/latest/">Openmm Documentation</a></em> <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p> </li> </ol> </div>]]></content><author><name></name></author><category term="Object_detection"/><category term="Yolo"/><category term="segmentation"/><category term="computer-vision"/><category term="pose-estimation"/><category term="computer_vision"/><category term="image_processing"/><category term="AI"/><category term="ML"/><summary type="html"><![CDATA[Openmm Tutorials]]></summary></entry><entry><title type="html">Object Detection on Argoversehd Dataset - Exploring YOLOv8 Models</title><link href="https://anirudh6415.github.io/blog/2023/objectdetyolo/" rel="alternate" type="text/html" title="Object Detection on Argoversehd Dataset - Exploring YOLOv8 Models"/><published>2023-06-07T14:14:00+00:00</published><updated>2023-06-07T14:14:00+00:00</updated><id>https://anirudh6415.github.io/blog/2023/objectdetyolo</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2023/objectdetyolo/"><![CDATA[<h2 id="object-detection-using-yolov8-model">Object detection using YoloV8 model</h2> <h3 id="introduction">Introduction</h3> <p>Object detection, a subfield of computer vision, plays a crucial role in various domains, including driving. It enables the automated identification and localization of objects within images or videos, providing valuable insights and aiding in decision-making processes. While there are numerous models available for object detection, this blog focuses on YOLOv8, a state-of-the-art approach renowned for its accuracy and efficiency. In this experiment, we delve into the application of YOLOv8 models on the Argoversehd dataset, comparing the results obtained and exploring how YOLOv8 performs in this context.</p> <p>In the subsequent sections of this blog, we will dive deeper into the experimental setup, highlighting the key steps involved in training and evaluating the YOLOv8s and YOLOv8m models on the Argoversehd dataset. We will discuss the training process, including data preparation, model configuration, and hyperparameter tuning. Additionally, we will present the evaluation results and analyze how YOLOv8 performs compared to the original dataset. This comparative analysis will shed light on the strengths and limitations of YOLOv8 in the context of object detection on the Argoversehd dataset.</p> <p>Stay tuned as we embark on this exciting journey into the realm of object detection using YOLOv8 models. Through this experiment, we hope to gain insights that can contribute to the advancement of object detection techniques in the autonomus driving domain, fostering innovations that can benefit researchers alike.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> </p> <h3 id="argoverse-dataset">Argoverse Dataset</h3> <h4 id="preparation-for-yolov8-object-detection">Preparation for YOLOv8 Object Detection</h4> <p>The <a href="https://mtli.github.io/streaming/"><b>Argoverse dataset</b></a>, which forms the basis of our object detection experiment using YOLOv8 models, consists of a total of 66,954 images. The dataset is divided into three subsets: training, validation, and testing, with 39,384, 12,507, and 15,063 images, respectively. The training and validation subsets contain annotations in the COCO format, while the testing subset lacks ground truth annotations. In the absence of annotations, we will utilize the trained YOLOv8 models to predict and detect objects within the test images.</p> <p>The Argoverse dataset encompasses eight classes of objects, namely: “person,” “bicycle,” “car,” “motorcycle,” “bus,” “truck,” “traffic_light,” and “stop_sign.” These classes represent common objects typically found in vechile driving contexts.</p> <p>To prepare the dataset for YOLOv8, a specific directory structure is required.</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">root_data</span>
+<span class="s">├── train</span>
+<span class="s">│   ├── images</span>
+<span class="s">│   │   ├── image1.jpg</span>
+<span class="s">│   │   ├── image2.jpg</span>
+<span class="s">│   │   └── ...</span>
+<span class="s">│   └── labels</span>
+<span class="s">│       ├── image1.txt</span>
+<span class="s">│       ├── image2.txt</span>
+<span class="s">│       └── ...</span>
+<span class="s">├── val</span>
+<span class="s">│   ├── images</span>
+<span class="s">│   │   ├── image1.jpg</span>
+<span class="s">│   │   ├── image2.jpg</span>
+<span class="s">│   │   └── ...</span>
+<span class="s">│   └── labels</span>
+<span class="s">│       ├── image1.txt</span>
+<span class="s">│       ├── image2.txt</span>
+<span class="s">│       └── ...</span>
+<span class="s">└── test</span>
+    <span class="s">└── images</span>
+        <span class="s">├── image1.jpg</span>
+        <span class="s">├── image2.jpg</span>
+        <span class="s">└── ...</span>
 
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
+</code></pre></div></div> <p>To meet the YOLO format requirements, the annotations need to be converted from the COCO format to the YOLO format. Each linein the labels text file represents a single object annotation with its corresponding class ID, normalized coordinates, and dimensions.</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">Image Label Text file</span><span class="pi">:</span>
+<span class="s">class_id x_center y_center width height</span>
+<span class="s">class_id x_center y_center width height</span>
+<span class="s">class_id x_center y_center width height</span>
+<span class="nn">...</span>
 
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
+</code></pre></div></div> <p>Here is a sneak peek of the code used to convert the annotations to the YOLO format:</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="s">def convert_annotations_to_yolo_format(data, file_names, output_path)</span><span class="err">:</span>
+    <span class="na">def get_img(filename)</span><span class="pi">:</span>
+        <span class="s">for img in data['images']</span><span class="err">:</span>
+            <span class="s">if img['file_name'] == filename</span><span class="err">:</span>
+                <span class="s">return img</span>
 
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
+    <span class="na">def get_img_ann(image_id)</span><span class="pi">:</span>
+        <span class="s">img_ann = []</span>
+        <span class="s">isFound = False</span>
+        <span class="s">for ann in data['annotations']</span><span class="err">:</span>
+            <span class="s">if ann['image_id'] == image_id</span><span class="err">:</span>
+                <span class="s">img_ann.append(ann)</span>
+                <span class="s">isFound = True</span>
+        <span class="s">if isFound</span><span class="err">:</span>
+            <span class="s">return img_ann</span>
+        <span class="s">else</span><span class="err">:</span>
+            <span class="s">return None</span>
 
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
+    <span class="s">count = </span><span class="m">0</span>
 
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
+    <span class="na">for filename in file_names</span><span class="pi">:</span>
+        <span class="c1"># Extracting image</span>
+        <span class="s">img = get_img(filename)</span>
+        <span class="s">img_id = img['id']</span>
+        <span class="s">img_w = img['width']</span>
+        <span class="s">img_h = img['height']</span>
 
-   var hoganTemplates = require('./templates/diff2html-templates.js');
+        <span class="s"># Get Annotations for this image</span>
+        <span class="s">img_ann = get_img_ann(img_id)</span>
+        <span class="s">fname = filename.split(".")[0]</span>
+        <span class="s">if img_ann</span><span class="err">:</span>
+            <span class="c1"># Opening file for the current image</span>
+            <span class="s">file_object = open(f"{output_path}/{fname}.txt", "a")</span>
+        <span class="s">if img_ann is not None</span><span class="err">:</span>
+            <span class="na">for ann in img_ann</span><span class="pi">:</span>
+                <span class="s">current_category = ann['category_id']</span>  <span class="c1"># As YOLO format labels start from 0</span>
+                <span class="s">current_bbox = ann['bbox']</span>
+                <span class="s">x = current_bbox[0]</span>
+                <span class="s">y = current_bbox[1]</span>
+                <span class="s">w = current_bbox[2]</span>
+                <span class="s">h = current_bbox[3]</span>
 
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
+                <span class="s"># Finding midpoints</span>
+                <span class="s">x_centre = (x + (x+w))/2</span>
+                <span class="s">y_centre = (y + (y+h))/2</span>
 
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
+                <span class="s"># Normalization</span>
+                <span class="s">x_centre = x_centre / img_w</span>
+                <span class="s">y_centre = y_centre / img_h</span>
+                <span class="s">w = w / img_w</span>
+                <span class="s">h = h / img_h</span>
 
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
+                <span class="s"># Limiting up to a fixed number of decimal places</span>
+                <span class="s">x_centre = format(x_centre, '.6f')</span>
+                <span class="s">y_centre = format(y_centre, '.6f')</span>
+                <span class="s">w = format(w, '.6f')</span>
+                <span class="s">h = format(h, '.6f')</span>
 
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
+                <span class="s"># Writing the current object</span>
+                <span class="s">file_object.write(f"{current_category} {x_centre} {y_centre} {w} {h}\n")</span>
 
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
+        <span class="s">file_object.close()</span>
+        <span class="s">count += </span><span class="m">1</span>
+</code></pre></div></div> <p>After the conversion, the labels are saved as individual text files in the “labels” folder, corresponding to each image.</p> <p>With the dataset now prepared in the YOLOv8 format, we can proceed to train and evaluate the YOLOv8s and YOLOv8m models on the Agroverse dataset.</p> <h3 id="yolov8-architecture">YOLOv8 Architecture</h3> <p>YOLOv8 is an evolution of the YOLO (You Only Look Once) family of models, designed for efficient and accurate object detection.</p> <p>One significant update in YOLOv8 is its transition to anchor-free detection. Traditional object detection models often rely on predefined anchor boxes of different scales and aspect ratios to detect objects at various sizes. However, YOLOv8 takes a different approach by predicting the center of an object directly, rather than the offset from predefined anchor boxes.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/Anchor-free-480.webp 480w,/assets/img/blog2/Anchor-free-800.webp 800w,/assets/img/blog2/Anchor-free-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/Anchor-free.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="caption"> Figure 1: Difference between Anchor-free and Anchor based. <a herf=" https://www.nature.com/articles/s41598-021-02095-4"> <em> Image Source</em> </a> </div> <p>This anchor-free approach brings several advantages. Firstly, it simplifies the model architecture by removing the need for anchor boxes and associated calculations. This leads to a more streamlined and efficient network. Additionally, anchor-free detection allows for better localization accuracy, as the model directly predicts the object center with high precision.</p> <p>To visualize the YOLOv8 architecture and its anchor-free detection, we can refer to a detailed diagram created by GitHub user RangeKing (shown below). The diagram provides a comprehensive overview of the network’s structure and the flow of information through different layers.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/yolov8-480.webp 480w,/assets/img/blog2/yolov8-800.webp 800w,/assets/img/blog2/yolov8-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/yolov8.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="caption"> Figure 2: YOLOv8 Architecture. </div> <p><strong>visualisation made by GitHub user</strong> <a href="https://github.com/RangeKing"><b>RangeKing</b></a></p> <p>By adopting anchor-free detection, YOLOv8 enhances object detection performance.</p> <h3 id="training-yolov8-on-agroverse-dataset">Training YOLOv8 on Agroverse Dataset</h3> <p>To train YOLOv8 on the Argoverse dataset, we need to create a <code class="language-plaintext highlighter-rouge">data.yaml</code> file and install the necessary dependencies. Here’s a step-by-step guide to training YOLOv8 on the Argoverse dataset:</p> <h5 id="create-the-datayaml-file"><strong>Create the <code class="language-plaintext highlighter-rouge">data.yaml</code> File</strong>:</h5> <p>Before training, we need to create a <code class="language-plaintext highlighter-rouge">data.yaml</code> file to specify the dataset’s configuration. The structure of the <code class="language-plaintext highlighter-rouge">data.yaml</code> file is as follows:</p> <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">path</span><span class="pi">:</span> <span class="s">/your/root/path</span>
+<span class="na">train</span><span class="pi">:</span> <span class="s">root/train/images/</span>
+<span class="na">val</span><span class="pi">:</span> <span class="s">root/val/images/</span>
+<span class="na">nc</span><span class="pi">:</span> <span class="s">number_of_classes</span>
+<span class="na">names</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">class1</span><span class="pi">,</span> <span class="nv">class2</span><span class="pi">,</span> <span class="nv">...</span><span class="pi">,</span> <span class="nv">classN</span><span class="pi">]</span>
+</code></pre></div></div> <p>Ensure that you replace <code class="language-plaintext highlighter-rouge">/your/root/path</code> with the actual root path of your dataset, <code class="language-plaintext highlighter-rouge">root/train/images/</code> with the path to the training images folder, <code class="language-plaintext highlighter-rouge">root/val/images/</code> with the path to the validation images folder, <code class="language-plaintext highlighter-rouge">number_of_classes</code> with the total number of classes in your dataset, and <code class="language-plaintext highlighter-rouge">[class1, class2, ..., classN]</code> with a list of the class names in string format.</p> <h5 id="install-dependencies-install-the-required-dependencies-by-running-the-following-command"><strong>Install Dependencies</strong>: Install the required dependencies by running the following command:</h5> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="err">!</span><span class="n">pip</span> <span class="n">install</span> <span class="n">ultralytics</span>
+</code></pre></div></div> <h5 id="import-yolo-and-load-the-model-import-the-yolo-class-from-the-ultralytics-package-and-load-the-yolov8-model-using-the-desired-pt-file"><strong>Import YOLO and Load the Model</strong>: Import the <code class="language-plaintext highlighter-rouge">YOLO</code> class from the <code class="language-plaintext highlighter-rouge">ultralytics</code> package and load the YOLOv8 model using the desired <code class="language-plaintext highlighter-rouge">.pt</code> file:</h5> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">ultralytics</span> <span class="kn">import</span> <span class="n">YOLO</span>
 
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
+<span class="n">model</span> <span class="o">=</span> <span class="nc">YOLO</span><span class="p">(</span><span class="sh">'</span><span class="s">yolov8s.pt</span><span class="sh">'</span><span class="p">)</span>
+</code></pre></div></div> <p>The <code class="language-plaintext highlighter-rouge">YOLO</code> class from <code class="language-plaintext highlighter-rouge">ultralytics</code> automatically downloads the required YOLOv8 models, such as <code class="language-plaintext highlighter-rouge">yolov8s</code> or <code class="language-plaintext highlighter-rouge">yolov8m</code>, based on the specified <code class="language-plaintext highlighter-rouge">.pt</code> file.</p> <h5 id="start-training-begin-the-training-process-by-calling-the-train-method-on-the-model-object-with-appropriate-arguments-heres-an-example-configuration"><strong>Start Training</strong>: Begin the training process by calling the <code class="language-plaintext highlighter-rouge">train</code> method on the <code class="language-plaintext highlighter-rouge">model</code> object with appropriate arguments. Here’s an example configuration:</h5> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">output</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="nf">train</span><span class="p">(</span>
+   <span class="n">data</span><span class="o">=</span><span class="sh">'</span><span class="s">Argoverse.yaml</span><span class="sh">'</span><span class="p">,</span>
+   <span class="n">imgsz</span><span class="o">=</span><span class="mi">512</span><span class="p">,</span>
+   <span class="n">epochs</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+   <span class="n">batch</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span>
+   <span class="n">save</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+   <span class="n">name</span><span class="o">=</span><span class="sh">'</span><span class="s">yolov8m_custom</span><span class="sh">'</span><span class="p">,</span>
+   <span class="n">val</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+   <span class="n">project</span><span class="o">=</span><span class="sh">'</span><span class="s">yolov8m_custom_Argoverse</span><span class="sh">'</span><span class="p">,</span>
+   <span class="n">save_period</span><span class="o">=</span><span class="mi">2</span>
+<span class="p">)</span>
+</code></pre></div></div> <p>In this example, we specify the <code class="language-plaintext highlighter-rouge">data</code> parameter as <code class="language-plaintext highlighter-rouge">'Argoverse.yaml'</code> to use the created <code class="language-plaintext highlighter-rouge">data.yaml</code> file. Adjust the other parameters such as <code class="language-plaintext highlighter-rouge">imgsz</code> (image size), <code class="language-plaintext highlighter-rouge">epochs</code> (number of training epochs), <code class="language-plaintext highlighter-rouge">batch</code> (batch size), <code class="language-plaintext highlighter-rouge">save</code> (whether to save checkpoints), <code class="language-plaintext highlighter-rouge">name</code> (name for the trained model), <code class="language-plaintext highlighter-rouge">val</code> (whether to evaluate on the validation set), <code class="language-plaintext highlighter-rouge">project</code> (project name for logging), and <code class="language-plaintext highlighter-rouge">save_period</code> (number of epochs between saving checkpoints) according to your requirements.</p> <h5 id="monitor-training-progress"><strong>Monitor Training Progress</strong>:</h5> <p>During training, the YOLO model will provide updates on the training loss, bounding box loss, mean Average Precision (mAP), etc.</p> <p>For more detailed information and additional training options, refer to the <a herf="https://docs.ultralytics.com/modes/train/"><b>YOLOv5 Train Mode Documentation</b></a> provided by Ultralytics.</p> <h3 id="testing-the-trained-yolov8-model">Testing the Trained YOLOv8 Model</h3> <p>After training the YOLOv8 model on the Argoverse dataset, it’s time to evaluate its performance on the test data. In this section, we will test the best trained YOLOv8s and YOLOv8m models on the test dataset.</p> <p>Firstly, the test data for Argoverse consists of individual images. To provide a more comprehensive evaluation, I converted 2000 frames of the test data into a video at 24 frames per second (fps). This video allows for a sequential analysis of the model’s object detection capabilities. Also predicted on whole test data.</p> <p>Here’s an example configaration :</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="n">model</span><span class="p">.</span><span class="nf">predict</span><span class="p">(</span><span class="sh">'</span><span class="s">Yolov8/test_video.mp4</span><span class="sh">'</span><span class="p">,</span> <span class="n">save</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">conf</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span> <span class="c1"># You Can also add path to your images
+</span></code></pre></div></div> <p>Below are the videos showcasing original and the testing results of the YOLOv8s and YOLOv8m models on the test data: <strong>Test Video</strong></p> <div class="row mt-3"> <iframe width="1002" height="626" src="https://www.youtube.com/embed/SeRUThVhlc4" title="Test Video for testing YoloV8 model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> <div class="caption"> <b> Original Test video.</b> </div> <p><strong>YOLOv8s Predicted Video</strong></p> <div class="row mt-3"> <iframe width="1002" height="626" src="https://www.youtube.com/embed/NMq17lLEHEw" title="Prediction of YoloV8s model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> <div class="caption"> <b> YOLOV8s Prediction.</b> </div> <p><strong>YOLOv8m Predicted Video:</strong></p> <div class="row mt-3"> <iframe width="1002" height="626" src="https://www.youtube.com/embed/2_2clDwQSb0" title="Prediction of YOLOv8m model" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe> </div> <div class="caption"> <b> YOLOV8m Prediction.</b> </div> <p>By visually examining the test videos, we can observe how the YOLOv8 models detect and classify objects in the Argoverse test dataset. The models’ performance will be evident in their ability to accurately identify and localize objects of interest, such as people, bicycles, cars, motorcycles, buses, trucks, traffic lights, and stop signs.</p> <p>The models will output bounding boxes around the detected objects, along with their corresponding class labels and confidence scores.</p> <h3 id="analyzing-the-test-results">Analyzing the Test Results</h3> <p>After testing the YOLOv8 models on the Argoversehd dataset and evaluating the results, it is important to conduct a thorough analysis to gain insights into the performance of the models. This analysis involves both visual inspection and the use of quantitative metrics to assess the models’ effectiveness in object detection tasks.</p> <h4 id="visual-inspection">Visual Inspection:</h4> <p>Upon visually inspecting the test results, it becomes evident that the YOLOv8 models show promising performance in detecting and localizing objects. However, there are areas where the models exhibit limitations. For example, the models incorrectly identify certain objects as trucks and miss some instances of stop signs. These observations suggest that further improvements can be made by refining the training process and incorporating additional data.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/results-480.webp 480w,/assets/img/blog2/results-800.webp 800w,/assets/img/blog2/results-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/results.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <h4 id="quantitative-metrics">Quantitative Metrics:</h4> <p>The mean Average Precision (mAP) is a widely used metric for evaluating object detection models. The mAP measures the accuracy of object localization and classification. In the case of the YOLOv8 models trained on the Argoversehd dataset, the highest achieved mAP is 0.40, indicating good performance for certain instances. However, the average mAP typically falls within the range of 0.24 to 0.35. This implies that there is room for improvement in terms of the models’ overall accuracy and precision.</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/F1_curve-480.webp 480w,/assets/img/blog2/F1_curve-800.webp 800w,/assets/img/blog2/F1_curve-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/F1_curve.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/PR_curve-480.webp 480w,/assets/img/blog2/PR_curve-800.webp 800w,/assets/img/blog2/PR_curve-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/PR_curve.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <h4 id="confusion-matrix">Confusion Matrix:</h4> <p>A confusion matrix provides a detailed breakdown of the model’s performance across different object classes. By analyzing the confusion matrix, we can identify specific areas where the YOLOv8 models excel and areas where they struggle. In the case of the Argoversehd dataset, the YOLO models face challenges in accurately detecting small objects and occasionally misclassifying certain objects. To address these limitations, it is advisable to consider strategies such as increasing the amount of training data and conducting further model optimization.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog2/confusion_matrix-480.webp 480w,/assets/img/blog2/confusion_matrix-800.webp 800w,/assets/img/blog2/confusion_matrix-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog2/confusion_matrix.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <h4 id="improving-model-performance">Improving Model Performance:</h4> <p>Based on the analysis of the test results, it is clear that there is room for improvement in the YOLOv8 models’ performance on the Argoversehd dataset. By implementing different strategies and iteratively training and evaluating the YOLOv8 models, it is possible to improve their object detection accuracy and address the specific challenges observed during testing on the Argoversehd dataset.</p> <p><strong><em>Footnote</em></strong>:</p> <div class="footnotes" role="doc-endnotes"> <ol> <li id="fn:1" role="doc-endnote"> <p><strong><em>Beginner’s Work and Request for Understanding</em></strong> - <em>Please note that this blog and the work presented herein are the efforts of a beginner in the field of image processing. While every attempt has been made to ensure accuracy and provide valuable insights, there may be certain limitations or areas for improvement. If any inconveniences or shortcomings are encountered, I kindly request your understanding and forgiveness. This blog serves as a starting point for exploring the fascinating world of Image processing and computer vision, and I am eager to learn and grow from this experience. Your feedback and suggestions are greatly appreciated as they will contribute to my growth as a learner and researcher. Thank you for your support and understanding.</em> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p> </li> </ol> </div>]]></content><author><name>Anirudh Iyengar</name></author><category term="Object_detection"/><category term="Yolov8"/><category term="computer_vision"/><category term="image_processing"/><category term="AI"/><category term="ML"/><summary type="html"><![CDATA[Object detection is performed on ArgoverseHD-Dataset]]></summary></entry><entry><title type="html">Segmentation on CAD-PE Dataset.</title><link href="https://anirudh6415.github.io/blog/2023/cadpe_seg/" rel="alternate" type="text/html" title="Segmentation on CAD-PE Dataset."/><published>2023-05-07T18:00:00+00:00</published><updated>2023-05-07T18:00:00+00:00</updated><id>https://anirudh6415.github.io/blog/2023/cadpe_seg</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2023/cadpe_seg/"><![CDATA[<h2 id="cad-pe-segmentation">CAD-PE Segmentation</h2> <h4 id="unveiling-insights">Unveiling Insights</h4> <p>Welcome to our blog, where we delve into the fascinating world of segmentation. The segmentation is performed on <strong>CAD-PE Challenge dataset</strong> <d-cite key="gonzalez2020computer"></d-cite>. In the realm of <code class="language-plaintext highlighter-rouge">"computer-aided design(CAD)"</code>, the precision and efficent segementation plays a pivotal role.<br/></p> <p>In this blog series<d-footnote>Beginner's Work and Request for Understanding<br/> Please note that this blog and the work presented herein are the efforts of a beginner in the field of image processing. While every attempt has been made to ensure accuracy and provide valuable insights, there may be certain limitations or areas for improvement. If any inconveniences or shortcomings are encountered, I kindly request your understanding and forgiveness. This blog serves as a starting point for exploring the fascinating world of Image processing and computer vision, and I am eager to learn and grow from this experience. Your feedback and suggestions are greatly appreciated as they will contribute to my growth as a learner and researcher. Thank you for your support and understanding.</d-footnote>, we will embark on an exciting journey to understand the challenges and intricacies of segmenting CAD-PE data. Whether you are a beginner or an experienced practitioner, we aim to provide valuable insights and practical guidance to enhance your understanding and proficiency in CAD-PE segmentation. Throught this blog, we will discuss various aspects of segementation,including data preprocessing, feature extraction, and model architectures. Moreover, we will dive into the evaluation metrics commonly used in assessing the performance of segmentation algorithms.</p> <p>Join me as we unravel the complexities of segmentation on CAD-PE dataset, empowering you to leverage this knowledge in your research, industry projects, or even personal endeavours. So, fasten your seatbelts and get ready to explore the world of segmentation like never before!!.Let’s unlock the hidden potential within Deep learning models and unleash their power.<br/></p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog1/cadpe-480.webp 480w,/assets/img/blog1/cadpe-800.webp 800w,/assets/img/blog1/cadpe-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog1/cadpe.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog1/cadpemask-480.webp 480w,/assets/img/blog1/cadpemask-800.webp 800w,/assets/img/blog1/cadpemask-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog1/cadpemask.gif" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> Figure 1: Unveiling the Hidden Layers: A GIF showcasing the CAD image and its corresponding ground truth mask. </div> <hr/> <h2 id="cad-pe-dataset">CAD-PE Dataset</h2> <p>The first step involved is exploring the dataset. The dataset involves <strong>91 patients CT scans</strong>. Each CT scan consists of some around 400 to 500 slices on average. Dividing the CT scans of the 91 patients into individual slices. This process allowed us to extract <strong>41,256 slices</strong> in total, which will serve as the foundation for our segmentation endeavors.</p> <p>Each slice within the CAD-PE dataset represents a two-dimensional image capturing a specific cross-section of the patients’ anatomy. These slices provide crucial insights into the internal structures and organs, enabling medical professionals and researchers to diagnose and study various conditions and diseases.</p> <hr/> <h2 id="building-the-segmentation-dataset">Building the Segmentation Dataset</h2> <h4 id="slice-level-segmentation">Slice-Level Segmentation</h4> <p>In order to perform slice-level segmentation on the CAD-PE dataset, we will create a custom dataset named “segmentation_dataset”. This dataset will serve as the foundation for training and evaluating our segmentation algorithms.</p> <p>To begin, we will divide the available data randomly into three sets: training, validation, and testing. The training set will contain 80% of the data, while the validation and testing sets will each consist of 10% of the data. This division ensures a balanced distribution of slices across the different sets, enabling us to train and assess the performance of our models effectively.</p> <p>To handle the dataset efficiently, we will utilize filepaths to access the slices. Each slice within the CAD-PE dataset will be normalized to have pixel values ranging between 0 and 1. This normalization step ensures consistency and facilitates optimal model performance during training.</p> <p>Moreover, the input images and corresponding segmentation masks will be processed to adhere to the requirements of slice-level segmentation. The input images will be converted into single-channel representations, while the segmentation masks will be transformed into binary masks, consisting of only 0s and 1s. These binary masks serve as ground truth annotations for the presence or absence of the target structures within the slices.</p> <p>To facilitate seamless integration with deep learning frameworks, such as PyTorch, the slices will be transformed into tensors.</p> <p>The snippet code provided below showcases a high-level implementation for building the segmentation_dataset:</p> <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">class</span> <span class="nc">segmentation_dataset</span><span class="p">(</span><span class="n">Dataset</span><span class="p">):</span>
+  <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span><span class="n">image_filenames</span><span class="p">,</span><span class="n">mask_filenames</span><span class="p">,</span><span class="n">transforms</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+      <span class="n">self</span><span class="p">.</span><span class="n">image_dir</span> <span class="o">=</span> <span class="sh">"</span><span class="s">/CAD_PE_Challenge_Data/images/</span><span class="sh">"</span>
+      <span class="n">self</span><span class="p">.</span><span class="n">mask_dir</span> <span class="o">=</span> <span class="sh">"</span><span class="s">/CAD_PE_Challenge_Data/masks/</span><span class="sh">"</span>
+      <span class="n">self</span><span class="p">.</span><span class="n">transform</span> <span class="o">=</span> <span class="n">transforms</span>
+      <span class="n">self</span><span class="p">.</span><span class="n">image_filenames</span> <span class="o">=</span> <span class="n">image_filenames</span>
+      <span class="n">self</span><span class="p">.</span><span class="n">mask_filenames</span> <span class="o">=</span> <span class="n">mask_filenames</span>
+      
+  <span class="k">def</span> <span class="nf">__len__</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+      <span class="k">return</span> <span class="nf">len</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">image_filenames</span><span class="p">)</span>
+  
+  
+  <span class="k">def</span> <span class="nf">__getitem__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">idx</span><span class="p">):</span>
+      <span class="n">img</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">image_dir</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">image_filenames</span><span class="p">[</span><span class="n">idx</span><span class="p">]))</span>
+      <span class="n">label</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">load</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="nf">join</span><span class="p">(</span><span class="n">self</span><span class="p">.</span><span class="n">mask_dir</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">mask_filenames</span><span class="p">[</span><span class="n">idx</span><span class="p">]))</span>
+      
+      <span class="n">img</span> <span class="o">=</span> <span class="nf">nor_image</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+      <span class="n">label</span> <span class="o">=</span> <span class="nf">binary</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+      <span class="k">if</span> <span class="n">self</span><span class="p">.</span><span class="n">transform</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+          <span class="n">img</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="nf">transform</span><span class="p">(</span><span class="n">img</span><span class="p">),</span> <span class="n">self</span><span class="p">.</span><span class="nf">transform</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>
+          
+      <span class="k">return</span> <span class="n">img</span><span class="p">,</span> <span class="n">label</span>
+    </code></pre></figure> <hr/> <h2 id="model-architecture-of-unet">Model Architecture of UNET</h2> <p>To perform slice-level segmentation on the CAD-PE dataset, we will utilize the UNet model <d-cite key="ronneberger2015u"></d-cite>, which serves as a fundamental and widely adopted architecture for segmentation tasks. The UNet model is an excellent choice for beginners and provides a solid foundation for exploring and understanding segmentation techniques. Its simplicity and effectiveness make it a popular starting point in the field of computer vision and medical image analysis.</p> <p>UNet model combines the prinicple of convolutional neural networks(CNNs) and has encoder-decodr architecture. The encoder design allows the model to effectively capture features <strong><code class="language-plaintext highlighter-rouge">(What? in the image)</code></strong> and decoder desgin allows the model to upsample the features and recover the spatial resolution <strong><code class="language-plaintext highlighter-rouge">(Where? in the image)</code></strong>. Skip connections are incorporated to bridge the gap between the contracting and expanding paths, facilitating the propagation of low-level and high-level features.</p> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog1/u-net-architecture-480.webp 480w,/assets/img/blog1/u-net-architecture-800.webp 800w,/assets/img/blog1/u-net-architecture-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog1/u-net-architecture.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="caption"> Figure 2: UNet architecture. </div> <hr/> <h2 id="training-the-model">Training the model</h2> <p>In the quest for accurate segmentation masks on the CAD-PE dataset, training a model becomes a crucial step. Leveraging the advancements in deep learning, we can harness the power of neural networks to tackle the challenging task of CAD-PE segmentation.</p> <p>To begin the training process, we will employ the <code class="language-plaintext highlighter-rouge">binary cross entropy with logits</code> as the loss function. This loss function is particularly suited for segmentation tasks, as it compares the predicted segmentation masks with the ground truth masks, encouraging the model to accurately classify each pixel as belonging to the target structure or not.</p> <p>For optimization, we will utilize the <code class="language-plaintext highlighter-rouge">Adam optimizer</code>, a popular choice for training deep learning models. With a <code class="language-plaintext highlighter-rouge">learning rate of 0.001</code>, the Adam optimizer dynamically adjusts the learning rate during training, optimizing the model’s performance and convergence.</p> <p>To evaluate the quality of the segmentation results, we will employ the <code class="language-plaintext highlighter-rouge">Dice coefficient</code> as the evaluation metric. The Dice coefficient measures the overlap between the predicted and ground truth segmentation masks, providing a quantitative assessment of the model’s performance. A higher Dice coefficient indicates a better segmentation result, with values ranging from 0 (no overlap) to 1 (perfect overlap).</p> <p>During the training process, the model will iteratively learn from the CAD-PE dataset, updating its parameters to minimize the loss function. By iteratively feeding the input slices and corresponding ground truth masks to the model, it will gradually learn to accurately segment the structures of interest.</p> <p>The code snippet provided below showcases a high-level implementation for training the model for CAD-PE segmentation:</p> <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="n">epochs</span><span class="p">,</span><span class="n">model</span><span class="p">,</span><span class="n">train_loader</span><span class="p">,</span><span class="n">val_loader</span><span class="p">):</span>
 
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
+    <span class="c1">#Define the loss function,optimizer, dice metric.
+</span>    <span class="n">loss_fn</span> <span class="o">=</span> <span class="n">nn</span><span class="p">.</span><span class="nc">BCEWithLogitsLoss</span><span class="p">()</span>
+    <span class="n">optimizer</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">optim</span><span class="p">.</span><span class="nc">Adam</span><span class="p">(</span><span class="n">model</span><span class="p">.</span><span class="nf">parameters</span><span class="p">(),</span><span class="n">lr</span> <span class="o">=</span> <span class="mf">0.001</span><span class="p">)</span>
+    <span class="n">dice</span> <span class="o">=</span> <span class="nc">Dice</span><span class="p">(</span><span class="n">average</span><span class="o">=</span><span class="sh">'</span><span class="s">micro</span><span class="sh">'</span><span class="p">).</span><span class="nf">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+    
+    <span class="n">train_loss</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">val_loss</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">avg_test_loss</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">avg_dice</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">avg_dice_val</span> <span class="o">=</span> <span class="p">[]</span>
 
-@@ -53,6 +53,7 @@
+    <span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nf">tqdm</span><span class="p">(</span><span class="nf">range</span><span class="p">(</span><span class="n">epochs</span><span class="p">)):</span>
+        <span class="n">model</span><span class="p">.</span><span class="nf">train</span><span class="p">()</span>
+        <span class="c1"># Training on Training set
+</span>        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span> <span class="ow">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="n">train_loader</span><span class="p">):</span>
+            
+            <span class="n">image</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="n">image</span><span class="p">,</span> <span class="n">label</span>
+            <span class="n">image</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="n">image</span><span class="p">.</span><span class="nf">to</span><span class="p">(</span><span class="n">device</span><span class="p">),</span> <span class="n">label</span><span class="p">.</span><span class="nf">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
+          
+            <span class="n">optimizer</span><span class="p">.</span><span class="nf">zero_grad</span><span class="p">()</span>
+            <span class="n">output</span> <span class="o">=</span> <span class="nf">model</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+            <span class="n">loss</span> <span class="o">=</span> <span class="nf">loss_fn</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span>
+            <span class="n">label</span> <span class="o">=</span> <span class="n">label</span><span class="p">.</span><span class="nf">to</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">int64</span><span class="p">)</span>
+            
+            <span class="n">train_dice</span> <span class="o">=</span> <span class="nf">dice</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span>
 
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
+            
+            <span class="n">loss</span><span class="p">.</span><span class="nf">backward</span><span class="p">()</span>
+            <span class="n">optimizer</span><span class="p">.</span><span class="nf">step</span><span class="p">()</span>
 
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
+            <span class="n">train_loss</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">loss</span><span class="p">.</span><span class="nf">item</span><span class="p">())</span>
+            <span class="n">avg_dice</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">train_dice</span><span class="p">.</span><span class="nf">item</span><span class="p">())</span>
+            
+            
+        <span class="c1"># evaluate on validation set
+</span>        <span class="n">model</span><span class="p">.</span><span class="nf">eval</span><span class="p">()</span>
+        <span class="k">with</span> <span class="n">torch</span><span class="p">.</span><span class="nf">no_grad</span><span class="p">():</span>
+            <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="p">(</span><span class="n">image</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span> <span class="ow">in</span> <span class="nf">enumerate</span><span class="p">(</span><span class="n">val_loader</span><span class="p">):</span>
+                <span class="n">image</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="n">image</span><span class="p">,</span> <span class="n">label</span>
+                
+                <span class="n">image</span><span class="p">,</span> <span class="n">label</span> <span class="o">=</span> <span class="n">image</span><span class="p">.</span><span class="nf">to</span><span class="p">(</span><span class="n">device</span><span class="p">),</span> <span class="n">label</span><span class="p">.</span><span class="nf">to</span><span class="p">(</span><span class="n">device</span><span class="p">)</span>
 
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
+                <span class="n">output</span> <span class="o">=</span> <span class="nf">model</span><span class="p">(</span><span class="n">image</span><span class="p">)</span>
+                <span class="n">loss</span> <span class="o">=</span> <span class="nf">loss_fn</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span>
+                <span class="n">label</span> <span class="o">=</span> <span class="n">label</span><span class="p">.</span><span class="nf">to</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">int64</span><span class="p">)</span>
+                <span class="n">val_dice</span> <span class="o">=</span> <span class="nf">dice</span><span class="p">(</span><span class="n">output</span><span class="p">,</span> <span class="n">label</span><span class="p">)</span>
 
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
+                <span class="n">val_loss</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">loss</span><span class="p">.</span><span class="nf">item</span><span class="p">())</span>
+                <span class="n">avg_dice_val</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">val_dice</span><span class="p">.</span><span class="nf">item</span><span class="p">())</span>
+            
+            <span class="n">val_loss_epoch</span> <span class="o">=</span> <span class="nf">sum</span><span class="p">(</span><span class="n">val_loss</span><span class="p">)</span> <span class="o">/</span> <span class="nf">len</span><span class="p">(</span><span class="n">val_loss</span><span class="p">)</span>
+            <span class="n">avg_dice_val_epoch</span> <span class="o">=</span> <span class="nf">sum</span><span class="p">(</span><span class="n">avg_dice_val</span><span class="p">)</span> <span class="o">/</span> <span class="nf">len</span><span class="p">(</span><span class="n">avg_dice_val</span><span class="p">)</span>
 
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
+       
+        <span class="n">train_loss_epoch</span> <span class="o">=</span> <span class="nf">sum</span><span class="p">(</span><span class="n">train_loss</span><span class="p">)</span> <span class="o">/</span> <span class="nf">len</span><span class="p">(</span><span class="n">train_loss</span><span class="p">)</span>
+        <span class="n">avg_dice_epoch</span> <span class="o">=</span> <span class="nf">sum</span><span class="p">(</span><span class="n">avg_dice</span><span class="p">)</span> <span class="o">/</span> <span class="nf">len</span><span class="p">(</span><span class="n">avg_dice</span><span class="p">)</span>
 
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://anirudh6415.github.io/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/advanced-images</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/9-480.webp 480w,/assets/img/9-800.webp 800w,/assets/img/9-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/7-480.webp 480w,/assets/img/7-800.webp 800w,/assets/img/7-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/10-480.webp 480w,/assets/img/10-800.webp 800w,/assets/img/10-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/12-480.webp 480w,/assets/img/12-800.webp 800w,/assets/img/12-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic-480.webp 480w,/assets/img/prof_pic-800.webp 800w,/assets/img/prof_pic-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/assets/img/prof_pic_color-480.webp 480w,/assets/img/prof_pic_color-800.webp 800w,/assets/img/prof_pic_color-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://anirudh6415.github.io/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/vega-lite</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry><entry><title type="html">a post with geojson</title><link href="https://anirudh6415.github.io/blog/2024/geojson-map/" rel="alternate" type="text/html" title="a post with geojson"/><published>2024-01-26T17:57:00+00:00</published><updated>2024-01-26T17:57:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/geojson-map</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/geojson-map/"><![CDATA[<p>This is an example post with some <a href="https://geojson.org/">geojson</a> code. The support is provided thanks to <a href="https://leafletjs.com/">Leaflet</a>. To create your own visualization, go to <a href="https://geojson.io/">geojson.io</a>.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">geojson
-</span><span class="sb">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-geojson">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><category term="maps"/><summary type="html"><![CDATA[this is what included geojson code could look like]]></summary></entry><entry><title type="html">a post with echarts</title><link href="https://anirudh6415.github.io/blog/2024/echarts/" rel="alternate" type="text/html" title="a post with echarts"/><published>2024-01-26T16:03:00+00:00</published><updated>2024-01-26T16:03:00+00:00</updated><id>https://anirudh6415.github.io/blog/2024/echarts</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2024/echarts/"><![CDATA[<p>This is an example post with some <a href="https://echarts.apache.org/">echarts</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">echarts
-</span><span class="sb">{
-  "title": {
-    "text": "ECharts Getting Started Example"
-  },
-  "responsive": true,
-  "tooltip": {},
-  "legend": {
-    "top": "30px",
-    "data": ["sales"]
-  },
-  "xAxis": {
-    "data": ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"]
-  },
-  "yAxis": {},
-  "series": [
-    {
-      "name": "sales",
-      "type": "bar",
-      "data": [5, 20, 36, 10, 10, 20]
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-echarts">{
-  "title": {
-    "text": "ECharts Getting Started Example"
-  },
-  "responsive": true,
-  "tooltip": {},
-  "legend": {
-    "top": "30px",
-    "data": ["sales"]
-  },
-  "xAxis": {
-    "data": ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"]
-  },
-  "yAxis": {},
-  "series": [
-    {
-      "name": "sales",
-      "type": "bar",
-      "data": [5, 20, 36, 10, 10, 20]
-    }
-  ]
-}
-</code></pre> <p>Note that this library offer support for both light and dark themes. You can switch between them using the theme switcher in the top right corner of the page.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included echarts code could look like]]></summary></entry></feed>
+        <span class="c1"># print average losses and dice coefficients for the epoch
+</span>
+        <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">"</span><span class="s">Epoch </span><span class="si">{</span><span class="n">epoch</span><span class="o">+</span><span class="mi">1</span><span class="si">}</span><span class="s"> | Train Loss: </span><span class="si">{</span><span class="n">train_loss_epoch</span><span class="si">:</span><span class="p">.</span><span class="mi">5</span><span class="n">f</span><span class="si">}</span><span class="s"> | Val Loss: </span><span class="si">{</span><span class="n">val_loss_epoch</span><span class="si">:</span><span class="p">.</span><span class="mi">5</span><span class="n">f</span><span class="si">}</span><span class="s"> |Dice Coefficient: </span><span class="si">{</span><span class="n">avg_dice_epoch</span><span class="si">:</span><span class="p">.</span><span class="mi">5</span><span class="n">f</span><span class="si">}</span><span class="s"> | Val Dice Coefficient: </span><span class="si">{</span><span class="n">avg_dice_val_epoch</span><span class="si">:</span><span class="p">.</span><span class="mi">5</span><span class="n">f</span><span class="si">}</span><span class="sh">"</span><span class="p">)</span></code></pre></figure> <p>By following this training process, we unlock the potential of deep learning to achieve accurate and reliable segmentation on the CAD-PE dataset. The model progressively learns to differentiate and classify the structures of interest.</p> <h2 id="evaluating-the-results">Evaluating the Results</h2> <p>After training the UNet model on the CAD-PE dataset, it is time to evaluate the achieved results. The Dice coefficient, a widely used metric for segmentation tasks, provides a quantitative measure of the model’s performance.</p> <p>On the training set, after <code class="language-plaintext highlighter-rouge">training for 30 epochs</code>, the UNet model achieved an impressive Dice coefficient of <strong>0.88197</strong>. This indicates a significant overlap between the predicted segmentation masks and the ground truth masks, highlighting the model’s ability to accurately capture the target structures within the CAD-PE slices.</p> <p>To further assess the generalization capability of the model, it is essential to evaluate its performance on the test set. On the <code class="language-plaintext highlighter-rouge">test set</code>, the UNet model attained a Dice coefficient of <strong>0.70431</strong>. Although slightly lower than the training set performance, it still demonstrates the model’s effectiveness in accurately segmenting the target structures in previously unseen data.</p> <p>To improve the model’s performance, several avenues can be explored. Firstly, hyperparameter tuning can be conducted by adjusting parameters such as learning rate, batch size, and regularization techniques. Fine-tuning these hyperparameters can potentially lead to better segmentation results.</p> <p>Additionally, data augmentation techniques can be employed to augment the training set. Techniques such as random rotations, translations, and scaling can increase the diversity of the training data, enhancing the model’s ability to generalize to unseen samples.</p> <p>Visualizing the model’s performance, the predicted segmentation masks can be compared side-by-side with the original ground truth masks.</p> <div style="text-align: center;"> <div class="row mt-3"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/blog1/predicted_result-480.webp 480w,/assets/img/blog1/predicted_result-800.webp 800w,/assets/img/blog1/predicted_result-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/blog1/predicted_result.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> Figure 3: Ground masks and Predicted masks. </div> <p>Overall, the results achieved by the UNet model showcase its potential in CAD-PE segmentation. With further experimentation, fine-tuning of hyperparameters, and augmentation of the training data, it is possible to unlock even better segmentation results. The UNet model serves as a foundation for future advancements in segmentation.</p>]]></content><author><name>Anirudh Iyengar</name></author><category term="computer_vision"/><category term="image_processing"/><category term="AI"/><category term="ML"/><category term="Medical_images"/><summary type="html"><![CDATA[The segmentation is performed on CAD-PE dataset]]></summary></entry><entry><title type="html">ನನ್ನ ಕವಿತೆಗಳು-ಭಾವನೆಗಳ ಕನಸುಗಳು</title><link href="https://anirudh6415.github.io/blog/2023/kavithegalu/" rel="alternate" type="text/html" title="ನನ್ನ ಕವಿತೆಗಳು-ಭಾವನೆಗಳ ಕನಸುಗಳು"/><published>2023-05-01T00:00:00+00:00</published><updated>2023-05-01T00:00:00+00:00</updated><id>https://anirudh6415.github.io/blog/2023/kavithegalu</id><content type="html" xml:base="https://anirudh6415.github.io/blog/2023/kavithegalu/"><![CDATA[<h3 id="ಕ್ಷಣಕ್ಕೆ-ಓಮ್ಮೆ">ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ</h3> <p>ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ ನಾ ಹುಟ್ಟುತ್ತಿರುವೆ <br/> ನಿನ್ನ ನೋಡಿದ ಕ್ಷಣದಿಂದ <br/> <br/> ಕ್ಷಣಕ್ಕೆ ಓಮ್ಮೆ ನಾ ಸಾಯುತ್ತಿರುವೆ <br/> ನೀ ಹೊರಟ ಕ್ಷಣದಿಂದ <br/> <br/> ಇದೆಂಥ ವಿಪರ್ಯಾಸವೋ..!<br/> ಇದೆಂಥ ಖುಷಿಯ ಶಾಪವೋ…!</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/8-480.webp 480w,/assets/img/8-800.webp 800w,/assets/img/8-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/10-480.webp 480w,/assets/img/10-800.webp 800w,/assets/img/10-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <p><br/></p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/11-480.webp 480w,/assets/img/11-800.webp 800w,/assets/img/11-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/11.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/12-480.webp 480w,/assets/img/12-800.webp 800w,/assets/img/12-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/7-480.webp 480w,/assets/img/7-800.webp 800w,/assets/img/7-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" data-zoomable="" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div>]]></content><author><name></name></author><category term="life"/><summary type="html"><![CDATA[ಈ ಬ್ಲಾಗ್ ಪೋಸ್ಟ್‌ನಲ್ಲಿ ನೀವು ಕನಸುಗಳ ಸ್ವರೂಪದ ಕವಿತೆಗಳನ್ನು ಕಂಡುಹಿಡಿಯುವ ಅನುಭವಕ್ಕೆ ಕರೆದೊಯ್ಯುತ್ತೇವೆ]]></summary></entry></feed>
