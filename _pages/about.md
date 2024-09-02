@@ -1,8 +1,8 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
-subtitle:  Computer Vision Researcher | Machine Learning, NLP, and Data Enthusiast.  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  Machine Learning|Deep Learning|Computer Vision|NLP|Data Enthusiast.  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: anirudh3.0.jpg
