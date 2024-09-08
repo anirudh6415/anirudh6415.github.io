@@ -5,6 +5,6 @@ description:  instance segmentation model using the UNET to segment lungs and he
 img: assets/img/project/results.png
 redirect: https://github.com/anirudh6415/JSRT_Unet
 importance: 1
-category: Personal
+category: Academic
 ---
 

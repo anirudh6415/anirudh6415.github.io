@@ -4,7 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - anirudh6415/GuidedDistillation
   - anirudh6415/Yolov8-on-ArgoverseHD-Object-Detection
+  - anirudh6415/docker-ros-cv-assignments
   - anirudh6415/JSRT_Unet
   - anirudh6415/Colon_seg_class
   - anirudh6415/Clustering_Xray-s
@@ -14,6 +16,5 @@ github_repos:
   - anirudh6415/CAD-PE-SegLoc
   - anirudh6415/PE-CT-Classification-SwinTransformer
   - anirudh6415/NIH-CXR-Swin
-  - anirudh6415/docker-ros-cv-assignments
   - anirudh6415/Neural-Data-Analysis-and-Visualization
   - anirudh6415/Robotics_matlab-MAE-547
