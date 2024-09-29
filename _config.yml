@@ -166,7 +166,6 @@ disqus_shortname: anirudh # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-
 # external_sources:
 #   - name: medium.com
 #     rss_url: https://medium.com/@al-folio/feed
@@ -174,6 +173,21 @@ disqus_shortname: anirudh # put your disqus shortname
 #     posts:
 #       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
 #         published_date: 2024-05-14
+
+#external_sources:
+external_sources:
+  # - name: Google Blog`
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
+  - name: Paper Reading
+    posts:
+      - url: https://arxiv.org/abs/2404.19756
+        published_date: 2024-09-29
+  # - name: medium.com
+  #   posts:
+  #     - url: https://medium.com/session-notes/fake-vulnerability-is-keeping-you-stuck-6d5fc6be756b
+  #       published_date: 2024-09-29
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -304,8 +318,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ['ML','Data_science','computer_vision', 'image_processing', 'AI', 'Medical_images','life'] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ['ML','Data_science','computer_vision', 'image_processing', 'AI', 'Medical_images','life','Paper Reading'] # these tags will be displayed on the front page of your blog
+display_categories: ["Paper review"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
