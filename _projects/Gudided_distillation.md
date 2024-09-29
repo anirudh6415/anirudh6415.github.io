@@ -5,6 +5,6 @@ description: This is a Modified repository, it is based on the original Guided D
 img: assets/img/project/guided_distillation.png
 redirect: https://github.com/anirudh6415/GuidedDistillation
 importance: 1
-category: Academic
+category: Personal
 ---
 

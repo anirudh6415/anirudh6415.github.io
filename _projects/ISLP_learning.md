@@ -5,6 +5,6 @@ description:  Welcome to the ISLP Exercise repository! This repository contains 
 img: assets/img/project/ISLP_cover.png
 redirect: https://github.com/anirudh6415/ISLP_learning
 importance: 2
-category: Academic
+category: Personal
 ---
 
