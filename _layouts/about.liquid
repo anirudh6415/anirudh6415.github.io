@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+<div id="loader">
+  <div class="loader-content">
+    <h1 id="hello-text">Hello!</h1>
+  </div>
+</div>
 
 <!-- about.liquid -->
   <div class="post">
@@ -274,3 +279,45 @@ layout: default
         </article>
         
   </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const helloText = document.getElementById("hello-text");
+      const languages = [
+        "ನಮಸ್ಕಾರ!",  // Kannada
+        "Hola!",       // Spanish
+        "Bonjour!",    // French
+        "こんにちは!",  // Japanese
+        "வணக்கம்",     // Tamil
+        "Hallo!",      // German
+        "你好!",        // Chinese
+        "안녕하세요!",  // Korean
+        "Ciao!",       // Italian
+        "Olá!",        // Portuguese
+        "Привет!"      // Russian
+      ];
+  
+      let index = 0;
+      const totalDuration = 2000; // Total duration for all transitions (3 seconds)
+      const intervalTime = totalDuration / languages.length; // Calculate time per transition
+  
+      // Rotate through languages every calculated interval
+      const intervalId = setInterval(() => {
+        helloText.textContent = languages[index]; // Update text content
+        index = (index + 1) % languages.length;   // Cycle through languages
+      }, intervalTime);
+  
+      // Hide loader after 3 seconds
+      setTimeout(() => {
+        clearInterval(intervalId); // Stop the language rotation
+        const loader = document.getElementById("loader");
+        loader.style.opacity = "0"; // Fade out effect
+        setTimeout(() => {
+          loader.style.display = "none"; // Remove loader after fade-out
+        }, 500); // Matches the CSS transition duration
+      }, totalDuration); // 3 seconds
+    });
+  </script>
+  
+  
+  
+  
