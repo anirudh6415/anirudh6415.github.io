@@ -16,7 +16,7 @@ news: true # includes a list of news items
 latest_posts: true 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-cv_pdf: Anirudh_Computer_Vision_Resume.pdf
+cv_pdf: Anirudh_Resume_new_akaniyar.pdf
 ---
 With a curious mind and a stubborn heart, I aspire to be a Machine Learning engineer and currently pursuing a `Master's` in `Robotics and Autonomous Systems in Artificial Intelligence` at `Arizona State University`. 
 
