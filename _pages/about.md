@@ -20,7 +20,7 @@ cv_pdf: Anirudh_Computer_Vision_Resume.pdf
 ---
 With a curious mind and a stubborn heart, I aspire to be a Machine Learning engineer and currently pursuing a `Master's` in `Robotics and Autonomous Systems in Artificial Intelligence` at `Arizona State University`. 
 
-My journey has been an exciting one—from `data analyst in a bakery and interning at DRDO to studying and researching AI at ASU`. My passion for data started as a curious child observing everything around me, and now I’m working on AI projects like `Matching, Ranking, Recommendation, Multimodal, and Multitask learning`.
+My journey has been an exciting one—from `Interning at DRDO, becoming Data Scientist to studying and researching AI at ASU`. My passion for data started as a curious child observing everything around me, and now I’m working on AI projects like `Matching, Ranking, Recommendation, Multimodal, and Multitask learning`.
 
 When I’m not deep in AI, I love exploring the world through the perspectives of people from diverse backgrounds. I enjoy connecting with strangers during my travels and seeing the world through their eyes, and I also have a passion for cooking and baking, which I believe is a scientific process of soothing yourself.
 

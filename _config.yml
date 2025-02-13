@@ -131,8 +131,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Beyond the Surface # blog_name will be displayed in your blog page
-blog_description: Welcome to Beyond the Surface, a blog where I share my personal experiences and insights on various topics, including my academic projects. In this blog, I aim to go beyond the surface level of my experiences and delve deeper into the lessons I've learned along the way. From navigating the challenges of college life to exploring new cultures during my travels, I'll be sharing stories that are both relatable and thought-provoking. I'll also be discussing my academic projects and the process of bringing my ideas to life. Through my blog, I hope to inspire and encourage others to embrace their unique journeys and discover the valuable lessons that lie beneath the surface. Thank you for joining me on this adventure of self-discovery and growth. I look forward to sharing my experiences with you!
+blog_name: Blog # blog_name will be displayed in your blog page
+blog_description: Welcome to my blog, where I share personal experiences and insights on various topics. From navigating college life to exploring new cultures, I'll dive deep into the lessons I've learned. I’ll also discuss my academic projects and the process of bringing ideas to life. Through this blog, I hope to inspire others to embrace their unique journeys and discover valuable lessons along the way. Thanks for joining me on this adventure of growth!
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -168,7 +168,7 @@ disqus_shortname: anirudh # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # external_sources:
 #   - name: medium.com
-#     rss_url: https://medium.com/@al-folio/feed
+#     rss_url: https://medium.com/@akaniyar/feed
 #   - name: Google Blog
 #     posts:
 #       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
@@ -184,7 +184,11 @@ external_sources:
     posts:
       - url: https://arxiv.org/abs/2404.19756
         published_date: 2024-09-29
-  # - name: medium.com
+  - name: medium.com
+    posts:
+      - url: https://medium.com/@akaniyar/tech-bits-bytes-doing-nothing-7abc4d4687d9
+        published_date: 2025-02-13
+# - name: medium.com
   #   posts:
   #     - url: https://medium.com/session-notes/fake-vulnerability-is-keeping-you-stuck-6d5fc6be756b
   #       published_date: 2024-09-29
