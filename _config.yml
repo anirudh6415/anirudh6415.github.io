@@ -188,6 +188,10 @@ external_sources:
     posts:
       - url: https://medium.com/@akaniyar/tech-bits-bytes-doing-nothing-7abc4d4687d9
         published_date: 2025-02-13
+  - name: medium.com
+    posts:
+      - url: https://medium.com/@akaniyar/the-recommendation-what-to-shop-42bd2bacc551
+        published_date: 2025-03-03
 # - name: medium.com
   #   posts:
   #     - url: https://medium.com/session-notes/fake-vulnerability-is-keeping-you-stuck-6d5fc6be756b
