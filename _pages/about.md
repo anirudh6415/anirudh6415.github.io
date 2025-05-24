@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  Machine Learning | Deep Learning | Computer Vision | NLP | Data Enthusiast.  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  Machine Learning | LLM | Deep Learning | Computer Vision | NLP | Data Enthusiast.  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: anirudh3.0.jpg
@@ -18,13 +18,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 cv_pdf: Anirudh_Resume_new_akaniyar.pdf
 ---
-With a curious mind and a stubborn heart, I aspire to be a Machine Learning engineer and currently pursuing a `Master's` in `Robotics and Autonomous Systems in Artificial Intelligence` at `Arizona State University`. 
+With a curious mind and a determined heart, I aspire to build a career as a Machine Learning Engineer. I recently completed my `Master's` in `Robotics and Autonomous Systems in Artificial Intelligence` at `Arizona State University`.
 
 My journey has been an exciting one—from `Interning at DRDO, becoming Data Scientist to studying and researching AI at ASU`. My passion for data started as a curious child observing everything around me, and now I’m working on AI projects like `Matching, Ranking, Recommendation, Multimodal, and Multitask learning`.
 
-When I’m not deep in AI, I love exploring the world through the perspectives of people from diverse backgrounds. I enjoy connecting with strangers during my travels and seeing the world through their eyes, and I also have a passion for cooking and baking, which I believe is a scientific process of soothing yourself.
+Outside of work, I enjoy connecting with people from diverse backgrounds during my travels—gaining unique perspectives that enrich both my personal and professional life. I also find joy in cooking and baking, which I see as a soothing and scientific expression of creativity.
 
-I envision myself to be a Machine Learning engineer, always eager to learn and create to positively impact the intersection of technology and life. My vision is to contribute to advancements that enhance our world and make it a better place. [**A peek into my life experiences..**](../others/)<i class="fa fa-camera-retro fa-1x" aria-hidden="true"></i>
+As I step into the professional world, I am actively seeking Machine Learning or Data Science roles where I can continue learning, solving real-world problems, and making meaningful contributions at the intersection of technology and human experience. [**A peek into my life experiences..**](../others/)<i class="fa fa-camera-retro fa-1x" aria-hidden="true"></i>
 
 
 > Access my structured notes and guides here:  
