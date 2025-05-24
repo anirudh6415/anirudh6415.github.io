@@ -1,7 +1,7 @@
 ---
 layout: book-review
 date: 2023-06-30 00:00:00
-title: Mind Hunter - Inside the FBI's Elite Serial Crime Unit
+title: Mind Hunter - Inside the FBIs Elite Serial Crime Unit
 author: John E. Douglas
 cover: assets/img/book_covers/mind_hunter.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
