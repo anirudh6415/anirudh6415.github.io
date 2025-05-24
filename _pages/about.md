@@ -26,6 +26,10 @@ When I’m not deep in AI, I love exploring the world through the perspectives o
 
 I envision myself to be a Machine Learning engineer, always eager to learn and create to positively impact the intersection of technology and life. My vision is to contribute to advancements that enhance our world and make it a better place. [**A peek into my life experiences..**](../others/)<i class="fa fa-camera-retro fa-1x" aria-hidden="true"></i>
 
+📘 **My Scrape CodeBook Book**  
+> Access my structured notes and guides here:  
+> [Scrape Codebook →](https://anirudh-docs.gitbook.io/scrape-codebook){:target="_blank"}
+
 <!-- My passion for computer science stems from a creative child who always loved tasks involving innovations and challenges. Driven by the same passion, I dedicated myself to the pursuit of excellence, earning an undergraduate degree in `Computer Science and Engineering`. I further pursued an internship at the `Centre for Artificial Intelligence & Robotics Lab (DRDO)` in Bangalore.  -->
 <!-- As I delved deeper into AI and Robotics, I realized that my true calling lay not just in engineering the future but in sculpting it through the art of handling data. The revelation unfolded during a transformative collaboration with my mentor, Jimmy. My current area of interest and projects are `A multitasking model capable of performing both detection and segmentation on medical images.`, as well as incorporating `Capabilities for processing and understanding text and reports`. -->
 

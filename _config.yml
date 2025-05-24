@@ -184,6 +184,10 @@ external_sources:
     posts:
       - url: https://arxiv.org/abs/2404.19756
         published_date: 2024-09-29
+  - name: Paper Reading
+    posts:
+      - url: https://arxiv.org/abs/2404.19756
+        published_date: 2024-09-29
   - name: medium.com
     posts:
       - url: https://medium.com/@akaniyar/tech-bits-bytes-doing-nothing-7abc4d4687d9
