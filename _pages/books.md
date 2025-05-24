@@ -1,13 +1,12 @@
 ---
 layout: book-shelf
-title: bookshelf
+title: Paper Trails
 permalink: /books/
 nav: true
 collection: books
 ---
-
 > “Books are more than stories or facts—they’re milestones of who we were when we read them.”
 >
-> This shelf is a quiet record of the journeys I’ve taken through pages: the sleepless nights, the underlined sentences, the unexpected wisdom, and the characters who stayed long after the final chapter. Here you'll find what I’m reading now, what I’ve finished, and what’s waiting patiently to be picked up. It’s less a list, and more a timeline of curiosity, growth, and inspiration.
+> Each entry here is more than just a title; it’s a moment in time. From detective thrillers to profound historical narratives, this shelf captures my evolving interests, thoughts, and emotions. Whether the book is currently keeping me company, resting on my “to-read” list, or has already left a lasting impact, it has earned its place in this quiet timeline of discovery and growth.
 
-## Books that I am reading, have read, or will read
+## Stories I'm Living With—Then, Now, and Next
