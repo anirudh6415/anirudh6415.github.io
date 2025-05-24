@@ -1,6 +1,6 @@
 ---
 layout: book-shelf
-title: Paper Trails
+title: My Reads
 permalink: /books/
 nav: true
 collection: books
