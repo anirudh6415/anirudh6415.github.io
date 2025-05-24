@@ -26,7 +26,7 @@ When I’m not deep in AI, I love exploring the world through the perspectives o
 
 I envision myself to be a Machine Learning engineer, always eager to learn and create to positively impact the intersection of technology and life. My vision is to contribute to advancements that enhance our world and make it a better place. [**A peek into my life experiences..**](../others/)<i class="fa fa-camera-retro fa-1x" aria-hidden="true"></i>
 
-📘 **My Scrape CodeBook Book**  
+
 > Access my structured notes and guides here:  
 > [Scrape Codebook →](https://anirudh-docs.gitbook.io/scrape-codebook){:target="_blank"}
 
