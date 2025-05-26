@@ -11,5 +11,5 @@ tags: yet-to-start
 started: 2026-01-01
 finished: 2026-02-28
 released: 1968
-status: interested
+status: reading
 ---
