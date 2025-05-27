@@ -27,7 +27,7 @@ layout: default
             class=profile_image_class
             alt=page.profile.image 
             zoomable=true -%}
-            {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms fa-1x"></i><span class="resume-text" style="margin-right: 100px; margin-left: 10px;"><u>Resume/CV</u></span><br></a>{% endif %}
+            {% comment %} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right" style="color: inherit;"><i class="fab fa-wpforms fa-1x"></i><span class="resume-text" style="margin-right: 100px; margin-left: 10px;"><u>Resume/CV</u></span><br></a>{% endif %} {% endcomment %}
           {% endif -%}
         </div>
         {%- endif %}
