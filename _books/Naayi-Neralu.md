@@ -1,6 +1,6 @@
 ---
 layout: book-review
-date: 2025-05-30 00:00:00
+date: 2025-05-26 00:00:00
 title: ನಾಯಿ ನೆರಳು [Naayi Neralu]
 author: S.L. Bhyrappa
 cover: assets/img/book_covers/Naayi-Neralu.jpg
@@ -9,7 +9,7 @@ isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: Fiction Philosophy
 tags: yet-to-start 
 started: 2025-04-01
-finished: 2025-05-28
+finished: 2025-05-26
 released: 1968
 status: Finished
 ---
