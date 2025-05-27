@@ -13,4 +13,12 @@ finished: 2019-10-07
 released: 1994
 status: Finished
 ---
-ಪರಸ್ಪರ ವೈರುಧ್ಯಗಳನ್ನೇ ಅದೃಶ್ಯ ತಂತುಗಳಿಂದ ಸಂಯೋಜಿಸುತ್ತ ಸಾಗುವ ಈ ಕಾದಂಬರಿಯೊಂದು ವಿಚಿತ್ರ ಮತ್ತು ಅಸಾಧಾರಣ ಕೃತಿ. ಜೀವನದ ವಿರಾಟ್ ಅರ್ಥ ಹೀನತೆಯ ಪರಿಧಿಯೊಳಗೆ ಅದರ ಅರ್ಥಪೂರ್ಣತೆಯನ್ನು ಅನ್ವೇಷಿಸುತ್ತದೆ. ಅಸಂಗತ ಘಟನಾವಳಿಗಳ ಸರಣಿಯನ್ನೇ ಸುಸಂಗತ ಕಥೆಯನ್ನಾಗಿ ನೇಯುತ್ತದೆ. ಚರಿತ್ರೆಯ ಅಪಹಾಸ್ಯವನ್ನು ತಿಳಿಹಾಸ್ಯ ಮತ್ತು ವಿನೋದಗಳಿಂದ ಪ್ರತಿರೋಧಿಸುತ್ತದೆ. ಶತಮಾನದ ಕಥೆಯನ್ನು ಇಪ್ಪತ್ತನಾಲ್ಕು ಗಂಟೆಗಳಲ್ಲಿ ಪ್ರತಿಮಿಸುತ್ತದೆ. ಜೀವನವನ್ನು ಎದುರಿಸಲು ಆಶಾವಾದ, ನಿರಾಶವಾದ ಇವುಗಳೆಲ್ಲವನ್ನೂ ಮೀರಿದ ಗಂಭೀರ ಎದೆಗಾರಿಕೆಯನ್ನು ಇದು ನಮಗೆ ತೋರಿಸಿ ಕೊಡುತ್ತದೆ.
+Jugaari Cross is a truly unique and extraordinary novel—one that blends contradictions into a seamless narrative through invisible threads. Tejaswi masterfully explores the vast absurdities of life while searching for its deeper meaning within the boundaries of apparent meaninglessness.
+
+The novel is structured as a series of seemingly unrelated incidents that are skillfully woven into a coherent and gripping story. It mocks the distortions of history through sharp wit and satire, while simultaneously reflecting the seriousness of human existence beyond hope or despair.
+
+In just twenty-four hours, Jugaari Cross encapsulates the dilemmas of an entire century. It challenges readers to go beyond superficial optimism or pessimism, offering instead a raw, fearless confrontation with life’s realities.
+
+Tejaswi’s writing is bold, philosophical, and thought-provoking. This is not just a thriller—it’s an existential journey. The book offers a rare combination of suspense, humor, and deep insight into human nature and society.
+
+A must-read for anyone who loves meaningful fiction that doesn’t shy away from complexity. One of the most intellectually satisfying and emotionally engaging novels I’ve ever read.

@@ -13,4 +13,10 @@ finished: 2017-11-30
 released: 1976
 status: Finished
 ---
-One of the best books by S.L. Bhyrappa, this novel tells a powerful story of a son and the aftermath of his mother Nanjamma's death—a woman who was a mother, a wife, and a daughter-in-law. It follows the moving search for the son by Nanjamma's father. A must-read that brought me to tears many times.
+ಅನ್ವೇಷಣ [Anveshana] is one of S.L. Bhyrappa’s most emotionally resonant novels, a deeply moving exploration of grief, love, and the search for meaning after loss. At its heart, it tells the poignant story of Nanjamma—a woman who carried the complex roles of mother, wife, and daughter-in-law—and the emotional devastation that follows her death.
+
+The novel centers on Nanjamma’s father and his desperate, almost spiritual journey to reconnect with his grandson—her only surviving legacy. What unfolds is not just a search for a child, but a powerful reflection on the fragility of family bonds, the weight of memories, and the quiet persistence of hope in the face of tragedy.
+
+Bhyrappa’s storytelling is tender yet unflinching, allowing readers to feel the rawness of grief while contemplating deeper questions about identity, belonging, and the human need for closure. His prose is simple but profound, carrying emotional weight without sentimentality.
+
+This book brought me to tears many times. It’s not just a story—it’s an experience that stays with you. Anveshana stands as a testament to Bhyrappa’s ability to capture the most complex emotions with grace and clarity. A must-read for anyone who has ever loved and lost, and searched for meaning in the silence that follows.

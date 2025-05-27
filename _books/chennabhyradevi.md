@@ -13,4 +13,10 @@ finished: 2023-06-30
 released: 2021
 status: paused
 ---
-One of the best books I've read to learn about my own culture and history is by Gajanana Sharma. It vividly depicts the bravery of Queen Chennabhyradevi and explores the rich historical background of that era.
+ಚೆನ್ನಭೈರಾದೇವಿ – ಕರಿಮೆಣಸಿನ ರಾಣಿಯ ಅಕಳಂಕ ಚರಿತೆ by Gajanana Sharma is a remarkable work of nonfiction that brought me closer to my roots and gave me a deeper appreciation for Karnataka’s rich heritage. The book beautifully chronicles the life and legacy of Queen Chennabhyradevi—a ruler whose courage, wisdom, and resilience left an indelible mark on history.
+
+Through meticulous research and engaging narrative, Sharma paints a vivid portrait of an era marked by political challenges and cultural strength. Queen Chennabhyradevi emerges not only as a symbol of valor but also as a deeply human figure—balancing her roles as a leader, woman, and protector of her land.
+
+What makes this book stand out is its commitment to historical integrity while also making the story accessible and compelling. It’s both informative and inspiring—a rare blend in historical literature.
+
+Reading this book was a proud and emotional experience. It opened my eyes to a chapter of our past that is often overlooked, and it reminded me of the extraordinary individuals who shaped our cultural identity. A must-read for anyone interested in Karnataka’s history, forgotten heroes, and the stories of powerful women who deserve far more recognition.

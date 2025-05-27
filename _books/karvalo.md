@@ -14,4 +14,13 @@ finished: 2020-05-07
 released: 1994
 status: Finished
 ---
-ಕರ್ವಾಲೋ ಕಥೆ ಕಗ್ಗಾಡಿನ ಹಳ್ಳಿ ಕೊಂಪೆಯೊಂದರಲ್ಲಿ ನಡೆಯುವ ಘಟನೆ. ಹಳ್ಳಿಯ ಮಂದಣ್ಣ, ಪ್ರಭಾಕರ, ಎಂಗ್ಟ, ಕರಿಯಪ್ಪ ಮುಂತಾದವರೊಡನೆ ಬೆರೆತು ವಿಜ್ಞಾನಿ ಕರ್ವಾಲೋ ಕಾಲಜ್ಞಾನಿಯಾಗಿ ರೂಪುಗೊಳ್ಳುವ ಅಚ್ಚರಿಯ ಕಥೆ! ಧರ್ಮ, ಧ್ಯಾನ, ತಪಸ್ಯೆಗಳನ್ತೆಯೇ ವಿಜ್ಞಾನವೂ ಸಾಕ್ಷಾತ್ಕಾರದ ದಾರಿ ಎಂದು ಪ್ರತಿಪಾದಿಸುವ ಈ ಕೃತಿ ಕನ್ನಡದ ಎಲ್ಲ ಕಾದಂಬರಿಗಳಿಗಿಂತ ಸಂಪೂರ್ಣ ವಿಭಿನ್ನವಾದ ಕೃತಿ. ಈವರೆಗೆ ಕನ್ನಡದಲ್ಲಿ ಹನ್ನೆರಡು ಮುದ್ರಣಗಳನ್ನು ಕಂಡಿರುವ ಈ ಕಾದಂಬರಿ ಇಂಗ್ಲಿಷ್, ಹಿಂದಿ, ಮರಾಠಿ, ಮಲಯಾಳಂ, ಮತ್ತು ಜಪಾನಿ ಭಾಷೆಗಳಲ್ಲಿ ಪ್ರಕಟವಾಗಿದೆ.
+Karvalo is a remarkable novel set in the dense forests near a remote village called Kompe. What begins as a simple rural tale quickly transforms into a philosophical and scientific exploration, guided by the enigmatic figure of Karvalo—a scientist whose intellectual and spiritual depth reshapes the way others around him see the world.
+
+Blending characters like Mandanna, Prabhakara, Engtt, and Kariyappa, the novel beautifully captures the intersection of everyday village life with profound scientific inquiry. Tejaswi presents science not just as a discipline, but as a path to realization, comparable to religion, meditation, and spiritual austerity.
+
+What makes Karvalo stand out is its uniqueness in Kannada literature. It defies conventional genre boundaries, combining adventure, science, and metaphysical reflection. The novel’s message—that science, like spirituality, can be a means of inner awakening—is deeply compelling and rare in regional literature.
+
+This work has seen over twelve reprints in Kannada and has been translated into several languages including English, Hindi, Marathi, Malayalam, and even Japanese, a testament to its universal appeal and enduring relevance.
+
+A truly extraordinary novel that invites readers to question, reflect, and discover. Karvalo is not just a story—it's an intellectual and spiritual journey.
+

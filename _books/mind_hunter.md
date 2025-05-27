@@ -13,4 +13,9 @@ finished: 2023-08-30
 released: 1995
 status: Finished
 ---
-I started reading this book after finishing the incomplete series Mindhunter. The insight into the minds of criminals kept me engaged—it was both frightening and fascinating to realize how anyone could choose to commit such acts. I was also amazed by how thoroughly the FBI documented these cases and how criminal profiling is conducted.
+I began reading Mindhunter after watching the unfinished but compelling Netflix series based on it. The book offers a much deeper dive into the real-life experiences of John E. Douglas, one of the founding members of the FBI's Behavioral Science Unit. What struck me most was how the book blends chilling detail with clinical precision, giving readers an unfiltered look into the minds of some of the most dangerous criminals in history.
+
+The psychological insight is both terrifying and fascinating. Douglas doesn’t just recount cases—he unpacks patterns, motives, and behavior, showing how criminal profiling evolved from a fringe idea into a powerful investigative tool. It’s incredible to see how methodical the FBI was in documenting these cases and how patterns in human behavior can be used to prevent future crimes.
+
+This isn’t just a book about crime—it's a book about understanding evil, and how law enforcement developed the tools to confront it. It's raw, intense, and incredibly informative. A must-read for anyone interested in true crime, psychology, or the hidden workings of the justice system.
+

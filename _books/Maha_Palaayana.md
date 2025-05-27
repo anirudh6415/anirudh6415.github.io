@@ -14,4 +14,10 @@ finished: 2021-06-30
 released: 1956
 status: Finished
 ---
-One of the best nonfiction books I've read is by Tejaswi—a translation of the original book The Long Walk, which tells the gripping story of Slavomir Rawicz in the Yakutsk labor camp and how he and six others escaped. It's one of the most thrilling true stories I've come across.
+ಮಹಾ ಪಲಾಯನ (Maha Palaayana) is one of the most gripping and unforgettable nonfiction books I’ve read. Translated into Kannada by K.P. Poornachandra Tejaswi, it brings to life The Long Walk—the harrowing and heroic true story of Slavomir Rawicz, a Polish army officer who escaped from a Soviet labor camp in Yakutsk during World War II.
+
+The book chronicles Rawicz’s unimaginable journey, along with six other prisoners, as they traverse thousands of miles through Siberia, the Gobi Desert, Tibet, and finally into British India. It’s a story of survival against all odds—facing extreme cold, starvation, thirst, and the constant threat of death. Yet what stands out most is the resilience, hope, and humanity that carry them forward.
+
+Tejaswi’s translation captures both the urgency of the original narrative and the emotional depth of the experience. His language makes the story accessible and impactful for Kannada readers while preserving the raw intensity and scale of the escape.
+
+This book is not just an adventure—it’s a testament to the human spirit. It left a lasting impression on me and kept me hooked from start to finish. One of the most thrilling and inspiring true stories I’ve ever read, and an essential addition to any bookshelf.
