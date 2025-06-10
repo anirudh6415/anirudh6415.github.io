@@ -5,6 +5,6 @@ description: A data-driven dashboard exploring traffic accidents in Montgomery C
 img: assets/img/project/mapps.png
 redirect: https://anirudh6415.github.io/Mapping_Accident_Trends_and_Patterns_in_Maryland/
 importance: 1
-category: Personal
+category: Academic
 ---
 

@@ -5,6 +5,6 @@ description: An artistic D3.js visualization that represents superhero traits as
 img: assets/img/project/floral.png"
 redirect: https://anirudh6415.github.io/superhero_floral_exhibit/
 importance: 1
-category: Personal
+category: Academic
 ---
 
