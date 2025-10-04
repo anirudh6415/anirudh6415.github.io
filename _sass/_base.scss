@@ -686,6 +686,7 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        height: 100%;
       }
 
       .abbr {
@@ -825,6 +826,116 @@ footer.sticky-bottom {
     }
   }
 }
+
+/* ===== Publications (button + title) — page-scoped overrides ===== */
+.publications {
+  /* --- Title (link) --- */
+  ol.bibliography li .title {
+    font-weight: 700;              /* a bit heavier for presence */
+    line-height: 1.25;
+    margin-bottom: 0.35rem;
+  }
+  ol.bibliography li .title a {
+    color: var(--global-text-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    text-underline-offset: 2px;
+    transition: color 140ms ease, border-color 140ms ease;
+  }
+  ol.bibliography li .title a:hover,
+  ol.bibliography li .title a:focus {
+    color: var(--global-theme-color);
+    border-bottom-color: var(--global-theme-color);
+    outline: none;
+  }
+  ol.bibliography li .title a:focus-visible {
+    outline: 2px dashed var(--global-theme-color);
+    outline-offset: 2px;
+  }
+
+  /* --- Buttons container: keep layout but add consistent spacing --- */
+  ol.bibliography li .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;                   /* elegant, breathable spacing between buttons */
+    margin-top: 0.35rem;
+  }
+
+  /* --- Buttons (all) --- */
+  ol.bibliography li .links a.btn {
+    /* Reset look: crisp rectangles, no rounded corners */
+    border-radius: 1;
+    background: transparent;
+    color: var(--global-text-color);
+    border: 1px solid var(--global-divider-color);
+
+    /* ⬆️ Slightly bigger buttons */
+    padding: 0.5rem 1.1rem;
+    line-height: 1.2;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+
+    /* Subtle transitions for an elegant feel + base transform for hover effect */
+    transform: scale(1);
+    will-change: transform;
+    transition:
+      color 140ms ease,
+      background-color 140ms ease,
+      border-color 140ms ease,
+      box-shadow 140ms ease,
+      transform 120ms ease-out;
+
+    /* Remove inherited margins from earlier rules */
+    margin-left: 0;
+  }
+
+  /* Hover/focus: restrained color wash + sharper border + zoom-out */
+  ol.bibliography li .links a.btn:hover,
+  ol.bibliography li .links a.btn:focus {
+    color: var(--global-text-color);
+    border-color: var(--global-theme-color);
+    /* gentle wash using color-mix; falls back gracefully if unsupported */
+    background-color: color-mix(in oklab, var(--global-theme-color) 12%, transparent);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04), 0 2px 6px rgba(0,0,0,0.06);
+    text-decoration: none;
+
+    /* ⬇️ Zoom-out effect */
+    transform: scale(0.97);
+  }
+
+  /* Keyboard focus ring */
+  ol.bibliography li .links a.btn:focus-visible {
+    outline: 2px dashed var(--global-theme-color);
+    outline-offset: 2px;
+  }
+
+  /* Active press feedback */
+  ol.bibliography li .links a.btn:active {
+    transform: scale(0.965);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05) inset;
+  }
+
+  /* Award button: subtle highlight while keeping the same shape */
+  ol.bibliography li .links a.award.btn {
+    border-color: var(--global-highlight-color);
+    color: var(--global-text-color);
+  }
+  ol.bibliography li .links a.award.btn:hover,
+  ol.bibliography li .links a.award.btn:focus {
+    background-color: color-mix(in oklab, var(--global-highlight-color) 14%, transparent);
+    border-color: var(--global-highlight-color);
+  }
+
+  /* Optional: tone for specific link types (kept subtle & rectangular) */
+  ol.bibliography li .links a.btn[role="button"] {
+    /* keeps base style above; this selector adds no visual change but
+       raises specificity if theme CSS is strong elsewhere */
+  }
+}
+
+
+
 
 // Rouge Color Customization
 figure.highlight {

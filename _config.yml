@@ -338,9 +338,9 @@ display_categories: ["Paper review"] # these categories will be displayed on the
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-
+  last_name: [Iyengar]
+  first_name: [Anirudh Iyengar]
+  
   style: apa
   locale: en
 

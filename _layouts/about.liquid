@@ -61,12 +61,35 @@ layout: default
         <article>
           <div class="clearfix justify-text">
             <p> <br> </p>
-            <h2>About<br> </h2>
+            <h2>Hello and welcome!<br> </h2>
             <!-- <p>{{ page.profile.about_me }}</p> -->
             <p>{{ content }}</p>
           </div>
+
+          <!-- Selected papers -->
+          {% if page.selected_papers -%}
+            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected publications</a></h2>
+            {%- include selected_papers.liquid %}
+          {%- endif %}
+
+          <!-- Social -->
+
+          <!-- News -->
+          {% if page.news and site.announcements.enabled -%}
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+            {%- include news.liquid limit=true %}
+          {%- endif %}
+
+          <!-- Latest posts -->
+          {% if page.latest_posts -%}
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest posts</a></h2>
+            {%- include latest_posts.liquid %}
+          {%- endif %}
+
           
-          <div class="skills-section">
+        </article>
+
+        <div class="skills-section">
             <h2>Skills</h2>
             <div class="skill-box">
               <a href="https://www.python.org/">
@@ -318,28 +341,6 @@ layout: default
             <!-- Add more skill boxes for other skills -->
           
           </div>
-
-          <!-- News -->
-          {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
-            {%- include news.liquid limit=true %}
-          {%- endif %}
-
-          <!-- Latest posts -->
-          {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">Latest posts</a></h2>
-            {%- include latest_posts.liquid %}
-          {%- endif %}
-
-          <!-- Selected papers -->
-          {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected publications</a></h2>
-            {%- include selected_papers.liquid %}
-          {%- endif %}
-
-          <!-- Social -->
-          
-        </article>
         
   </div>
   <script>

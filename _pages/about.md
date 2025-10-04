@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  Machine Learning | LLM | Deep Learning | Computer Vision | NLP | Data Enthusiast.  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle:  AI Capacity Engineer | ML | LLMs | CV | NLP  #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
   image: anirudh3.0.jpg
@@ -13,18 +13,21 @@ profile:
   #   <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-latest_posts: true 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+latest_posts: false
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-cv_pdf: Anirudh_Resume_new_akaniyar.pdf
+# cv_pdf: Anirudh_Resume_new_akaniyar.pdf
 ---
-With a curious mind and a determined heart, I aspire to build a career as a Machine Learning Engineer. I recently completed my `Master's` in `Robotics and Autonomous Systems in Artificial Intelligence` at `Arizona State University`.
+I’m `Anirudh Iyengar Kaniyar Narayana Iyengar`, currently working as an `AI Capacity Engineer at eBay`. I build and optimize large model systems for performance, reliability, and cost.
 
-My journey has been an exciting one—from `Interning at DRDO, becoming Data Scientist to studying and researching AI at ASU`. My passion for data started as a curious child observing everything around me, and now I’m working on AI projects like `Matching, Ranking, Recommendation, Multimodal, and Multitask learning`.
+I completed my `Master’s in Robotics and Autonomous Systems in Artificial Intelligence` at `Arizona State University`, where I worked on research publications and projects at [`CORAL Lab, ASU`](https://coral-lab-asu.github.io) involving `multimodal learning` and `vision-language reasoning`.
 
-Outside of work, I enjoy connecting with people from diverse backgrounds during my travels—gaining unique perspectives that enrich both my personal and professional life. I also find joy in cooking and baking, which I see as a soothing and scientific expression of creativity.
+My interests include `machine learning`, `large language models`, `computer vision`, and `data-driven systems`. I enjoy solving problems through clean design, careful experimentation, and efficient engineering.
 
-As I step into the professional world, I am actively seeking Machine Learning or Data Science roles where I can continue learning, solving real-world problems, and making meaningful contributions at the intersection of technology and human experience. [**A peek into my life experiences..**](../others/)<i class="fa fa-camera-retro fa-1x" aria-hidden="true"></i>
+Outside of work, I enjoy connecting with people from diverse backgrounds during my travels, learning from their stories and experiences. I also find joy in painting, cooking, and baking, which allow me to express creativity and mindfulness in simple ways.
+
+For a glimpse into my personal side, visit [**A peek into my life experiences..**](../others/)<i class="fa fa-camera-retro fa-1x" aria-hidden="true"></i>
+
 
 
 > Access my structured notes and guides here:  
