@@ -3,7 +3,7 @@ layout: post
 title: Object Detection on Argoversehd Dataset - Exploring YOLOv8 Models
 date: 2023-06-07 10:14:00-0400
 description: Object detection is performed on ArgoverseHD-Dataset
-tags: computer_vision image_processing AI ML 
+tags: computer_vision image_processing AI ML
 categories: Object_detection Yolov8 #sample-posts toc sidebar
 giscus_comments: true
 thumbnail: assets/img/blog2/Thumbnail.gif
@@ -12,8 +12,8 @@ related_posts: true
 authors:
   - name: Anirudh Iyengar
     # url: "https://en.wikipedia.org/wiki/Albert_Einstein"
-    affiliations:  
-     name: Post grad student,Arizona State Univeristy
+    affiliations:
+      name: Post grad student,Arizona State Univeristy
   # - name: Boris Podolsky
   #   url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
   #   affiliations:
@@ -28,16 +28,21 @@ bibliography: cadpepapers.bib
 toc:
   sidebar: left
 ---
+
 ## Object detection using YoloV8 model
+
 ### Introduction
+
 Object detection, a subfield of computer vision, plays a crucial role in various domains, including driving. It enables the automated identification and localization of objects within images or videos, providing valuable insights and aiding in decision-making processes. While there are numerous models available for object detection, this blog focuses on YOLOv8, a state-of-the-art approach renowned for its accuracy and efficiency. In this experiment, we delve into the application of YOLOv8 models on the Argoversehd dataset, comparing the results obtained and exploring how YOLOv8 performs in this context.
 
 In the subsequent sections of this blog, we will dive deeper into the experimental setup, highlighting the key steps involved in training and evaluating the YOLOv8s and YOLOv8m models on the Argoversehd dataset. We will discuss the training process, including data preparation, model configuration, and hyperparameter tuning. Additionally, we will present the evaluation results and analyze how YOLOv8 performs compared to the original dataset. This comparative analysis will shed light on the strengths and limitations of YOLOv8 in the context of object detection on the Argoversehd dataset.
 
 Stay tuned as we embark on this exciting journey into the realm of object detection using YOLOv8 models. Through this experiment, we hope to gain insights that can contribute to the advancement of object detection techniques in the autonomus driving domain, fostering innovations that can benefit researchers alike.[^1]
+
 <!-- <sup id="fnref:1"><a href="#fn:1" class="footnote-ref">1</a></sup>  -->
 
 ### Argoverse Dataset
+
 #### Preparation for YOLOv8 Object Detection
 
 The <a href="https://mtli.github.io/streaming/"><b>Argoverse dataset</b></a>, which forms the basis of our object detection experiment using YOLOv8 models, consists of a total of 66,954 images. The dataset is divided into three subsets: training, validation, and testing, with 39,384, 12,507, and 15,063 images, respectively. The training and validation subsets contain annotations in the COCO format, while the testing subset lacks ground truth annotations. In the absence of annotations, we will utilize the trained YOLOv8 models to predict and detect objects within the test images.
@@ -45,6 +50,7 @@ The <a href="https://mtli.github.io/streaming/"><b>Argoverse dataset</b></a>, wh
 The Argoverse dataset encompasses eight classes of objects, namely: "person," "bicycle," "car," "motorcycle," "bus," "truck," "traffic_light," and "stop_sign." These classes represent common objects typically found in vechile driving contexts.
 
 To prepare the dataset for YOLOv8, a specific directory structure is required.
+
 ```yml
 root_data
 ├── train
@@ -66,12 +72,12 @@ root_data
 │       ├── image2.txt
 │       └── ...
 └── test
-    └── images
-        ├── image1.jpg
-        ├── image2.jpg
-        └── ...
-
+└── images
+├── image1.jpg
+├── image2.jpg
+└── ...
 ```
+
 To meet the YOLO format requirements, the annotations need to be converted from the COCO format to the YOLO format. Each linein the labels text file represents a single object annotation with its corresponding class ID, normalized coordinates, and dimensions.
 
 ```yml
@@ -82,7 +88,9 @@ class_id x_center y_center width height
 ...
 
 ```
+
 Here is a sneak peek of the code used to convert the annotations to the YOLO format:
+
 ```yml
 
 def convert_annotations_to_yolo_format(data, file_names, output_path):
@@ -149,14 +157,17 @@ def convert_annotations_to_yolo_format(data, file_names, output_path):
         file_object.close()
         count += 1
 ```
+
 After the conversion, the labels are saved as individual text files in the "labels" folder, corresponding to each image.
 
 With the dataset now prepared in the YOLOv8 format, we can proceed to train and evaluate the YOLOv8s and YOLOv8m models on the Agroverse dataset.
 
 ### YOLOv8 Architecture
+
 YOLOv8 is an evolution of the YOLO (You Only Look Once) family of models, designed for efficient and accurate object detection.
 
 One significant update in YOLOv8 is its transition to anchor-free detection. Traditional object detection models often rely on predefined anchor boxes of different scales and aspect ratios to detect objects at various sizes. However, YOLOv8 takes a different approach by predicting the center of an object directly, rather than the offset from predefined anchor boxes.
+
 <div class="row mt-3">
         {% include figure.liquid path="assets/img/blog2/Anchor-free.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
@@ -168,7 +179,6 @@ This anchor-free approach brings several advantages. Firstly, it simplifies the 
 
 To visualize the YOLOv8 architecture and its anchor-free detection, we can refer to a detailed diagram created by GitHub user RangeKing (shown below). The diagram provides a comprehensive overview of the network's structure and the flow of information through different layers.
 
-
 <div class="row mt-3">
         {% include figure.liquid path="assets/img/blog2/yolov8.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 </div>
@@ -178,12 +188,13 @@ To visualize the YOLOv8 architecture and its anchor-free detection, we can refer
 
 **visualisation made by GitHub user** <a href = "https://github.com/RangeKing" ><b>RangeKing</b></a>
 
-By adopting anchor-free detection, YOLOv8 enhances object detection performance. 
+By adopting anchor-free detection, YOLOv8 enhances object detection performance.
 
 ### Training YOLOv8 on Agroverse Dataset
+
 To train YOLOv8 on the Argoverse dataset, we need to create a `data.yaml` file and install the necessary dependencies. Here's a step-by-step guide to training YOLOv8 on the Argoverse dataset:
 
-##### **Create the `data.yaml` File**: 
+##### **Create the `data.yaml` File**:
 
 Before training, we need to create a `data.yaml` file to specify the dataset's configuration. The structure of the `data.yaml` file is as follows:
 
@@ -231,22 +242,24 @@ output = model.train(
 
 In this example, we specify the `data` parameter as `'Argoverse.yaml'` to use the created `data.yaml` file. Adjust the other parameters such as `imgsz` (image size), `epochs` (number of training epochs), `batch` (batch size), `save` (whether to save checkpoints), `name` (name for the trained model), `val` (whether to evaluate on the validation set), `project` (project name for logging), and `save_period` (number of epochs between saving checkpoints) according to your requirements.
 
-##### **Monitor Training Progress**: 
+##### **Monitor Training Progress**:
+
 During training, the YOLO model will provide updates on the training loss, bounding box loss, mean Average Precision (mAP), etc.
 
 For more detailed information and additional training options, refer to the <a herf= "https://docs.ultralytics.com/modes/train/"><b>YOLOv5 Train Mode Documentation</b></a> provided by Ultralytics.
 
 ### Testing the Trained YOLOv8 Model
+
 After training the YOLOv8 model on the Argoverse dataset, it's time to evaluate its performance on the test data. In this section, we will test the best trained YOLOv8s and YOLOv8m models on the test dataset.
 
 Firstly, the test data for Argoverse consists of individual images. To provide a more comprehensive evaluation, I converted 2000 frames of the test data into a video at 24 frames per second (fps). This video allows for a sequential analysis of the model's object detection capabilities. Also predicted on whole test data.
 
 Here's an example configaration :
 
- ```python
- model.predict('Yolov8/test_video.mp4', save=True, conf=0.5) # You Can also add path to your images
- ```
- 
+```python
+model.predict('Yolov8/test_video.mp4', save=True, conf=0.5) # You Can also add path to your images
+```
+
 Below are the videos showcasing original and the testing results of the YOLOv8s and YOLOv8m models on the test data:
 **Test Video**
 
@@ -287,6 +300,7 @@ The models will output bounding boxes around the detected objects, along with th
 After testing the YOLOv8 models on the Argoversehd dataset and evaluating the results, it is important to conduct a thorough analysis to gain insights into the performance of the models. This analysis involves both visual inspection and the use of quantitative metrics to assess the models' effectiveness in object detection tasks.
 
 #### Visual Inspection:
+
 Upon visually inspecting the test results, it becomes evident that the YOLOv8 models show promising performance in detecting and localizing objects. However, there are areas where the models exhibit limitations. For example, the models incorrectly identify certain objects as trucks and miss some instances of stop signs. These observations suggest that further improvements can be made by refining the training process and incorporating additional data.
 
 <div class="row mt-3">
@@ -294,6 +308,7 @@ Upon visually inspecting the test results, it becomes evident that the YOLOv8 mo
 </div>
 
 #### Quantitative Metrics:
+
 The mean Average Precision (mAP) is a widely used metric for evaluating object detection models. The mAP measures the accuracy of object localization and classification. In the case of the YOLOv8 models trained on the Argoversehd dataset, the highest achieved mAP is 0.40, indicating good performance for certain instances. However, the average mAP typically falls within the range of 0.24 to 0.35. This implies that there is room for improvement in terms of the models' overall accuracy and precision.
 
 <div class="row mt-3">
@@ -306,6 +321,7 @@ The mean Average Precision (mAP) is a widely used metric for evaluating object d
 </div>
 
 #### Confusion Matrix:
+
 A confusion matrix provides a detailed breakdown of the model's performance across different object classes. By analyzing the confusion matrix, we can identify specific areas where the YOLOv8 models excel and areas where they struggle. In the case of the Argoversehd dataset, the YOLO models face challenges in accurately detecting small objects and occasionally misclassifying certain objects. To address these limitations, it is advisable to consider strategies such as increasing the amount of training data and conducting further model optimization.
 
 <div class="row mt-3">
@@ -313,11 +329,12 @@ A confusion matrix provides a detailed breakdown of the model's performance acro
 </div>
 
 #### Improving Model Performance:
+
 Based on the analysis of the test results, it is clear that there is room for improvement in the YOLOv8 models' performance on the Argoversehd dataset. By implementing different strategies and iteratively training and evaluating the YOLOv8 models, it is possible to improve their object detection accuracy and address the specific challenges observed during testing on the Argoversehd dataset.
 
-***Footnote***:
+**_Footnote_**:
 
-[^1]: ***Beginner's Work and Request for Understanding*** - *Please note that this blog and the work presented herein are the efforts of a beginner in the field of image processing. While every attempt has been made to ensure accuracy and provide valuable insights, there may be certain limitations or areas for improvement. If any inconveniences or shortcomings are encountered, I kindly request your understanding and forgiveness. This blog serves as a starting point for exploring the fascinating world of Image processing and computer vision, and I am eager to learn and grow from this experience. Your feedback and suggestions are greatly appreciated as they will contribute to my growth as a learner and researcher. Thank you for your support and understanding.*
+[^1]: **_Beginner's Work and Request for Understanding_** - _Please note that this blog and the work presented herein are the efforts of a beginner in the field of image processing. While every attempt has been made to ensure accuracy and provide valuable insights, there may be certain limitations or areas for improvement. If any inconveniences or shortcomings are encountered, I kindly request your understanding and forgiveness. This blog serves as a starting point for exploring the fascinating world of Image processing and computer vision, and I am eager to learn and grow from this experience. Your feedback and suggestions are greatly appreciated as they will contribute to my growth as a learner and researcher. Thank you for your support and understanding._
 
 <!-- <div id="footnotes">
   <ol>
@@ -327,7 +344,6 @@ Please note that this blog and the work presented herein are the efforts of a be
     </li>
   </ol>
 </div> -->
-
 
 <!-- To add a table of contents to a post as a sidebar, simply add
 ```yml

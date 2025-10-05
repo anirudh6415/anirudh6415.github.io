@@ -3,7 +3,7 @@ layout: post
 title: ILSP Solutions
 date: 2024-03-11 10:14:00-0400
 description: An Introduction to Statistical Learning with Applications in Python (ISLP) Solutions
-tags: Data_science ML 
+tags: Data_science ML
 categories: Statstical_Machine_Learning Python ML Statics #sample-posts toc sidebar
 giscus_comments: true
 thumbnail: assets/img/project/ISLP_cover.png
@@ -25,42 +25,54 @@ The text covers mathematical and statistical theory of machine learning as well 
 
 Below, you'll find exercise solutions written in JupyterLab using Python and Markdown, hosted on GitHub, serving as a demonstration of learning and reinforcement of concepts.
 
-### Chapter 2: Statistical Learning 
+### Chapter 2: Statistical Learning
+
 - **Topics:** What is statistical learning?, Basics of statistics
 - **Lab:** <a href="https://github.com/anirudh6415/ISLP_learning/blob/main/Exercises/02_Statistical_Learning/Ch02-statlearn-lab.ipynb"><b>Ch02-statlearn-lab</b></a>
 - **Exercise:** <a href="https://github.com/anirudh6415/ISLP_learning/blob/main/Exercises/02_Statistical_Learning/Ch02-2.4-Exercise.ipynb"><b>Ch02-2.4-Exercise</b></a>
 
 ### Chapter 3: Linear Regression
-- **Topics:** Linear regression, Multi Regression 
+
+- **Topics:** Linear regression, Multi Regression
 - **Lab:** <a href="https://github.com/anirudh6415/ISLP_learning/blob/main/Exercises/03_Linear_Regression/Ch03-linreg-lab.ipynb"><b>Ch03-linreg-lab</b></a>
 - **Exercise:** <a href="https://github.com/anirudh6415/ISLP_learning/blob/main/Exercises/03_Linear_Regression/Ch03-3.7-Exercise.ipynb"><b>Ch03-3.7-Exercise</b></a>
 
 ### Chapter 4: Classification
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
+
 ### Chapter 5: Resampling Methods
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
 
 ### Chapter 6: Linear Model Selection and Regularization
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
 
 ### Chapter 7: Moving Beyond Linearity
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
 
 ### Chapter 8: Tree-Based Methods
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
 
 ### Chapter 9: Support Vector Machines
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
 
 ### Chapter 10: Deep Learning
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
 
 ### Chapter 11: Survival Analysis
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
 
 ### Chapter 12: Unsupervised Learning
-*(Solutions not yet updated)*
+
+_(Solutions not yet updated)_
 
 ### Chapter 13: Multiple Testing
-*(Solutions not yet updated)*
 
+_(Solutions not yet updated)_

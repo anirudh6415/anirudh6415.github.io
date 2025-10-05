@@ -686,7 +686,6 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
-          
       }
 
       .abbr {
@@ -736,7 +735,6 @@ footer.sticky-bottom {
           font-style: normal;
           font-weight: 600;
         }
-
 
         > span.more-authors {
           color: var(--global-text-color-light);
@@ -838,7 +836,7 @@ footer.sticky-bottom {
 .publications {
   /* --- Title (link) --- */
   ol.bibliography li .title {
-    font-weight: 700;              /* a bit heavier for presence */
+    font-weight: 700; /* a bit heavier for presence */
     line-height: 1.25;
     margin-bottom: 0.35rem;
   }
@@ -847,7 +845,9 @@ footer.sticky-bottom {
     text-decoration: none;
     border-bottom: 1px solid transparent;
     text-underline-offset: 2px;
-    transition: color 140ms ease, border-color 140ms ease;
+    transition:
+      color 140ms ease,
+      border-color 140ms ease;
   }
   ol.bibliography li .title a:hover,
   ol.bibliography li .title a:focus {
@@ -864,7 +864,7 @@ footer.sticky-bottom {
   ol.bibliography li .links {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;                   /* elegant, breathable spacing between buttons */
+    gap: 0.5rem; /* elegant, breathable spacing between buttons */
     margin-top: 0.35rem;
   }
 
@@ -904,7 +904,9 @@ footer.sticky-bottom {
     border-color: var(--global-theme-color);
     /* gentle wash using color-mix; falls back gracefully if unsupported */
     background-color: color-mix(in oklab, var(--global-theme-color) 12%, transparent);
-    box-shadow: 0 1px 0 rgba(0,0,0,0.04), 0 2px 6px rgba(0,0,0,0.06);
+    box-shadow:
+      0 1px 0 rgba(0, 0, 0, 0.04),
+      0 2px 6px rgba(0, 0, 0, 0.06);
     text-decoration: none;
 
     /* ⬇️ Zoom-out effect */
@@ -920,7 +922,7 @@ footer.sticky-bottom {
   /* Active press feedback */
   ol.bibliography li .links a.btn:active {
     transform: scale(0.965);
-    box-shadow: 0 1px 0 rgba(0,0,0,0.05) inset;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) inset;
   }
 
   /* Award button: subtle highlight while keeping the same shape */
@@ -940,9 +942,6 @@ footer.sticky-bottom {
        raises specificity if theme CSS is strong elsewhere */
   }
 }
-
-
-
 
 // Rouge Color Customization
 figure.highlight {
@@ -1417,7 +1416,6 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
-
 // Skills and Profenecy bar
 .skills-section {
   text-align: center;
@@ -1464,8 +1462,8 @@ ninja-keys::part(ninja-input-wrapper) {
 
 .loader-content h1 {
   font-size: 4rem;
-  color:  var(--global-theme-color);
-  font-family: 'Arial', sans-serif;
+  color: var(--global-theme-color);
+  font-family: "Arial", sans-serif;
   text-align: center;
   // animation: fadeInOut 1.5s infinite; /* Fade animation */
 }

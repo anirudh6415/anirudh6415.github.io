@@ -8,7 +8,7 @@ related_posts: false
 
 I am excited to share my experience at the CHS Student Research Symposium. It was a great opportunity to showcase our research projects and engage with the academic community.
 
-***
+---
 
 #### Event Details
 
@@ -39,10 +39,9 @@ Implementation on Colonoscopy Dataset." The audience was engaged, and I received
 
 </div>
 
-***
+---
+
 ## Thank You
+
 I want to express my gratitude to everyone who attended the symposium and contributed to its success.
 Stay tuned for more updates on my research journey!
-
-
-

@@ -3,10 +3,10 @@ layout: book-review
 date: 2021-01-30 00:00:00
 title: ಮಹಾ ಪಲಾಯನ (ಮಿಲೇನಿಯಮ್, ೧೪) | Maha Palaayana
 author: Slavomir Rawicz, K.P. Poornachandra Tejaswi
- (Translator)
+  (Translator)
 cover: assets/img/book_covers/Maha_Palaayana.jpg
-olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: [nonfiction, history, Adventure, Biography]
 tags: my-top-50
 started: 2021-04-01
@@ -14,6 +14,7 @@ finished: 2021-06-30
 released: 1956
 status: Finished
 ---
+
 ಮಹಾ ಪಲಾಯನ (Maha Palaayana) is one of the most gripping and unforgettable nonfiction books I’ve read. Translated into Kannada by K.P. Poornachandra Tejaswi, it brings to life The Long Walk—the harrowing and heroic true story of Slavomir Rawicz, a Polish army officer who escaped from a Soviet labor camp in Yakutsk during World War II.
 
 The book chronicles Rawicz’s unimaginable journey, along with six other prisoners, as they traverse thousands of miles through Siberia, the Gobi Desert, Tibet, and finally into British India. It’s a story of survival against all odds—facing extreme cold, starvation, thirst, and the constant threat of death. Yet what stands out most is the resilience, hope, and humanity that carry them forward.

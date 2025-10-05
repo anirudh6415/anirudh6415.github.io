@@ -4,15 +4,16 @@ date: 2017-06-30 00:00:00
 title: Gruhabanga
 author: S.L. Bhyrappa
 cover: assets/img/book_covers/Gruhabanga.jpg
-olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
-isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: Fiction Drama Emotional 
+olid: # use Open Library ID to fetch cover (if no `cover` is provided)
+isbn: # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+categories: Fiction Drama Emotional
 tags: my-top-50
 started: 2017-04-01
 finished: 2017-06-30
 released: 1970
 status: Finished
 ---
+
 Gruhabanga is one of S.L. Bhyrappa’s most emotionally powerful novels, and easily one of his best. Set in a rural village, the story captures the raw, unfiltered realities of traditional family life and the silent endurance of women through generational struggles.
 
 At the heart of the novel is Nanjamma—a mother, wife, and daughter-in-law—who navigates a life filled with hardship, sacrifice, and emotional pain. Through her, Bhyrappa paints a deeply moving portrait of a woman’s strength in the face of patriarchal expectations, social pressures, and the burdens of a joint family system.
