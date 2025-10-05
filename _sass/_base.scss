@@ -686,7 +686,7 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
-        height: 100%;
+          
       }
 
       .abbr {
@@ -726,10 +726,17 @@ footer.sticky-bottom {
           }
         }
 
+        // > em {
+        //   border-bottom: 1px solid;
+        //   font-style: normal;
+        // }
+
         > em {
           border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 600;
         }
+
 
         > span.more-authors {
           color: var(--global-text-color-light);

@@ -51,7 +51,7 @@ layout: default
           </div>
             
           <div class="contact-note">
-            <p>Best way to reach me is via email...........!</p><br><br><br>
+            <p>Best way to reach me is via email!</p><br><br><br>
           </div>
         </div>
         {%- endif %}
@@ -67,18 +67,22 @@ layout: default
           </div>
 
           <!-- Selected papers -->
+          <div class="clearfix justify-text">
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Selected publications</a></h2>
             {%- include selected_papers.liquid %}
           {%- endif %}
+          </div>
 
           <!-- Social -->
 
           <!-- News -->
+          <div class="clearfix justify-text">
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
             {%- include news.liquid limit=true %}
           {%- endif %}
+          </div>
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
