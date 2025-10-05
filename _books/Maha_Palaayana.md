@@ -7,7 +7,7 @@ author: Slavomir Rawicz, K.P. Poornachandra Tejaswi
 cover: assets/img/book_covers/Maha_Palaayana.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: nonFiction History Adventure Biography
+categories: [nonfiction, history, Adventure, Biography]
 tags: my-top-50
 started: 2021-04-01
 finished: 2021-06-30

@@ -6,7 +6,7 @@ author: Tha Ra Su
 cover: assets/img/book_covers/Durgastamana.jpg
 olid:  # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn:  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
-categories: NonFiction History India 
+categories: [nonfiction, history, india] 
 tags: my-top-50
 started: 2022-04-01
 finished: 2022-06-30
