@@ -7,3 +7,11 @@
 
 # "Vision":
 #   color: "#009f36"
+
+"EMNLP 2025":
+  url: "https://2025.emnlp.org/"
+  color: "#b04b4b"     
+
+"IJCNLP-AACL 2025":
+  url: "https://2025.aaclnet.org/"
+  color: "#3e62a6" 
